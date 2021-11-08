@@ -1,24 +1,30 @@
-[medidoc](https://aureooms.github.io/medidoc)
+:memo: [medidoc](https://infoderm.github.io/medidoc)
 ==
 
 Medidoc format library for JavaScript.
-See [docs](https://aureooms.github.io/medidoc/index.html).
+See [docs](https://infoderm.github.io/medidoc/index.html).
 
-> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),
-> for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).
+> :warning: Depending on your environment, the code may require
+> `regeneratorRuntime` to be defined, for instance by importing
+> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
-[![License](https://img.shields.io/github/license/aureooms/medidoc.svg)](https://raw.githubusercontent.com/aureooms/medidoc/main/LICENSE)
+```js
+import {parse, stringify} from 'medidoc' ;
+// parse(string, options) -> records
+// stringify(records, options) -> string
+```
+
+[![License](https://img.shields.io/github/license/infoderm/medidoc.svg)](https://raw.githubusercontent.com/infoderm/medidoc/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/medidoc.svg)](https://www.npmjs.org/package/medidoc)
-[![Build](https://img.shields.io/travis/aureooms/medidoc/main.svg)](https://travis-ci.org/aureooms/medidoc/branches)
-[![Dependencies](https://img.shields.io/david/aureooms/medidoc.svg)](https://david-dm.org/aureooms/medidoc)
-[![Dev dependencies](https://img.shields.io/david/dev/aureooms/medidoc.svg)](https://david-dm.org/aureooms/medidoc?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/medidoc.svg)](https://github.com/aureooms/medidoc/issues)
+[![Tests](https://img.shields.io/github/workflow/status/infoderm/medidoc/ci:test?event=push&label=tests)](https://github.com/infoderm/medidoc/actions/workflows/ci:test.yml?query=branch:main)
+[![Dependencies](https://img.shields.io/david/infoderm/medidoc.svg)](https://david-dm.org/infoderm/medidoc)
+[![Dev dependencies](https://img.shields.io/david/dev/infoderm/medidoc.svg)](https://david-dm.org/infoderm/medidoc?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/infoderm/medidoc.svg)](https://github.com/infoderm/medidoc/issues)
 [![Downloads](https://img.shields.io/npm/dm/medidoc.svg)](https://www.npmjs.org/package/medidoc)
 
-[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/medidoc.svg)](https://codeclimate.com/github/aureooms/medidoc/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/github/aureooms/medidoc.svg)](https://codeclimate.com/github/aureooms/medidoc/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/github/aureooms/medidoc.svg)](https://codecov.io/gh/aureooms/medidoc)
-<!--[![Code coverage (alls)](https://img.shields.io/coveralls/aureooms/medidoc.svg)](https://coveralls.io/r/aureooms/medidoc)-->
-[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage-letter/aureooms/medidoc.svg)](https://codeclimate.com/github/aureooms/medidoc/trends/test_coverage_new_code)
-[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/medidoc.svg)](https://codeclimate.com/github/aureooms/medidoc/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/medidoc/badge.svg)](https://aureooms.github.io/medidoc/source.html)
+[![Code issues](https://img.shields.io/codeclimate/issues/infoderm/medidoc.svg)](https://codeclimate.com/github/infoderm/medidoc/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/infoderm/medidoc.svg)](https://codeclimate.com/github/infoderm/medidoc/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/github/infoderm/medidoc.svg)](https://codecov.io/gh/infoderm/medidoc)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/infoderm/medidoc.svg)](https://codeclimate.com/github/infoderm/medidoc/trends/technical_debt)
+[![Documentation](https://infoderm.github.io/medidoc/badge.svg)](https://infoderm.github.io/medidoc/source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/medidoc)](https://bundlephobia.com/result?p=medidoc)
