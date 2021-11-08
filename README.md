@@ -7,9 +7,9 @@ See [docs](https://aureooms.github.io/medidoc/index.html).
 > :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),
 > for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).
 
-[![License](https://img.shields.io/github/license/aureooms/medidoc.svg)](https://raw.githubusercontent.com/aureooms/medidoc/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/medidoc.svg)](https://raw.githubusercontent.com/aureooms/medidoc/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/medidoc.svg)](https://www.npmjs.org/package/medidoc)
-[![Build](https://img.shields.io/travis/aureooms/medidoc/master.svg)](https://travis-ci.org/aureooms/medidoc/branches)
+[![Build](https://img.shields.io/travis/aureooms/medidoc/main.svg)](https://travis-ci.org/aureooms/medidoc/branches)
 [![Dependencies](https://img.shields.io/david/aureooms/medidoc.svg)](https://david-dm.org/aureooms/medidoc)
 [![Dev dependencies](https://img.shields.io/david/dev/aureooms/medidoc.svg)](https://david-dm.org/aureooms/medidoc?type=dev)
 [![GitHub issues](https://img.shields.io/github/issues/aureooms/medidoc.svg)](https://github.com/aureooms/medidoc/issues)
