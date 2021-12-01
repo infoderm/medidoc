@@ -79,7 +79,7 @@ const lines = async (tree) => {
 const parseTree = async function* (tree) {
 	assert(tree.type === 'node');
 	assert(tree.nonterminal === 'documents');
-	for (const document of tree.children) {
+	for await (const document of tree.children) {
 		if (document.type === 'leaf') {
 			assert(document.terminal === grammar.eof);
 			break;
@@ -106,7 +106,7 @@ const parseTree = async function* (tree) {
 		};
 		const parsedReports = [];
 		const reports = await r(it);
-		for (const report of reports.children) {
+		for await (const report of reports.children) {
 			assert(report.type === 'node');
 			assert(report.nonterminal === 'A');
 			const it = iter(report.children);
@@ -146,7 +146,7 @@ const parseTree = async function* (tree) {
 			};
 			const parsedBlocks = [];
 			const blocks = await r(it);
-			for (const block of blocks.children) {
+			for await (const block of blocks.children) {
 				assert(block.type === 'node');
 				assert(block.nonterminal === 'A');
 				const it = iter(block.children);
@@ -194,12 +194,7 @@ const parseTree = async function* (tree) {
 
 const parse = async (string) => {
 	const tree = await parseString(string);
-	const mtree = await ast.materialize(tree);
-	for await (const document of parseTree(mtree)) {
-		console.debug(JSON.stringify(document, undefined, 2));
-	}
-
-	return mtree;
+	return parseTree(tree);
 };
 
 export default parse;
