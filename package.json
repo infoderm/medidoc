@@ -88,6 +88,7 @@
     "esdoc-inject-script-plugin": "1.0.0",
     "esdoc-inject-style-plugin": "1.0.0",
     "esdoc-standard-plugin": "1.0.0",
+    "fixpack": "4.0.0",
     "husky": "^7.0.4",
     "lint-staged": "11.2.6",
     "np": "7.5.0",
