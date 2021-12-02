@@ -154,44 +154,48 @@ const parseReport = async (report) => {
 	};
 };
 
+const parseDocument = async (document) => {
+	assert(document.type === 'node');
+	assert(document.nonterminal === 'document');
+	const kind = document.production;
+	const it = iter(document.children);
+	const doctor = await r(it);
+	const date = await r(it);
+	const requestor = await r(it);
+	const meta = {
+		kind,
+		doctor: {
+			lines: await lines(doctor),
+		},
+		date: {
+			lines: await lines(date),
+		},
+		requestor: {
+			lines: await lines(requestor),
+		},
+	};
+	const parsedReports = [];
+	const reports = await r(it);
+	for await (const report of reports.children) {
+		parsedReports.push(await parseReport(report));
+	}
+
+	const footer = await r(it);
+
+	return {
+		header: meta,
+		reports: parsedReports,
+		footer: {
+			lines: await lines(footer),
+		},
+	};
+};
+
 const parseTree = async function* (tree) {
 	assert(tree.type === 'node');
 	assert(tree.nonterminal === 'documents');
 	for await (const document of tree.children) {
-		assert(document.type === 'node');
-		assert(document.nonterminal === 'document');
-		const kind = document.production;
-		const it = iter(document.children);
-		const doctor = await r(it);
-		const date = await r(it);
-		const requestor = await r(it);
-		const meta = {
-			kind,
-			doctor: {
-				lines: await lines(doctor),
-			},
-			date: {
-				lines: await lines(date),
-			},
-			requestor: {
-				lines: await lines(requestor),
-			},
-		};
-		const parsedReports = [];
-		const reports = await r(it);
-		for await (const report of reports.children) {
-			parsedReports.push(await parseReport(report));
-		}
-
-		const footer = await r(it);
-		const parsedDocument = {
-			header: meta,
-			reports: parsedReports,
-			footer: {
-				lines: await lines(footer),
-			},
-		};
-		yield parsedDocument;
+		yield await parseDocument(document);
 	}
 };
 
