@@ -76,6 +76,84 @@ const lines = async (tree) => {
 	}
 };
 
+const parseBlock = async (block) => {
+	assert(block.type === 'node');
+	assert(block.nonterminal === 'A');
+	const it = iter(block.children);
+	const blockBegin = await r(it);
+	const title = await r(it);
+	const contents = await r(it);
+	const blockEnd = await r(it);
+	return {
+		begin: {
+			lines: await lines(blockBegin),
+		},
+		title: {
+			lines: await lines(title),
+		},
+		contents: {
+			lines: await lines(contents),
+		},
+		end: {
+			lines: await lines(blockEnd),
+		},
+	};
+};
+
+const parseReport = async (report) => {
+	assert(report.type === 'node');
+	assert(report.nonterminal === 'A');
+	const it = iter(report.children);
+	const identifier = await r(it);
+	const name = await r(it);
+	const birthdate = await r(it);
+	const sex = await r(it);
+	const date = await r(it);
+	const reference = await r(it);
+	const code = await r(it);
+	const extra = await r(it);
+	const header = {
+		identifier: {
+			lines: await lines(identifier),
+		},
+		name: {
+			lines: await lines(name),
+		},
+		birthdate: {
+			lines: await lines(birthdate),
+		},
+		sex: {
+			lines: await lines(sex),
+		},
+		date: {
+			lines: await lines(date),
+		},
+		reference: {
+			lines: await lines(reference),
+		},
+		code: {
+			lines: await lines(code),
+		},
+		extra: {
+			lines: await lines(extra),
+		},
+	};
+	const parsedBlocks = [];
+	const blocks = await r(it);
+	for await (const block of blocks.children) {
+		parsedBlocks.push(await parseBlock(block));
+	}
+
+	const reportEnd = await r(it);
+	return {
+		header,
+		blocks: parsedBlocks,
+		footer: {
+			lines: await lines(reportEnd),
+		},
+	};
+};
+
 const parseTree = async function* (tree) {
 	assert(tree.type === 'node');
 	assert(tree.nonterminal === 'documents');
@@ -107,77 +185,7 @@ const parseTree = async function* (tree) {
 		const parsedReports = [];
 		const reports = await r(it);
 		for await (const report of reports.children) {
-			assert(report.type === 'node');
-			assert(report.nonterminal === 'A');
-			const it = iter(report.children);
-			const identifier = await r(it);
-			const name = await r(it);
-			const birthdate = await r(it);
-			const sex = await r(it);
-			const date = await r(it);
-			const reference = await r(it);
-			const code = await r(it);
-			const extra = await r(it);
-			const header = {
-				identifier: {
-					lines: await lines(identifier),
-				},
-				name: {
-					lines: await lines(name),
-				},
-				birthdate: {
-					lines: await lines(birthdate),
-				},
-				sex: {
-					lines: await lines(sex),
-				},
-				date: {
-					lines: await lines(date),
-				},
-				reference: {
-					lines: await lines(reference),
-				},
-				code: {
-					lines: await lines(code),
-				},
-				extra: {
-					lines: await lines(extra),
-				},
-			};
-			const parsedBlocks = [];
-			const blocks = await r(it);
-			for await (const block of blocks.children) {
-				assert(block.type === 'node');
-				assert(block.nonterminal === 'A');
-				const it = iter(block.children);
-				const blockBegin = await r(it);
-				const title = await r(it);
-				const contents = await r(it);
-				const blockEnd = await r(it);
-				parsedBlocks.push({
-					begin: {
-						lines: await lines(blockBegin),
-					},
-					title: {
-						lines: await lines(title),
-					},
-					contents: {
-						lines: await lines(contents),
-					},
-					end: {
-						lines: await lines(blockEnd),
-					},
-				});
-			}
-
-			const reportEnd = await r(it);
-			parsedReports.push({
-				header,
-				blocks: parsedBlocks,
-				footer: {
-					lines: await lines(reportEnd),
-				},
-			});
+			parsedReports.push(await parseReport(report));
 		}
 
 		const footer = await r(it);
