@@ -72,7 +72,7 @@ const productions = {
 			'&free-line',
 			'&free-line',
 			'&free-line',
-			'&extra-free-lines',
+			'&free-lines',
 			'&R*',
 			'&#A/',
 		],
