@@ -20,3 +20,10 @@ export async function next(iterator, dflt = undefined) {
 
 	return x.value;
 }
+
+// TODO create library with those
+export async function* map(callable, iterable) {
+	for await (const item of iterable) {
+		yield await callable(item);
+	}
+}

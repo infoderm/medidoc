@@ -1,12 +1,13 @@
 import assert from 'node:assert';
 import * as tape from '@async-abstraction/tape';
+import {asyncIterableToArray} from '@async-abstraction/tape';
 import {ll1, ast} from '@formal-language/grammar';
 
 import tokens from './tokens.js';
 import grammar from './grammar.js';
 import leaves from './leaves.js';
 import simplify from './transform/simplify.js';
-import {iter, next, StopIteration} from './transform/lib.js';
+import {iter, next, StopIteration, map} from './transform/lib.js';
 
 const parseTape = (inputTape) => {
 	const parser = ll1.from(grammar);
@@ -138,11 +139,11 @@ const parseReport = async (report) => {
 			lines: await lines(extra),
 		},
 	};
-	const parsedBlocks = [];
 	const blocks = await r(it);
-	for await (const block of blocks.children) {
-		parsedBlocks.push(await parseBlock(block));
-	}
+
+	const parsedBlocks = await asyncIterableToArray(
+		map(parseBlock, blocks.children),
+	);
 
 	const reportEnd = await r(it);
 	return {
@@ -174,11 +175,11 @@ const parseDocument = async (document) => {
 			lines: await lines(requestor),
 		},
 	};
-	const parsedReports = [];
 	const reports = await r(it);
-	for await (const report of reports.children) {
-		parsedReports.push(await parseReport(report));
-	}
+
+	const parsedReports = await asyncIterableToArray(
+		map(parseReport, reports.children),
+	);
 
 	const footer = await r(it);
 
@@ -191,12 +192,10 @@ const parseDocument = async (document) => {
 	};
 };
 
-const parseTree = async function* (tree) {
+const parseTree = (tree) => {
 	assert(tree.type === 'node');
 	assert(tree.nonterminal === 'documents');
-	for await (const document of tree.children) {
-		yield await parseDocument(document);
-	}
+	return map(parseDocument, tree.children);
 };
 
 const parse = async (string) => {
