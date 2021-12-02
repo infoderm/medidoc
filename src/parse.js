@@ -158,11 +158,6 @@ const parseTree = async function* (tree) {
 	assert(tree.type === 'node');
 	assert(tree.nonterminal === 'documents');
 	for await (const document of tree.children) {
-		if (document.type === 'leaf') {
-			assert(document.terminal === grammar.eof);
-			break;
-		}
-
 		assert(document.type === 'node');
 		assert(document.nonterminal === 'document');
 		const kind = document.production;
@@ -201,7 +196,8 @@ const parseTree = async function* (tree) {
 };
 
 const parse = async (string) => {
-	const tree = await parseString(string);
+	const root = await parseString(string);
+	const tree = await next(iter(root.children));
 	return parseTree(tree);
 };
 

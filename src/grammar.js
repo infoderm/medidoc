@@ -1,12 +1,15 @@
 import {grammar} from '@formal-language/grammar';
 
-const root = 'documents';
-const start = 'add';
+const root = 'root';
+const start = 'start';
 const eof = '$';
 const productions = {
+	root: {
+		start: ['&documents', '=$'],
+	},
 	documents: {
 		add: ['&document', '&documents'],
-		end: ['=$'],
+		end: [],
 	},
 	document: {
 		report: ['&doctor', '&date', '&requestor', '&A*', '&footer'],
@@ -44,6 +47,9 @@ const productions = {
 			'&newline',
 		],
 	},
+	riziv: {
+		riziv: ['&digits', '=/', '&digits', '=/', '&digits', '=/', '&digits'],
+	},
 	'medidoc-lab-id': {
 		id: ['=text', '=digit', '=digit', '=digit'],
 	},
@@ -80,10 +86,6 @@ const productions = {
 	'free-line': {
 		'free-line': ['&free-text-or-empty', '&newline'],
 	},
-	'extra-free-lines': {
-		add: ['&free-line', '&extra-free-lines'],
-		empty: [],
-	},
 	footer: {
 		footer: ['=#/', '&newline'],
 	},
@@ -104,9 +106,6 @@ const productions = {
 		free: ['=!', '&free-text-or-empty', '&newline'],
 		code: ['&not-a-bang', '&free-text-or-empty', '&newline'],
 	},
-	riziv: {
-		riziv: ['&digits', '=/', '&digits', '=/', '&digits', '=/', '&digits'],
-	},
 	'free-text': {
 		'start-any': ['&any', '&free-text-end'],
 	},
@@ -118,32 +117,14 @@ const productions = {
 		'free-text': ['&free-text'],
 		empty: [],
 	},
-	'free-text-no-prefix': {
-		start: ['&not-a-prefix', '&free-text-end'],
-	},
-	'free-text-no-hash-prefix': {
-		start: ['&not-a-hash', '&free-text-end'],
-	},
-	'not-a-prefix': {
-		text: ['=text'],
-		'/': ['=/'],
-	},
-	'not-a-hash': {
-		text: ['=text'],
-		'/': ['=/'],
-		'!': ['=!'],
-		digit: ['=digit'],
-	},
 	'not-a-bang': {
 		text: ['=text'],
 		'/': ['=/'],
-		'#': ['=#'],
 		digit: ['=digit'],
 	},
 	any: {
 		text: ['=text'],
 		'/': ['=/'],
-		'#': ['=#'],
 		'!': ['=!'],
 		digit: ['=digit'],
 	},
@@ -159,8 +140,7 @@ const productions = {
 		end: [],
 	},
 	'free-lines': {
-		'add-line': ['&free-text-no-hash-prefix', '&newline', '&free-lines'],
-		'add-empty-line': ['&newline', '&free-lines'],
+		add: ['&free-line', '&free-lines'],
 		end: [],
 	},
 };
