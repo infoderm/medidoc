@@ -1,27 +1,57 @@
 import assert from 'node:assert';
 import {ast} from '@formal-language/grammar';
 
-import visitor from './visitor.js';
+import leaves from '../leaves.js';
+import {visitor, extend} from './visitor.js';
 
-import {iter, next} from './lib.js';
+import {iter, next, StopIteration} from './lib.js';
 
-function extend(transform, extension) {
-	const result = {};
-	for (const key in transform) {
-		if (Object.prototype.hasOwnProperty.call(transform, key)) {
-			result[key] = Object.assign({}, transform[key], extension[key]);
+const lines = async (tree) => {
+	// TODO use depth first traversal or make newline a terminal
+	const result = [];
+	const it = iter(leaves(tree));
+	let position = null;
+	let contents = [];
+	let newline = '';
+	for (;;) {
+		try {
+			const leaf = await next(it);
+			const current = leaf.buffer;
+			if (position === null) position = leaf.position;
+			if (current === '\r') {
+				assert(newline === '');
+				newline += '\r';
+			} else if (current === '\n') {
+				assert(newline === '' || newline === '\r');
+				newline += '\n';
+				result.push({
+					position,
+					contents: contents.join(''),
+					newline,
+				});
+				position = null;
+				contents = [];
+				newline = '';
+			} else {
+				contents.push(current);
+			}
+		} catch (error) {
+			if (error instanceof StopIteration) {
+				if (position !== null) {
+					result.push({
+						position,
+						contents: contents.join(''),
+						newline,
+					});
+				}
+
+				return result;
+			}
+
+			throw error;
 		}
 	}
-
-	return result;
-}
-
-const optimizedVisitor = extend(visitor, {
-	newline: {
-		crlf: (tree) => tree,
-		lf: (tree) => tree,
-	},
-});
+};
 
 const t = ast.transform;
 
@@ -42,7 +72,16 @@ const tailRecurse = async function* (tree, match, ctx) {
 	yield tree;
 };
 
-const simplify = extend(optimizedVisitor, {
+const prunefn = async (tree) => ({
+	type: 'leaf',
+	terminal: tree.nonterminal,
+	lines: await lines(tree),
+});
+
+const prune = (...keys) =>
+	Object.fromEntries(keys.map((key) => [key, prunefn]));
+
+const simplify = extend(visitor, {
 	documents: {
 		add: (tree, match, ctx) => ({
 			type: 'node',
@@ -67,68 +106,32 @@ const simplify = extend(optimizedVisitor, {
 			children: tailRecurse(tree, match, ctx),
 		}),
 	},
-	'free-lines': {
-		'add-line': (tree, match, ctx) => ({
-			type: 'node',
-			nonterminal: 'free-lines',
-			production: 'add-line',
-			children: tailRecurse(tree, match, ctx),
-		}),
-		'add-empty-line': (tree, match, ctx) => ({
-			type: 'node',
-			nonterminal: 'free-lines',
-			production: 'add-empty-line',
-			children: tailRecurse(tree, match, ctx),
-		}),
-	},
-	digits: {
-		start: (tree, match, ctx) => ({
-			type: 'node',
-			nonterminal: 'digits',
-			production: 'main',
-			children: tailRecurse(tree, match, ctx),
-		}),
-	},
-	'extra-free-text': {
-		add: (tree, match, ctx) => ({
-			type: 'node',
-			nonterminal: 'extra-free-text',
-			production: 'main',
-			children: tailRecurse(tree, match, ctx),
-		}),
-	},
-	'free-text-or-empty': {
-		'free-text': (tree, match, ctx) => ({
-			type: 'node',
-			nonterminal: 'free-text-or-empty',
-			production: 'free-text',
-			children: tailRecurse(tree, match, ctx),
-		}),
-	},
-	'free-text-no-prefix': {
-		start: (tree, match, ctx) => ({
-			type: 'node',
-			nonterminal: 'free-text-no-prefix',
-			production: 'main',
-			children: tailRecurse(tree, match, ctx),
-		}),
-	},
-	'free-text-no-hash-prefix': {
-		start: (tree, match, ctx) => ({
-			type: 'node',
-			nonterminal: 'free-text-no-hash-prefix',
-			production: 'main',
-			children: tailRecurse(tree, match, ctx),
-		}),
-	},
-	title: {
-		code: (tree, match, ctx) => ({
-			type: 'node',
-			nonterminal: 'title',
-			production: 'code',
-			children: tailRecurse(tree, match, ctx),
-		}),
-	},
+	'doctor-riziv': prune('0'),
+	'doctor-name': prune('0'),
+	'doctor-address': prune('0'),
+	'doctor-phone': prune('0'),
+	'doctor-extra': prune('0'),
+	'lab-identifier': prune('0'),
+	'lab-name': prune('0'),
+	'lab-address': prune('0'),
+	'lab-extra': prune('0'),
+	date: prune('0'),
+	'requestor-riziv': prune('0'),
+	'requestor-name': prune('0'),
+	'#A': prune('0'),
+	'A-name': prune('0'),
+	'A-birthdate': prune('0'),
+	'A-sex': prune('0'),
+	'A-date': prune('0'),
+	'A-reference': prune('0'),
+	'A-code': prune('0'),
+	'A-extra': prune('0'),
+	'#A/': prune('0'),
+	'#R': prune('0'),
+	'R-title': prune('free', 'code'),
+	'R-body': prune('0'),
+	'#R/': prune('0'),
+	footer: prune('0'),
 });
 
 export default simplify;

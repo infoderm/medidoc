@@ -1,5 +1,8 @@
 import {ast} from '@formal-language/grammar';
 
+import {map} from '@iterable-iterator/map';
+import {any} from '@iterable-iterator/reduce';
+
 import grammar from '../grammar.js';
 
 const t = ast.transform;
@@ -14,6 +17,8 @@ const recurse = (nonterminal, production) => (tree, match, ctx) => ({
 	),
 });
 
+const skip = (tree) => tree;
+
 // Move to @formal-languague/grammar/ast.visitor
 function generateVisitor(grammar) {
 	const transform = {};
@@ -21,8 +26,13 @@ function generateVisitor(grammar) {
 	for (const [nonterminal, productions] of grammar.productions.entries()) {
 		const nonterminalTransform = {};
 
-		for (const production of productions.keys()) {
-			nonterminalTransform[production] = recurse(nonterminal, production);
+		for (const [key, rules] of productions.entries()) {
+			if (any(map((x) => x.type === 'node', rules))) {
+				nonterminalTransform[key] = recurse(nonterminal, key);
+			} else {
+				// TODO test if this actually is faster
+				nonterminalTransform[key] = skip;
+			}
 		}
 
 		transform[nonterminal] = nonterminalTransform;
@@ -31,4 +41,15 @@ function generateVisitor(grammar) {
 	return transform;
 }
 
-export default generateVisitor(grammar);
+export const extend = (transform, extension) => {
+	const result = {};
+	for (const key in transform) {
+		if (Object.prototype.hasOwnProperty.call(transform, key)) {
+			result[key] = Object.assign({}, transform[key], extension[key]);
+		}
+	}
+
+	return result;
+};
+
+export const visitor = generateVisitor(grammar);

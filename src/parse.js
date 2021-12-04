@@ -1,13 +1,16 @@
 import assert from 'node:assert';
+import {first} from '@iterable-iterator/select';
+import {filter} from '@iterable-iterator/filter';
 import * as tape from '@async-abstraction/tape';
 import {asyncIterableToArray} from '@async-abstraction/tape';
 import {ll1, ast} from '@formal-language/grammar';
+import dateParse from 'date-fns/parse/index.js';
+import dateIsValid from 'date-fns/isValid/index.js';
 
 import tokens from './tokens.js';
 import grammar from './grammar.js';
-import leaves from './leaves.js';
 import simplify from './transform/simplify.js';
-import {iter, next, StopIteration, map} from './transform/lib.js';
+import {iter, next, map as asyncMap} from './transform/lib.js';
 
 const parseTape = (inputTape) => {
 	const parser = ll1.from(grammar);
@@ -25,134 +28,274 @@ const parseString = (string) => {
 	return parseTape(inputCharacterTape);
 };
 
-const r = async (it) => {
-	const tree = await next(it);
-	return tree.type === 'leaf' ? tree : ast.materialize(tree);
-};
-
-const lines = async (tree) => {
-	// TODO use depth first traversal or make newline a terminal
-	const result = [];
-	const it = iter(leaves(tree));
-	let position = null;
-	let contents = [];
-	let newline = '';
-	for (;;) {
-		try {
-			const leaf = await next(it);
-			const current = leaf.buffer;
-			if (position === null) position = leaf.position;
-			if (current === '\r') {
-				assert(newline === '');
-				newline += '\r';
-			} else if (current === '\n') {
-				assert(newline === '' || newline === '\r');
-				newline += '\n';
-				result.push({
-					position,
-					contents: contents.join(''),
-					newline,
-				});
-				position = null;
-				contents = [];
-				newline = '';
-			} else {
-				contents.push(current);
-			}
-		} catch (error) {
-			if (error instanceof StopIteration) {
-				if (position !== null) {
-					result.push({
-						position,
-						contents: contents.join(''),
-						newline,
-					});
-				}
-
-				return result;
-			}
-
-			throw error;
-		}
-	}
-};
-
 const parseBlock = async (block) => {
 	assert(block.type === 'node');
-	assert(block.nonterminal === 'A');
+	assert(block.nonterminal === 'R');
 	const it = iter(block.children);
-	const blockBegin = await r(it);
-	const title = await r(it);
-	const contents = await r(it);
-	const blockEnd = await r(it);
+	const begin = await next(it);
+	const title = await next(it);
+	const contents = await next(it);
+	const end = await next(it);
 	return {
-		begin: {
-			lines: await lines(blockBegin),
-		},
-		title: {
-			lines: await lines(title),
-		},
-		contents: {
-			lines: await lines(contents),
-		},
-		end: {
-			lines: await lines(blockEnd),
+		begin,
+		title,
+		contents,
+		end,
+	};
+};
+
+const parseSex = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'A-sex');
+	assert(tree.lines.length === 1);
+	return {
+		...tree,
+		parsed: {
+			sex: tree.lines[0].contents,
 		},
 	};
+};
+
+const parseReference = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'A-reference');
+	assert(tree.lines.length === 1);
+	return {
+		...tree,
+		parsed: {
+			reference: tree.lines[0].contents,
+		},
+	};
+};
+
+const parseCode = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'A-code');
+	assert(tree.lines.length === 1);
+	return {
+		...tree,
+		parsed: {
+			reference: tree.lines[0].contents,
+		},
+	};
+};
+
+const parseReportIdentifier = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === '#A');
+	assert(tree.lines.length === 1);
+	return {
+		...tree,
+		parsed: {
+			identifier: tree.lines[0].contents.slice(2),
+		},
+	};
+};
+
+const parseReportFooter = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === '#A/');
+	assert(tree.lines.length === 1);
+	return tree;
 };
 
 const parseReport = async (report) => {
 	assert(report.type === 'node');
 	assert(report.nonterminal === 'A');
 	const it = iter(report.children);
-	const identifier = await r(it);
-	const name = await r(it);
-	const birthdate = await r(it);
-	const sex = await r(it);
-	const date = await r(it);
-	const reference = await r(it);
-	const code = await r(it);
-	const extra = await r(it);
+	const identifier = parseReportIdentifier(await next(it));
+	const name = parseName(await next(it));
+	const birthdate = parseDate(await next(it));
+	const sex = parseSex(await next(it));
+	const date = parseDate(await next(it));
+	const reference = parseReference(await next(it));
+	const code = parseCode(await next(it));
+	const extra = parseExtra(await next(it));
 	const header = {
-		identifier: {
-			lines: await lines(identifier),
-		},
-		name: {
-			lines: await lines(name),
-		},
-		birthdate: {
-			lines: await lines(birthdate),
-		},
-		sex: {
-			lines: await lines(sex),
-		},
-		date: {
-			lines: await lines(date),
-		},
-		reference: {
-			lines: await lines(reference),
-		},
-		code: {
-			lines: await lines(code),
-		},
-		extra: {
-			lines: await lines(extra),
-		},
+		identifier,
+		name,
+		birthdate,
+		sex,
+		date,
+		reference,
+		code,
+		extra,
 	};
-	const blocks = await r(it);
+
+	const blocks = await next(it);
 
 	const parsedBlocks = await asyncIterableToArray(
-		map(parseBlock, blocks.children),
+		asyncMap(parseBlock, blocks.children),
 	);
 
-	const reportEnd = await r(it);
+	const footer = parseReportFooter(await next(it));
 	return {
 		header,
 		blocks: parsedBlocks,
-		footer: {
-			lines: await lines(reportEnd),
+		footer,
+	};
+};
+
+const parseRiziv = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(
+		tree.terminal === 'doctor-riziv' || tree.terminal === 'requestor-riziv',
+	);
+	assert(tree.lines.length === 1);
+	return {
+		...tree,
+		parsed: tree.lines[0].contents,
+	};
+};
+
+const parseName = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(
+		tree.terminal === 'doctor-name' ||
+			tree.terminal === 'requestor-name' ||
+			tree.terminal === 'A-name',
+	);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			firstname: line.slice(24).trim(),
+			lastname: line.slice(0, 24).trim(),
 		},
 	};
+};
+
+const parseDoctorAddress = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'doctor-address');
+	assert(tree.lines.length === 2);
+	const [line1, line2] = tree.lines.map(({contents}) => contents);
+	return {
+		...tree,
+		parsed: {
+			streetName: line1.slice(0, 35).trim(),
+			streetNumber: line1.slice(35).trim(),
+			postalCode: line2.slice(0, 10).trim(),
+			townName: line2.slice(10).trim(),
+		},
+	};
+};
+
+const parseLabAddress = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'lab-address');
+	assert(tree.lines.length === 2);
+	const [line1, line2] = tree.lines.map(({contents}) => contents);
+	return {
+		...tree,
+		parsed: {
+			line1,
+			line2,
+		},
+	};
+};
+
+const parsePhone = (tree) => tree;
+const parseExtra = (tree) => tree;
+const parseLabIdentifier = (tree) => tree;
+
+const parseLab = async (tree) => {
+	assert(tree.type === 'node');
+	assert(tree.nonterminal === 'lab');
+	const it = iter(tree.children);
+	const identifier = parseLabIdentifier(await next(it));
+	const name = parseName(await next(it));
+	const address = parseLabAddress(await next(it));
+	const extra = parseExtra(await next(it));
+	return {
+		type: 'leaf',
+		terminal: 'lab',
+		identifier,
+		name,
+		address,
+		extra,
+	};
+};
+
+const parseDoctor = async (tree) => {
+	assert(tree.type === 'node');
+	assert(tree.nonterminal === 'doctor');
+	const it = iter(tree.children);
+	const riziv = parseRiziv(await next(it));
+	const name = parseName(await next(it));
+	const address = parseDoctorAddress(await next(it));
+	const phone = parsePhone(await next(it));
+	const extra = parseExtra(await next(it));
+	return {
+		type: 'leaf',
+		terminal: 'doctor',
+		riziv,
+		name,
+		address,
+		phone,
+		extra,
+	};
+};
+
+const parsedDatetimeCandidates = function* (string) {
+	yield dateParse(string, 'yyyyMMddHHmm', 0);
+	yield* parsedDateCandidates(string);
+};
+
+const parsedDateCandidates = function* (string) {
+	yield dateParse(string, 'yyyyMMdd', 0);
+	yield dateParse(string, 'yyMMdd', 0);
+	yield new Date(0);
+};
+
+const parseDatetime = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'date');
+	assert(tree.lines.length === 1);
+	return {
+		...tree,
+		parsed: {
+			datetime: first(
+				filter(dateIsValid, parsedDatetimeCandidates(tree.lines[0].contents)),
+			),
+		},
+	};
+};
+
+const parseDate = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'A-birthdate' || tree.terminal === 'A-date');
+	assert(tree.lines.length === 1);
+	return {
+		...tree,
+		parsed: {
+			date: first(
+				filter(dateIsValid, parsedDateCandidates(tree.lines[0].contents)),
+			),
+		},
+	};
+};
+
+const parseRequestor = async (tree) => {
+	assert(tree.type === 'node');
+	assert(tree.nonterminal === 'requestor');
+	const it = iter(tree.children);
+	const riziv = parseRiziv(await next(it));
+	const name = parseName(await next(it));
+	return {
+		type: 'leaf',
+		terminal: 'requestor',
+		riziv,
+		name,
+	};
+};
+
+const parseDocumentFooter = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'footer');
+	assert(tree.lines.length === 1);
+	return tree;
 };
 
 const parseDocument = async (document) => {
@@ -160,42 +303,37 @@ const parseDocument = async (document) => {
 	assert(document.nonterminal === 'document');
 	const kind = document.production;
 	const it = iter(document.children);
-	const doctor = await r(it);
-	const date = await r(it);
-	const requestor = await r(it);
-	const meta = {
+	const requesteeKind = kind === 'lab' ? 'lab' : 'doctor';
+	const parseRequestee = kind === 'lab' ? parseLab : parseDoctor;
+	const requestee = await parseRequestee(await next(it));
+	const date = parseDatetime(await next(it));
+	const requestor = await parseRequestor(await next(it));
+	const header = {
 		kind,
-		doctor: {
-			lines: await lines(doctor),
-		},
-		date: {
-			lines: await lines(date),
-		},
-		requestor: {
-			lines: await lines(requestor),
-		},
+		[requesteeKind]: requestee,
+		date,
+		requestor,
 	};
-	const reports = await r(it);
+
+	const reports = await next(it);
 
 	const parsedReports = await asyncIterableToArray(
-		map(parseReport, reports.children),
+		asyncMap(parseReport, reports.children),
 	);
 
-	const footer = await r(it);
+	const footer = parseDocumentFooter(await next(it));
 
 	return {
-		header: meta,
+		header,
 		reports: parsedReports,
-		footer: {
-			lines: await lines(footer),
-		},
+		footer,
 	};
 };
 
 const parseTree = (tree) => {
 	assert(tree.type === 'node');
 	assert(tree.nonterminal === 'documents');
-	return map(parseDocument, tree.children);
+	return asyncMap(parseDocument, tree.children);
 };
 
 const parse = async (string) => {

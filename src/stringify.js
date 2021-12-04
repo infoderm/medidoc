@@ -2,9 +2,22 @@ import {asyncIterableToArray, asyncIterableMap} from '@async-abstraction/tape';
 
 const lines = async function* (documents) {
 	for await (const {header, reports, footer} of documents) {
-		yield* header.doctor.lines;
+		if (header.kind === 'lab') {
+			yield* header.lab.identifier.lines;
+			yield* header.lab.name.lines;
+			yield* header.lab.address.lines;
+			yield* header.lab.extra.lines;
+		} else {
+			yield* header.doctor.riziv.lines;
+			yield* header.doctor.name.lines;
+			yield* header.doctor.address.lines;
+			yield* header.doctor.phone.lines;
+			yield* header.doctor.extra.lines;
+		}
+
 		yield* header.date.lines;
-		yield* header.requestor.lines;
+		yield* header.requestor.riziv.lines;
+		yield* header.requestor.name.lines;
 		for (const {header, blocks, footer} of reports) {
 			yield* header.identifier.lines;
 			yield* header.name.lines;
@@ -29,14 +42,13 @@ const lines = async function* (documents) {
 };
 
 const stringify = async (documents) => {
-	return (
-		await asyncIterableToArray(
-			asyncIterableMap(
-				({contents, newline}) => contents + newline,
-				lines(documents),
-			),
-		)
-	).join('');
+	const buffers = await asyncIterableToArray(
+		asyncIterableMap(
+			({contents, newline}) => contents + newline,
+			lines(documents),
+		),
+	);
+	return buffers.join('');
 };
 
 export default stringify;
