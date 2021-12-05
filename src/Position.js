@@ -1,10 +1,10 @@
 export default class Position {
-	constructor(line, position) {
+	constructor(line, column) {
 		this.line = line;
-		this.position = position;
+		this.column = column;
 	}
 
 	toString() {
-		return `${this.line}:${this.position}`;
+		return `${this.line}:${this.column}`;
 	}
 }
