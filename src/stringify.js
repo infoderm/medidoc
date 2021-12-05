@@ -8,7 +8,7 @@ const lines = async function* (documents) {
 			yield* header.lab.address.lines;
 			yield* header.lab.extra.lines;
 		} else {
-			yield* header.doctor.riziv.lines;
+			yield* header.doctor.nihdi.lines;
 			yield* header.doctor.name.lines;
 			yield* header.doctor.address.lines;
 			yield* header.doctor.phone.lines;
@@ -16,7 +16,7 @@ const lines = async function* (documents) {
 		}
 
 		yield* header.date.lines;
-		yield* header.requestor.riziv.lines;
+		yield* header.requestor.nihdi.lines;
 		yield* header.requestor.name.lines;
 		for (const {header, blocks, footer} of reports) {
 			yield* header.identifier.lines;

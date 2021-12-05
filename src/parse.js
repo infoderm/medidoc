@@ -279,17 +279,17 @@ const parseReport = async (report) => {
 	};
 };
 
-const parseRiziv = (tree) => {
+const parseNIHDI = (tree) => {
 	assert(tree.type === 'leaf');
 	assert(
-		tree.terminal === 'doctor-riziv' || tree.terminal === 'requestor-riziv',
+		tree.terminal === 'doctor-nihdi' || tree.terminal === 'requestor-nihdi',
 	);
 	assert(tree.lines.length === 1);
 	const line = tree.lines[0].contents;
 	return {
 		...tree,
 		parsed: {
-			riziv: line.replaceAll('/', ''),
+			nihdi: line.replaceAll('/', ''),
 		},
 	};
 };
@@ -404,7 +404,7 @@ const parseDoctor = async (tree) => {
 	assert(tree.type === 'node');
 	assert(tree.nonterminal === 'doctor');
 	const it = iter(tree.children);
-	const riziv = parseRiziv(await next(it));
+	const nihdi = parseNIHDI(await next(it));
 	const name = parseName(await next(it));
 	const address = parseDoctorAddress(await next(it));
 	const phone = parsePhone(await next(it));
@@ -412,7 +412,7 @@ const parseDoctor = async (tree) => {
 	return {
 		type: 'leaf',
 		terminal: 'doctor',
-		riziv,
+		nihdi,
 		name,
 		address,
 		phone,
@@ -463,12 +463,12 @@ const parseRequestor = async (tree) => {
 	assert(tree.type === 'node');
 	assert(tree.nonterminal === 'requestor');
 	const it = iter(tree.children);
-	const riziv = parseRiziv(await next(it));
+	const nihdi = parseNIHDI(await next(it));
 	const name = parseName(await next(it));
 	return {
 		type: 'leaf',
 		terminal: 'requestor',
-		riziv,
+		nihdi,
 		name,
 	};
 };
