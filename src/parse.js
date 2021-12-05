@@ -28,13 +28,136 @@ const parseString = (string) => {
 	return parseTape(inputCharacterTape);
 };
 
+const parseBlockBegin = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === '#R');
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			type: line.slice(2).trim(),
+		},
+	};
+};
+
+const parseBlockTitle = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'R-title');
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			type: line.trim(),
+		},
+	};
+};
+
+const parseBlockType = (type) => {
+	switch (type) {
+		case 'd':
+			return {TimeIndication: 'Days'};
+		case 'h':
+			return {TimeIndication: 'Hours'};
+		case 'm':
+			return {TimeIndication: 'Minutes'};
+		case 's':
+			return {TimeIndication: 'Seconds'};
+		default:
+			assert(type === 'a');
+			return {};
+	}
+};
+
+const parseIntensity = (symbol) => {
+	switch (symbol) {
+		case '--':
+		case 'LL':
+		case '1':
+			return 'GreatlyReduced';
+		case '-':
+		case 'L':
+		case '2':
+			return 'Reduced';
+		case '=':
+		case 'N':
+		case '3':
+		case '':
+			return 'Normal';
+		case '+':
+		case 'H':
+		case '4':
+			return 'Increased';
+		case '++':
+		case 'HH':
+		case '5':
+			return 'GreatlyIncreased';
+		default:
+			return 'Unknown';
+	}
+};
+
+const parseBlockComments = (comments) => {
+	if (comments.length > 0 && comments[0].slice(0, 1) === '\\') {
+		return {
+			referenceValue: comments[0].slice(1),
+			comments: comments.slice(1),
+		};
+	}
+
+	return {
+		comments,
+	};
+};
+
+const parseBlockBody = (type, tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'R-body');
+	if (type === 'c') {
+		return {
+			...tree,
+			parsed: {
+				comments: tree.lines.map(({contents}) => contents),
+			},
+		};
+	}
+
+	if (type === 'b') {
+		return {
+			...tree,
+			parsed: {
+				text: tree.lines.map(({contents}) => contents),
+			},
+		};
+	}
+
+	assert(tree.lines.length >= 3);
+	const [line1, line2, line3, ...rest] = tree.lines.map(
+		({contents}) => contents,
+	);
+	const intensitySymbol = line3.trim();
+	return {
+		...tree,
+		parsed: {
+			...parseBlockType(type),
+			relation: line1.slice(0, 1),
+			value: line1.slice(1).trim(),
+			unit: line2.trim(),
+			intensity: parseIntensity(intensitySymbol),
+			intensitySymbol,
+			...parseBlockComments(rest),
+		},
+	};
+};
+
 const parseBlock = async (block) => {
 	assert(block.type === 'node');
 	assert(block.nonterminal === 'R');
 	const it = iter(block.children);
-	const begin = await next(it);
-	const title = await next(it);
-	const contents = await next(it);
+	const begin = parseBlockBegin(await next(it));
+	const title = parseBlockTitle(await next(it));
+	const contents = parseBlockBody(begin.parsed.type, await next(it));
 	const end = await next(it);
 	return {
 		begin,
@@ -48,10 +171,12 @@ const parseSex = (tree) => {
 	assert(tree.type === 'leaf');
 	assert(tree.terminal === 'A-sex');
 	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	const sex = line === 'X' ? 'female' : line === 'Y' ? 'male' : 'other';
 	return {
 		...tree,
 		parsed: {
-			sex: tree.lines[0].contents,
+			sex,
 		},
 	};
 };
@@ -60,10 +185,11 @@ const parseReference = (tree) => {
 	assert(tree.type === 'leaf');
 	assert(tree.terminal === 'A-reference');
 	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
 	return {
 		...tree,
 		parsed: {
-			reference: tree.lines[0].contents,
+			reference: line.trim(),
 		},
 	};
 };
@@ -72,10 +198,11 @@ const parseCode = (tree) => {
 	assert(tree.type === 'leaf');
 	assert(tree.terminal === 'A-code');
 	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
 	return {
 		...tree,
 		parsed: {
-			reference: tree.lines[0].contents,
+			reference: line.trim(),
 		},
 	};
 };
@@ -84,12 +211,28 @@ const parseReportIdentifier = (tree) => {
 	assert(tree.type === 'leaf');
 	assert(tree.terminal === '#A');
 	assert(tree.lines.length === 1);
-	return {
-		...tree,
-		parsed: {
-			identifier: tree.lines[0].contents.slice(2),
-		},
-	};
+	const line = tree.lines[0].contents;
+	const identifier = line.slice(2);
+	return identifier.length === 11
+		? {
+				...tree,
+				parsed: {
+					nn: identifier,
+				},
+		  }
+		: identifier.length === 13
+		? {
+				...tree,
+				parsed: {
+					dossier: identifier,
+				},
+		  }
+		: {
+				...tree,
+				parsed: {
+					identifier,
+				},
+		  };
 };
 
 const parseReportFooter = (tree) => {
@@ -142,9 +285,12 @@ const parseRiziv = (tree) => {
 		tree.terminal === 'doctor-riziv' || tree.terminal === 'requestor-riziv',
 	);
 	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
 	return {
 		...tree,
-		parsed: tree.lines[0].contents,
+		parsed: {
+			riziv: line.replaceAll('/', ''),
+		},
 	};
 };
 
@@ -196,16 +342,52 @@ const parseLabAddress = (tree) => {
 	};
 };
 
-const parsePhone = (tree) => tree;
+const parsePhone = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'doctor-phone');
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			phone: line.trim(),
+		},
+	};
+};
+
 const parseExtra = (tree) => tree;
-const parseLabIdentifier = (tree) => tree;
+const parseLabIdentifier = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'lab-identifier');
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			identifier: line.trim(),
+		},
+	};
+};
+
+const parseLabName = (tree) => {
+	assert(tree.type === 'leaf');
+	assert(tree.terminal === 'lab-name');
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			name: line.trim(),
+		},
+	};
+};
 
 const parseLab = async (tree) => {
 	assert(tree.type === 'node');
 	assert(tree.nonterminal === 'lab');
 	const it = iter(tree.children);
 	const identifier = parseLabIdentifier(await next(it));
-	const name = parseName(await next(it));
+	const name = parseLabName(await next(it));
 	const address = parseLabAddress(await next(it));
 	const extra = parseExtra(await next(it));
 	return {
