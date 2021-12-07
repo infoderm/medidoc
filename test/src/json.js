@@ -1,14 +1,14 @@
-import {readdir, readFile} from 'node:fs/promises';
 import test from 'ava';
 
 import {asyncIterableToArray} from '@async-abstraction/tape';
 
 import {parse} from '../../src/index.js';
 
-const file = async (t, filename) => {
-	const raw = await readFile(`test/data/input/${filename}`);
-	const expected = JSON.parse(await readFile(`test/data/json/${filename}`));
-	const source = raw.toString();
+import {inputFiles, textInput, jsonObject} from './_fixtures.js';
+
+const file = async (t, name) => {
+	const source = await textInput(name);
+	const expected = await jsonObject(name);
 
 	const actual = {
 		documents: await asyncIterableToArray(await parse(source)),
@@ -16,12 +16,10 @@ const file = async (t, filename) => {
 	t.deepEqual(actual, expected);
 };
 
-file.title = (title, filename) => title ?? filename;
+file.title = (title, name) => title ?? name;
 
-const testFileDir = 'test/data/input';
-
-readdir(testFileDir).then((testFiles) => {
-	for (const filename of testFiles) {
-		test(file, filename);
+inputFiles().then((tests) => {
+	for (const name of tests) {
+		test(file, name);
 	}
 });

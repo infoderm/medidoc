@@ -1,27 +1,25 @@
-import {readdir, readFile} from 'node:fs/promises';
 import test from 'ava';
 
 import {parseBundle, stringifyBundle} from '../../src/index.js';
 
-const file = async (t, filename, options) => {
-	const raw = await readFile(`test/data/input/${filename}`);
-	const source = raw.toString();
+import {inputFiles, textInput} from './_fixtures.js';
+
+const file = async (t, name, options) => {
+	const source = await textInput(name);
 
 	const documents = await parseBundle(source, options);
 	const result = await stringifyBundle(documents, options);
 	t.is(result, source);
 };
 
-file.title = (title, filename) => title ?? filename;
+file.title = (title, name) => title ?? name;
 
-const testFileDir = 'test/data/input';
-
-readdir(testFileDir).then((testFiles) => {
-	for (const filename of testFiles) {
+inputFiles().then((tests) => {
+	for (const name of tests) {
 		const options = {
-			lang: /nl/.test(filename) ? 'nl' : 'fr',
-			kind: /lab/.test(filename) ? 'lab' : 'report',
+			lang: /nl/.test(name) ? 'nl' : 'fr',
+			kind: /lab/.test(name) ? 'lab' : 'report',
 		};
-		test(file, filename, options);
+		test(file, name, options);
 	}
 });
