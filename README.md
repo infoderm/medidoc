@@ -24,7 +24,7 @@ import {parse, stringify} from 'medidoc' ;
 
 [![Code issues](https://img.shields.io/codeclimate/issues/infoderm/medidoc.svg)](https://codeclimate.com/github/infoderm/medidoc/issues)
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/infoderm/medidoc.svg)](https://codeclimate.com/github/infoderm/medidoc/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/github/infoderm/medidoc.svg)](https://codecov.io/gh/infoderm/medidoc)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/infoderm/medidoc/main.svg)](https://codecov.io/gh/infoderm/medidoc)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/infoderm/medidoc.svg)](https://codeclimate.com/github/infoderm/medidoc/trends/technical_debt)
 [![Documentation](https://infoderm.github.io/medidoc/badge.svg)](https://infoderm.github.io/medidoc/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/medidoc)](https://bundlephobia.com/result?p=medidoc)

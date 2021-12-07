@@ -6,8 +6,8 @@
   "author": "make-github-pseudonymous-again",
   "homepage": "https://infoderm.github.io/medidoc",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/infoderm/medidoc"
+    "url": "https://github.com/infoderm/medidoc",
+    "type": "git"
   },
   "bugs": {
     "url": "https://github.com/infoderm/medidoc/issues"

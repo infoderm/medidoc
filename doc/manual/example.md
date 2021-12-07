@@ -1,3 +1,3 @@
-# Example
+# Examples
 
-More examples in [the test files](https://github.com/aureooms/medidoc/tree/main/test/src).
+> More examples in [the test files](https://github.com/infoderm/medidoc/tree/main/test/src).
