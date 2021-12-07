@@ -1,0 +1,322 @@
+{
+  "documents": [
+    {
+      "type": "report",
+      "doctor": {
+        "nihdi": "18888877323",
+        "firstname": "HISTO",
+        "lastname": "J.F.K. Chaloisye",
+        "streetName": "",
+        "streetNumber": "",
+        "postalCode": "",
+        "townName": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "contents": "1/88888/77/323",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "J.F.K. Chaloisye         HISTO           ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "9/55555/77/555",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "20210522",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "1/77777/66/210",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Bachelard               Monilles        ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#A",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "RAKIBARO                JAJAJAJA        ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "19330201",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Y",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "20210522",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "00AB123456C000",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "C",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "RUE LENTE 42 BIS",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "1111",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "KOBOJO",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "!HISTO",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "NATURE DU PRELEVEMENT ET RENSEIGNEMENTS CLINIQUES :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Epi baso frontal m‚dian.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "2 fils courts sup‚rieurs, 2 fils longs … droite.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "COMPTE RENDU D'EXAMEN ANATOMO-PATHOLOGIQUE :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "La r‚section cutan‚e re‡ue mesure 2,8 x 1,3 x 0,4 cm.  Cette derniŠre est",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "centr‚e sur une plage cicatricielle, d'environ 1,2 x 0,2 cm.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Le c“t‚ sup‚rieur est plac‚ … douze heures.  Le c“t‚ droit est plac‚ …",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "neuf heures.  Le c“t‚ neuf heures-trois heures est encr‚ en noir.  Le c“t‚",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "trois heures-neuf heures est encr‚ en vert.  Le p“le neuf heures (droit)",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "est inclus en une cassette 1.  Le p“le quinze heures (gauche) est inclus",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "en une cassette 4.  Le reste de la r‚section est inclus en deux cassettes",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "2 et 3.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "L'examen microscopique de tous ces pr‚lŠvements r‚vŠle effectivement des",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "aspects morphologiques suggestifs d'un carcinome invasif, de type",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "basocellulaire.  Celui-ci montre surtout des aspects nodulaires ou",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "micronodulaires.  On note aussi de larges remaniements fibreux,",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "cicatriciels, t‚moignant d'un pr‚lŠvement ant‚rieur.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "L'ex‚rŠse est complŠte.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "CONCLUSION :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "R‚section complŠte d'un carcinome basocellulaire.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "L'analyse marqu‚e d'un * est accr‚dit‚e par AGROL sous le certificat",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "num‚ro 443-BRA selon la norme ISO 15189 :2012",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "(<http://www/ppppppppppp/>)",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Diffusion du compte rendu autoris‚e par Dr Robe-Piron VAUCLUS",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Compte rendu valid‚ ‚lectroniquement par Dr Robe-Piron VAUCLUS",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "SMS      ADICAP : ZYUUU-32874",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "VAUCLUS ROBE-PIRON                                                         ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#/24",
+          "newline": "\r\n"
+        }
+      ],
+      "meta": {
+        "date": "20210522",
+        "reference": "00AB123456C000",
+        "code": "C",
+        "status": "complete"
+      },
+      "requestor": {
+        "nihdi": "17777766210",
+        "firstname": "Monilles",
+        "lastname": "Bachelard"
+      },
+      "patient": {
+        "identifier": "",
+        "firstname": "JAJAJAJA",
+        "lastname": "RAKIBARO",
+        "birthdate": "19330201",
+        "sex": "male",
+        "requestDate": "20210522"
+      },
+      "results": [
+        {
+          "type": "b",
+          "title": "!HISTO",
+          "text": [
+            "NATURE DU PRELEVEMENT ET RENSEIGNEMENTS CLINIQUES :",
+            ".",
+            "Epi baso frontal m‚dian.",
+            "2 fils courts sup‚rieurs, 2 fils longs … droite.",
+            ".",
+            "COMPTE RENDU D'EXAMEN ANATOMO-PATHOLOGIQUE :",
+            ".",
+            "La r‚section cutan‚e re‡ue mesure 2,8 x 1,3 x 0,4 cm.  Cette derniŠre est",
+            "centr‚e sur une plage cicatricielle, d'environ 1,2 x 0,2 cm.",
+            "Le c“t‚ sup‚rieur est plac‚ … douze heures.  Le c“t‚ droit est plac‚ …",
+            "neuf heures.  Le c“t‚ neuf heures-trois heures est encr‚ en noir.  Le c“t‚",
+            "trois heures-neuf heures est encr‚ en vert.  Le p“le neuf heures (droit)",
+            "est inclus en une cassette 1.  Le p“le quinze heures (gauche) est inclus",
+            "en une cassette 4.  Le reste de la r‚section est inclus en deux cassettes",
+            "2 et 3.",
+            ".",
+            "L'examen microscopique de tous ces pr‚lŠvements r‚vŠle effectivement des",
+            "aspects morphologiques suggestifs d'un carcinome invasif, de type",
+            "basocellulaire.  Celui-ci montre surtout des aspects nodulaires ou",
+            "micronodulaires.  On note aussi de larges remaniements fibreux,",
+            "cicatriciels, t‚moignant d'un pr‚lŠvement ant‚rieur.",
+            "L'ex‚rŠse est complŠte.",
+            ".",
+            "CONCLUSION :",
+            ".",
+            "R‚section complŠte d'un carcinome basocellulaire.",
+            ".",
+            ".",
+            "L'analyse marqu‚e d'un * est accr‚dit‚e par AGROL sous le certificat",
+            "num‚ro 443-BRA selon la norme ISO 15189 :2012",
+            "(<http://www/ppppppppppp/>)",
+            "Diffusion du compte rendu autoris‚e par Dr Robe-Piron VAUCLUS",
+            "Compte rendu valid‚ ‚lectroniquement par Dr Robe-Piron VAUCLUS",
+            "SMS      ADICAP : ZYUUU-32874",
+            "VAUCLUS ROBE-PIRON                                                         ",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

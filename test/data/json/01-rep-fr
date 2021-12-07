@@ -1,0 +1,452 @@
+{
+  "documents": [
+    {
+      "type": "report",
+      "doctor": {
+        "nihdi": "18888877321",
+        "firstname": "Adrien",
+        "lastname": "Notissor",
+        "streetName": "Rue Jules",
+        "streetNumber": "123",
+        "postalCode": "1000",
+        "townName": "Bruxelles",
+        "phone": "Tel: 12 345 67 89"
+      },
+      "lines": [
+        {
+          "contents": "1/88888/77/321",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Notissor                Adrien          ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Rue Jules                          123       ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "1000      Bruxelles                          ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Tel: 12 345 67 89",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "consultation d'urologie",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "196910160816",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "1/77777/66/210",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Bachelard               Monilles        ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#A93031745123",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "DE HAAR                 RAJAOUD         ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "19930317",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "X",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "19691016",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "PZ7654321Y9",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "O.Ref.: Notissor 19691016 0800",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "                               ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "                        ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "!consultation d'urologie",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Contact dd: 16/10/1969 08:00 - consultation d'urologie",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "-----------------------------------------------------------------------",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Vous pouvez aussi consulter ce rapport et ses annexes en ligne sur https://xxxxxxxxxx/yyyyy/zzz/0123456789",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Cher, Chère,",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Concerne:",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Patiënt: DE HAAR RAJAOUD",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Date de naissance: 17/03/1993",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Adresse: ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "consultation d'urologie le 16/10/1969",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Rapport:",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": " Ce courrier est rédigé par dictée vocale, il est non relu et peut présenter des fautes d’orthographe",
+          "newline": "\r\n"
+        },
+        {
+          "contents": " ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Chère consœur, Cher confrère,",
+          "newline": "\r\n"
+        },
+        {
+          "contents": " ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Votre patient se présente à la consultation d'urologie de l'hôpital Bacha car celui-ci présente des lésions de type HPV pour lequel il est traité par cryothérapie et Aldara. Il constate parfois la récurrence de lésion.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": " ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Sa compagne est vaccinéé.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": " ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Examen clinique :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Verge : Stigmates de petites lésions HPV planes traitées. Pas d'évidence d'une récidive au niveau du frein de la verge et en regard de la muqueuse du sillon balanopréputiales. Le fourreau de la verge, le pubis, le scrotum et les plis inguinaux ne présente pas d'évidence de lésion HPV. Le méat urinaire est également indemne d'envahissement.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": " ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Examen proposé :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Néant.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": " ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Traitement proposé :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Nous avons rediscuté de la situation. Certains patients de son âge envisage parfois la vaccination. Il n'y a pas réellement d'étude très claires confirmant l'intérêt de cette vaccination chez un homme de son âge ayant déjà eu des rapports sexuels et une contamination avec du HPV.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Je lui demande de bien surveiller l'évolution locale est d'avoir des rapports sexuels avec contraception pendant encore 3 mois. Si celui-ci constatait l'évolution d'une de ces lésions, il peut se réorienter vers un traitement local par cryothérapie ou alors vers un traitement par laser sous anesthésie locale.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": " ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Conclusion :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Antécédents de lésion de type HPV sans évidence d'une récidive locale.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Compagne vaccinée",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": " ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Cordiales salutations,",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Dr. Adrien Notissor",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Urologue ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Medicaleau (12 345 67 89)",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Bacha -  Nouvelle Clinique de la Fonderie (Judee) (01 234 56 78 - 12 345 67 89) ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Paracetamol Vidoal (12 345 67 89)",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "XYZ - Byzance (012 34 78 95)",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "notissor.adrien@gmail.com",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "0123/45.67.89",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#/",
+          "newline": "\r\n"
+        }
+      ],
+      "meta": {
+        "date": "19691016",
+        "time": "0816",
+        "reference": "PZ7654321Y9",
+        "code": "O.Ref.: Notissor 19691016 0800"
+      },
+      "requestor": {
+        "nihdi": "17777766210",
+        "firstname": "Monilles",
+        "lastname": "Bachelard"
+      },
+      "patient": {
+        "nn": "93031745123",
+        "firstname": "RAJAOUD",
+        "lastname": "DE HAAR",
+        "birthdate": "19930317",
+        "sex": "female",
+        "requestDate": "19691016"
+      },
+      "results": [
+        {
+          "type": "b",
+          "title": "!consultation d'urologie",
+          "text": [
+            "Contact dd: 16/10/1969 08:00 - consultation d'urologie",
+            "-----------------------------------------------------------------------",
+            "Vous pouvez aussi consulter ce rapport et ses annexes en ligne sur https://xxxxxxxxxx/yyyyy/zzz/0123456789",
+            "",
+            "",
+            "",
+            "Cher, Chère,",
+            "",
+            "",
+            "Concerne:",
+            "Patiënt: DE HAAR RAJAOUD",
+            "Date de naissance: 17/03/1993",
+            "Adresse: ",
+            "consultation d'urologie le 16/10/1969",
+            "",
+            "",
+            "Rapport:",
+            "",
+            "",
+            "",
+            " Ce courrier est rédigé par dictée vocale, il est non relu et peut présenter des fautes d’orthographe",
+            " ",
+            "Chère consœur, Cher confrère,",
+            " ",
+            "Votre patient se présente à la consultation d'urologie de l'hôpital Bacha car celui-ci présente des lésions de type HPV pour lequel il est traité par cryothérapie et Aldara. Il constate parfois la récurrence de lésion.",
+            " ",
+            "Sa compagne est vaccinéé.",
+            " ",
+            "Examen clinique :",
+            "Verge : Stigmates de petites lésions HPV planes traitées. Pas d'évidence d'une récidive au niveau du frein de la verge et en regard de la muqueuse du sillon balanopréputiales. Le fourreau de la verge, le pubis, le scrotum et les plis inguinaux ne présente pas d'évidence de lésion HPV. Le méat urinaire est également indemne d'envahissement.",
+            " ",
+            "Examen proposé :",
+            "Néant.",
+            " ",
+            "Traitement proposé :",
+            "Nous avons rediscuté de la situation. Certains patients de son âge envisage parfois la vaccination. Il n'y a pas réellement d'étude très claires confirmant l'intérêt de cette vaccination chez un homme de son âge ayant déjà eu des rapports sexuels et une contamination avec du HPV.",
+            "Je lui demande de bien surveiller l'évolution locale est d'avoir des rapports sexuels avec contraception pendant encore 3 mois. Si celui-ci constatait l'évolution d'une de ces lésions, il peut se réorienter vers un traitement local par cryothérapie ou alors vers un traitement par laser sous anesthésie locale.",
+            " ",
+            "Conclusion :",
+            "Antécédents de lésion de type HPV sans évidence d'une récidive locale.",
+            "Compagne vaccinée",
+            "",
+            "",
+            " ",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Cordiales salutations,",
+            "",
+            "Dr. Adrien Notissor",
+            "Urologue ",
+            "",
+            "Medicaleau (12 345 67 89)",
+            "Bacha -  Nouvelle Clinique de la Fonderie (Judee) (01 234 56 78 - 12 345 67 89) ",
+            "Paracetamol Vidoal (12 345 67 89)",
+            "XYZ - Byzance (012 34 78 95)",
+            "",
+            "notissor.adrien@gmail.com",
+            "0123/45.67.89",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

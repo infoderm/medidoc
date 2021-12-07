@@ -1,14 +1,14 @@
 import {readdir, readFile} from 'node:fs/promises';
 import test from 'ava';
 
-import {parse, stringify} from '../../src/index.js';
+import {parseBundle, stringifyBundle} from '../../src/index.js';
 
 const file = async (t, filename, options) => {
 	const raw = await readFile(`test/data/input/${filename}`);
 	const source = raw.toString();
 
-	const documents = await parse(source, options);
-	const result = await stringify(documents, options);
+	const documents = await parseBundle(source, options);
+	const result = await stringifyBundle(documents, options);
 	t.is(result, source);
 };
 

@@ -1,0 +1,537 @@
+{
+  "documents": [
+    {
+      "type": "report",
+      "doctor": {
+        "nihdi": "18888877323",
+        "firstname": "HISTO",
+        "lastname": "J.F.K. Chaloisye",
+        "streetName": "",
+        "streetNumber": "",
+        "postalCode": "",
+        "townName": "",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "contents": "1/88888/77/323",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "J.F.K. Chaloisye         HISTO           ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "9/55555/77/555",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "20190114",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "1/77777/66/210",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Bachelard               Monilles        ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#A98765432109",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "ARAL                    CHERYBOULA      ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "19520319",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Y",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "20190114",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "88AB987654C24D",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "C",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "RUE ALPHONSE LEJEUNE 10/002",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "1111",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "RAJAST",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "!HISTO",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "NATURE DU PRELEVEMENT ET RENSEIGNEMENTS CLINIQUES :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "A. Epi spino flanc droit sur cicatrice de br–lure ? Deux fils courts :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "sup‚rieur. Deux fils longs : ant‚rieur.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "B. Recoupe sup‚rieure : deux fils c“t‚ oppos‚ … la tumeur.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "C. Recoupe profonde vers sup‚rieur (le petit fragment).",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "COMPTE RENDU D'EXAMEN ANATOMO-PATHOLOGIQUE :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Examen extemporan‚ :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "A.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "A l'examen extemporan‚, on retrouve une volumineuse formation tumorale qui",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "arrive focalement proche de la limite sup‚rieure.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Examen macroscopique :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "A.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "A l'examen macroscopique, la piŠce d'ex‚rŠse mesure 21 x 13 x 0,6 … 2 cm",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "d'‚paisseur avec une l‚sion en relief, n‚cros‚e, ulc‚r‚e, sur 13 x 11 cm.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Des pr‚lŠvements syst‚matiques tout autour des limites d'ex‚rŠse ont ‚t‚",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "r‚alis‚s.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "B.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Un fragment de 7,5 x 2,3 x 2,5 cm, parvenu fix‚ et orient‚.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "C.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Un fragment a ‚t‚ examin‚.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Examen microscopique :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "A.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "A l'examen microscopique, la formation tumorale d‚crite macroscopiquement",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "correspond … un carcinome ‚pidermo‹de moyennement diff‚renci‚,",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "k‚ratinisant, ulc‚r‚. Cette prolif‚ration, d'architecture trab‚culaire ou",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "solide, est faite par des cellules pr‚sentant des atypies cytonucl‚aires",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "mod‚r‚es, reposant sur un cytoplasme ‚osinophile, avec des globules de",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "k‚ratine. Cette prolif‚ration infiltre sur 8 mm de profondeur, arrivant",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "focalement … 2 mm de la limite d'ex‚rŠse profonde.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "On retrouve ‚galement des ‚l‚ments inflammatoires p‚rivasculaires.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Pr‚sence d'abondants remaniements fibro-cicatriciels, d'allure diffuse, au",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "niveau du derme.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Il n'a pas ‚t‚ vu d'engainement p‚rinerveux ni d'embole vasculaire.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Au niveau de la limite d'ex‚rŠse post‚rieure, on retrouve, de maniŠre trŠs",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "focale, une l‚sion ‚pidermo‹de infiltrante, ‚tendue sur 9 mm.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "B.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Histologiquement, on retrouve un fragment cutan‚ tapiss‚ par un revˆtement",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "malpighien pluristratifi‚ comportant, de maniŠre trŠs focale, sur 2 mm,",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "une micro-infiltration tumorale, se situant … 1 mm de la nouvelle tranche",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "de section.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Le derme est scl‚ro-hyalin.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "C.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Histologiquement, il s'agit d'un tissu conjonctivo-musculo-adipeux",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "d‚pourvu d'‚l‚ment suspect de malignit‚.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "CONCLUSION :",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "A.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "PiŠce de r‚section cutan‚e du flanc droit pour un carcinome ‚pidermo‹de",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "moyennement diff‚renci‚, k‚ratinisant, ulc‚r‚, mesurant 13 x 11 x 0,8 cm,",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "d‚velopp‚ sur une cicatrice ch‚lo‹de.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Il n'a pas ‚t‚ vu d'engainement p‚rinerveux ni d'embole vasculaire.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Les limites d'ex‚rŠse sup‚rieure , ant‚rieure, inf‚rieure et profonde",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "passent en tissu indemne mais la limite post‚rieure pr‚sente un foyer de 9",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "mm de carcinome ‚pidermo‹de infiltrant.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "B.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Recoupe sup‚rieure pr‚sentant un foyer de 2 mm de carcinome ‚pidermo‹de",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "micro-infiltrant, se situant … 1 mm de la nouvelle tranche de section.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "C.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Recoupe profonde d‚pourvue d'‚l‚ment suspect de malignit‚.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Classification TNM (8Šme ‚dition) : pT3 Nx.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": ".",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Diffusion du compte rendu autoris‚e par Dr BENOUL Jacopo",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Compte rendu valid‚ ‚lectroniquement par Dr BENOUL Jacopo",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "PTR      ADICAP : ABCDE-12345",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "BENOUL JACOPO                                                              ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#/999",
+          "newline": "\r\n"
+        }
+      ],
+      "meta": {
+        "date": "20190114",
+        "reference": "88AB987654C24D",
+        "code": "C",
+        "status": "complete"
+      },
+      "requestor": {
+        "nihdi": "17777766210",
+        "firstname": "Monilles",
+        "lastname": "Bachelard"
+      },
+      "patient": {
+        "nn": "98765432109",
+        "firstname": "CHERYBOULA",
+        "lastname": "ARAL",
+        "birthdate": "19520319",
+        "sex": "male",
+        "requestDate": "20190114"
+      },
+      "results": [
+        {
+          "type": "b",
+          "title": "!HISTO",
+          "text": [
+            "NATURE DU PRELEVEMENT ET RENSEIGNEMENTS CLINIQUES :",
+            ".",
+            "A. Epi spino flanc droit sur cicatrice de br–lure ? Deux fils courts :",
+            "sup‚rieur. Deux fils longs : ant‚rieur.",
+            "B. Recoupe sup‚rieure : deux fils c“t‚ oppos‚ … la tumeur.",
+            "C. Recoupe profonde vers sup‚rieur (le petit fragment).",
+            ".",
+            "COMPTE RENDU D'EXAMEN ANATOMO-PATHOLOGIQUE :",
+            ".",
+            "Examen extemporan‚ :",
+            "A.",
+            "A l'examen extemporan‚, on retrouve une volumineuse formation tumorale qui",
+            "arrive focalement proche de la limite sup‚rieure.",
+            ".",
+            "Examen macroscopique :",
+            "A.",
+            "A l'examen macroscopique, la piŠce d'ex‚rŠse mesure 21 x 13 x 0,6 … 2 cm",
+            "d'‚paisseur avec une l‚sion en relief, n‚cros‚e, ulc‚r‚e, sur 13 x 11 cm.",
+            "Des pr‚lŠvements syst‚matiques tout autour des limites d'ex‚rŠse ont ‚t‚",
+            "r‚alis‚s.",
+            ".",
+            "B.",
+            "Un fragment de 7,5 x 2,3 x 2,5 cm, parvenu fix‚ et orient‚.",
+            ".",
+            "C.",
+            "Un fragment a ‚t‚ examin‚.",
+            ".",
+            "Examen microscopique :",
+            "A.",
+            "A l'examen microscopique, la formation tumorale d‚crite macroscopiquement",
+            "correspond … un carcinome ‚pidermo‹de moyennement diff‚renci‚,",
+            "k‚ratinisant, ulc‚r‚. Cette prolif‚ration, d'architecture trab‚culaire ou",
+            "solide, est faite par des cellules pr‚sentant des atypies cytonucl‚aires",
+            "mod‚r‚es, reposant sur un cytoplasme ‚osinophile, avec des globules de",
+            "k‚ratine. Cette prolif‚ration infiltre sur 8 mm de profondeur, arrivant",
+            "focalement … 2 mm de la limite d'ex‚rŠse profonde.",
+            "On retrouve ‚galement des ‚l‚ments inflammatoires p‚rivasculaires.",
+            "Pr‚sence d'abondants remaniements fibro-cicatriciels, d'allure diffuse, au",
+            "niveau du derme.",
+            "Il n'a pas ‚t‚ vu d'engainement p‚rinerveux ni d'embole vasculaire.",
+            "Au niveau de la limite d'ex‚rŠse post‚rieure, on retrouve, de maniŠre trŠs",
+            "focale, une l‚sion ‚pidermo‹de infiltrante, ‚tendue sur 9 mm.",
+            ".",
+            "B.",
+            "Histologiquement, on retrouve un fragment cutan‚ tapiss‚ par un revˆtement",
+            "malpighien pluristratifi‚ comportant, de maniŠre trŠs focale, sur 2 mm,",
+            "une micro-infiltration tumorale, se situant … 1 mm de la nouvelle tranche",
+            "de section.",
+            "Le derme est scl‚ro-hyalin.",
+            ".",
+            "C.",
+            "Histologiquement, il s'agit d'un tissu conjonctivo-musculo-adipeux",
+            "d‚pourvu d'‚l‚ment suspect de malignit‚.",
+            ".",
+            "CONCLUSION :",
+            ".",
+            "A.",
+            "PiŠce de r‚section cutan‚e du flanc droit pour un carcinome ‚pidermo‹de",
+            "moyennement diff‚renci‚, k‚ratinisant, ulc‚r‚, mesurant 13 x 11 x 0,8 cm,",
+            "d‚velopp‚ sur une cicatrice ch‚lo‹de.",
+            "Il n'a pas ‚t‚ vu d'engainement p‚rinerveux ni d'embole vasculaire.",
+            "Les limites d'ex‚rŠse sup‚rieure , ant‚rieure, inf‚rieure et profonde",
+            "passent en tissu indemne mais la limite post‚rieure pr‚sente un foyer de 9",
+            "mm de carcinome ‚pidermo‹de infiltrant.",
+            ".",
+            "B.",
+            "Recoupe sup‚rieure pr‚sentant un foyer de 2 mm de carcinome ‚pidermo‹de",
+            "micro-infiltrant, se situant … 1 mm de la nouvelle tranche de section.",
+            ".",
+            "C.",
+            "Recoupe profonde d‚pourvue d'‚l‚ment suspect de malignit‚.",
+            ".",
+            "Classification TNM (8Šme ‚dition) : pT3 Nx.",
+            ".",
+            "Diffusion du compte rendu autoris‚e par Dr BENOUL Jacopo",
+            "Compte rendu valid‚ ‚lectroniquement par Dr BENOUL Jacopo",
+            "PTR      ADICAP : ABCDE-12345",
+            "BENOUL JACOPO                                                              ",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

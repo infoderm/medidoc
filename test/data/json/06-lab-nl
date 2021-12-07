@@ -1,0 +1,685 @@
+{
+  "documents": [
+    {
+      "type": "lab",
+      "lab": {
+        "identifier": "W123",
+        "name": "Medical Experimental",
+        "address1": "Von Karayiannes 77",
+        "address2": "1200 Varouche"
+      },
+      "lines": [
+        {
+          "contents": "W123",
+          "newline": "\n"
+        },
+        {
+          "contents": "Medical Experimental",
+          "newline": "\n"
+        },
+        {
+          "contents": "Von Karayiannes 77",
+          "newline": "\n"
+        },
+        {
+          "contents": "1200 Varouche",
+          "newline": "\n"
+        },
+        {
+          "contents": "Tel. (123) 45.67.89",
+          "newline": "\n"
+        },
+        {
+          "contents": "RIZIV 1/22222/33/444",
+          "newline": "\n"
+        },
+        {
+          "contents": "19450601",
+          "newline": "\n"
+        },
+        {
+          "contents": "1/12345/12/123",
+          "newline": "\n"
+        },
+        {
+          "contents": "EIFFELEN                KAPOV           ",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A120113ABCDEFG",
+          "newline": "\n"
+        },
+        {
+          "contents": "ARB BO CALEB            VANESSAS        ",
+          "newline": "\n"
+        },
+        {
+          "contents": "19120113",
+          "newline": "\n"
+        },
+        {
+          "contents": "Y",
+          "newline": "\n"
+        },
+        {
+          "contents": "19980608",
+          "newline": "\n"
+        },
+        {
+          "contents": "10000000000001",
+          "newline": "\n"
+        },
+        {
+          "contents": "C",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0100....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "13713..B",
+          "newline": "\n"
+        },
+        {
+          "contents": "Commentaar bij de formule : hypersegmentatie",
+          "newline": "\n"
+        },
+        {
+          "contents": "                            anisocytose +",
+          "newline": "\n"
+        },
+        {
+          "contents": "                            enkele polychromatische RBC",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13713A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13713B.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=85",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "H",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13713C.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=1",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13713D.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13713E.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=11",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "L",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13713F.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=3",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0120....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13513A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=52.6",
+          "newline": "\n"
+        },
+        {
+          "contents": "40",
+          "newline": "\n"
+        },
+        {
+          "contents": "HH",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57363A.U",
+          "newline": "\n"
+        },
+        {
+          "contents": "=8.1",
+          "newline": "\n"
+        },
+        {
+          "contents": "40",
+          "newline": "\n"
+        },
+        {
+          "contents": "H",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57215A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=3.9",
+          "newline": "\n"
+        },
+        {
+          "contents": "75",
+          "newline": "\n"
+        },
+        {
+          "contents": "LL",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13551A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=83",
+          "newline": "\n"
+        },
+        {
+          "contents": "78",
+          "newline": "\n"
+        },
+        {
+          "contents": "H",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13553A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=74",
+          "newline": "\n"
+        },
+        {
+          "contents": "78",
+          "newline": "\n"
+        },
+        {
+          "contents": "H",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57277A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=60",
+          "newline": "\n"
+        },
+        {
+          "contents": "78",
+          "newline": "\n"
+        },
+        {
+          "contents": "H",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57283A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=452",
+          "newline": "\n"
+        },
+        {
+          "contents": "78",
+          "newline": "\n"
+        },
+        {
+          "contents": "H",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57275A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=8",
+          "newline": "\n"
+        },
+        {
+          "contents": "78",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57269A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=601",
+          "newline": "\n"
+        },
+        {
+          "contents": "78",
+          "newline": "\n"
+        },
+        {
+          "contents": "H",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#/911",
+          "newline": "\n"
+        }
+      ],
+      "meta": {
+        "date": "19450601",
+        "reference": "10000000000001",
+        "code": "C",
+        "status": "complete"
+      },
+      "requestor": {
+        "nihdi": "11234512123",
+        "firstname": "KAPOV",
+        "lastname": "EIFFELEN"
+      },
+      "patient": {
+        "dossier": "120113ABCDEFG",
+        "firstname": "VANESSAS",
+        "lastname": "ARB BO CALEB",
+        "birthdate": "19120113",
+        "sex": "male",
+        "requestDate": "19980608"
+      },
+      "results": [
+        {
+          "type": "c",
+          "title": "0100....",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "13713..B",
+          "comments": [
+            "Commentaar bij de formule : hypersegmentatie",
+            "                            anisocytose +",
+            "                            enkele polychromatische RBC"
+          ]
+        },
+        {
+          "type": "a",
+          "title": "13713A.B",
+          "relation": "=",
+          "value": "0",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13713B.B",
+          "relation": "=",
+          "value": "85",
+          "unit": "01",
+          "intensity": "Increased",
+          "intensitySymbol": "H",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13713C.B",
+          "relation": "=",
+          "value": "1",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13713D.B",
+          "relation": "=",
+          "value": "0",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13713E.B",
+          "relation": "=",
+          "value": "11",
+          "unit": "01",
+          "intensity": "Reduced",
+          "intensitySymbol": "L",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13713F.B",
+          "relation": "=",
+          "value": "3",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0120....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13513A.B",
+          "relation": "=",
+          "value": "52.6",
+          "unit": "40",
+          "intensity": "GreatlyIncreased",
+          "intensitySymbol": "HH",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57363A.U",
+          "relation": "=",
+          "value": "8.1",
+          "unit": "40",
+          "intensity": "Increased",
+          "intensitySymbol": "H",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57215A.B",
+          "relation": "=",
+          "value": "3.9",
+          "unit": "75",
+          "intensity": "GreatlyReduced",
+          "intensitySymbol": "LL",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13551A.B",
+          "relation": "=",
+          "value": "83",
+          "unit": "78",
+          "intensity": "Increased",
+          "intensitySymbol": "H",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13553A.B",
+          "relation": "=",
+          "value": "74",
+          "unit": "78",
+          "intensity": "Increased",
+          "intensitySymbol": "H",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57277A.B",
+          "relation": "=",
+          "value": "60",
+          "unit": "78",
+          "intensity": "Increased",
+          "intensitySymbol": "H",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57283A.B",
+          "relation": "=",
+          "value": "452",
+          "unit": "78",
+          "intensity": "Increased",
+          "intensitySymbol": "H",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57275A.B",
+          "relation": "=",
+          "value": "8",
+          "unit": "78",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57269A.B",
+          "relation": "=",
+          "value": "601",
+          "unit": "78",
+          "intensity": "Increased",
+          "intensitySymbol": "H",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "documents": [
+    {
+      "type": "report",
+      "doctor": {
+        "nihdi": "18888877322",
+        "firstname": "KRAB",
+        "lastname": "DR. MESSIEUR",
+        "streetName": "WALLABIESTEUNWEG",
+        "streetNumber": "111",
+        "postalCode": "0000",
+        "townName": "FAROU",
+        "phone": "01/234.56.78"
+      },
+      "lines": [
+        {
+          "contents": "1/88888/77/322",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "DR. MESSIEUR            KRAB            ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "WALLABIESTEUNWEG                   111       ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "0000      FAROU                              ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "01/234.56.78                                      ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "                                                  ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "20230722",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "1/77777/66/210",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Bachelard               Monilles        ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#A64040447727",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "BRAYARDS                JEROME CAROLIN  ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "19640404",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Y",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "20230722",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "1339966687 ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "RUE EAU PAR             27     ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "2000   ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "VACWTU                  ",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "!",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Ik zag uw patiënt op de raadpleging dermatologie op 22/07/23.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Klinisch onderzoek",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Duidelijk beterschap van de psoriasis huidletsels onder uvb lichtbehandeling voorgeschreven door dr Bachelard Monilles.",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Diagnose/Besluit",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "8 zittingen uvb - totaal 4.0 j/cm²->patiënt vertrekt 3 weken naar buitenland (werk) > graag evaluatie dr Bachelard Monilles bij zijn terugkeer",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Met beste dank en collegiale groeten,",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "Dr. Messieur Krab",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\r\n"
+        },
+        {
+          "contents": "#/",
+          "newline": "\r\n"
+        }
+      ],
+      "meta": {
+        "date": "20230722",
+        "reference": "1339966687",
+        "code": ""
+      },
+      "requestor": {
+        "nihdi": "17777766210",
+        "firstname": "Monilles",
+        "lastname": "Bachelard"
+      },
+      "patient": {
+        "nn": "64040447727",
+        "firstname": "JEROME CAROLIN",
+        "lastname": "BRAYARDS",
+        "birthdate": "19640404",
+        "sex": "male",
+        "requestDate": "20230722"
+      },
+      "results": [
+        {
+          "type": "b",
+          "title": "!",
+          "text": [
+            "",
+            "Ik zag uw patiënt op de raadpleging dermatologie op 22/07/23.",
+            "",
+            "Klinisch onderzoek",
+            "Duidelijk beterschap van de psoriasis huidletsels onder uvb lichtbehandeling voorgeschreven door dr Bachelard Monilles.",
+            "",
+            "Diagnose/Besluit",
+            "8 zittingen uvb - totaal 4.0 j/cm²->patiënt vertrekt 3 weken naar buitenland (werk) > graag evaluatie dr Bachelard Monilles bij zijn terugkeer",
+            "",
+            "Met beste dank en collegiale groeten,",
+            "",
+            "Dr. Messieur Krab",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

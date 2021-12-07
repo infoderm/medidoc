@@ -1,0 +1,286 @@
+{
+  "documents": [
+    {
+      "type": "report",
+      "doctor": {
+        "nihdi": "38886876325",
+        "firstname": "VICTOR",
+        "lastname": "VAN ZANDE",
+        "streetName": "KERKSTRAAT 123",
+        "streetNumber": "",
+        "postalCode": "4444",
+        "townName": "Zowiezo",
+        "phone": ""
+      },
+      "lines": [
+        {
+          "contents": "3/88868/76/325",
+          "newline": "\n"
+        },
+        {
+          "contents": "VAN ZANDE               VICTOR",
+          "newline": "\n"
+        },
+        {
+          "contents": "KERKSTRAAT 123                    ",
+          "newline": "\n"
+        },
+        {
+          "contents": "4444      Zowiezo",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "20040404",
+          "newline": "\n"
+        },
+        {
+          "contents": "1/33333/66/111",
+          "newline": "\n"
+        },
+        {
+          "contents": "Vuylnisbk               Jacqard",
+          "newline": "\n"
+        },
+        {
+          "contents": "#ABCD123456.XYZ",
+          "newline": "\n"
+        },
+        {
+          "contents": "RAJAZ                   Zic",
+          "newline": "\n"
+        },
+        {
+          "contents": "19750322",
+          "newline": "\n"
+        },
+        {
+          "contents": "Y",
+          "newline": "\n"
+        },
+        {
+          "contents": "20040404",
+          "newline": "\n"
+        },
+        {
+          "contents": "X12/023456",
+          "newline": "\n"
+        },
+        {
+          "contents": "77777777",
+          "newline": "\n"
+        },
+        {
+          "contents": "Jambonstraat 124   ",
+          "newline": "\n"
+        },
+        {
+          "contents": "6666   ",
+          "newline": "\n"
+        },
+        {
+          "contents": "VOSMEEERA               ",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "!Huid (1)",
+          "newline": "\n"
+        },
+        {
+          "contents": "AARD WEEFSEL : huid linker axilla. ",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "KLINISCHE GEGEVENS : ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Letsel linker axilla. ",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "MACROSCOPIE :  ",
+          "newline": "\n"
+        },
+        {
+          "contents": "- Aantal stalen \t:\téén recipiënt met één fragment. ",
+          "newline": "\n"
+        },
+        {
+          "contents": "- Afmetingen\t:\t12x7x3 mm. \t",
+          "newline": "\n"
+        },
+        {
+          "contents": "- Procedure \t:\texcisiebiopsie. \t",
+          "newline": "\n"
+        },
+        {
+          "contents": "- Aantal blokken\t:\téén. \t",
+          "newline": "\n"
+        },
+        {
+          "contents": "- Rest\t:\tnul. \t",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "MICROSCOPIE :  ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Het fragment bestaat uit epiderm, derm en hypoderm.   Het letsel gaat uit",
+          "newline": "\n"
+        },
+        {
+          "contents": "van het epiderm.",
+          "newline": "\n"
+        },
+        {
+          "contents": "Het letsel toont papillomatose en acanthose.   Aan het oppervlak is er",
+          "newline": "\n"
+        },
+        {
+          "contents": "hyperkeratose en parakeratose.   Er worden pseudohoorncysten gevormd.   De",
+          "newline": "\n"
+        },
+        {
+          "contents": "samenstellende cellen komen wat immatuur voor. Er is geen noemenswaardige",
+          "newline": "\n"
+        },
+        {
+          "contents": "nucleaire atypie.",
+          "newline": "\n"
+        },
+        {
+          "contents": "Het letsel is gepigmenteerd.   Het derm toont een perivasculair vrij dens",
+          "newline": "\n"
+        },
+        {
+          "contents": "mononucleair ontstekingsinfiltraat.   Het beeld is dat van een",
+          "newline": "\n"
+        },
+        {
+          "contents": "gepigmenteerde seborroïsche keratose.   Daar waar beoordeelbaar zijn de",
+          "newline": "\n"
+        },
+        {
+          "contents": "snedevlakken letselvrij. ",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "BESLUIT : ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Excisie letsel linker axilla : gepigmenteerde seborroïsche keratose.  ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Geen argumenten voor dysplasie of maligniteit.",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#/",
+          "newline": "\n"
+        }
+      ],
+      "meta": {
+        "date": "20040404",
+        "reference": "X12/023456",
+        "code": "77777777"
+      },
+      "requestor": {
+        "nihdi": "13333366111",
+        "firstname": "Jacqard",
+        "lastname": "Vuylnisbk"
+      },
+      "patient": {
+        "dossier": "BCD123456.XYZ",
+        "firstname": "Zic",
+        "lastname": "RAJAZ",
+        "birthdate": "19750322",
+        "sex": "male",
+        "requestDate": "20040404"
+      },
+      "results": [
+        {
+          "type": "b",
+          "title": "!Huid (1)",
+          "text": [
+            "AARD WEEFSEL : huid linker axilla. ",
+            "",
+            "KLINISCHE GEGEVENS : ",
+            "Letsel linker axilla. ",
+            "",
+            "MACROSCOPIE :  ",
+            "- Aantal stalen \t:\téén recipiënt met één fragment. ",
+            "- Afmetingen\t:\t12x7x3 mm. \t",
+            "- Procedure \t:\texcisiebiopsie. \t",
+            "- Aantal blokken\t:\téén. \t",
+            "- Rest\t:\tnul. \t",
+            "",
+            "",
+            "MICROSCOPIE :  ",
+            "Het fragment bestaat uit epiderm, derm en hypoderm.   Het letsel gaat uit",
+            "van het epiderm.",
+            "Het letsel toont papillomatose en acanthose.   Aan het oppervlak is er",
+            "hyperkeratose en parakeratose.   Er worden pseudohoorncysten gevormd.   De",
+            "samenstellende cellen komen wat immatuur voor. Er is geen noemenswaardige",
+            "nucleaire atypie.",
+            "Het letsel is gepigmenteerd.   Het derm toont een perivasculair vrij dens",
+            "mononucleair ontstekingsinfiltraat.   Het beeld is dat van een",
+            "gepigmenteerde seborroïsche keratose.   Daar waar beoordeelbaar zijn de",
+            "snedevlakken letselvrij. ",
+            "",
+            "BESLUIT : ",
+            "Excisie letsel linker axilla : gepigmenteerde seborroïsche keratose.  ",
+            "Geen argumenten voor dysplasie of maligniteit.",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

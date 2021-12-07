@@ -25,7 +25,6 @@ const lines = async (tree) => {
 				assert(newline === '' || newline === '\r');
 				newline += '\n';
 				result.push({
-					position,
 					contents: contents.join(''),
 					newline,
 				});
@@ -39,7 +38,6 @@ const lines = async (tree) => {
 			if (error instanceof StopIteration) {
 				if (position !== null) {
 					result.push({
-						position,
 						contents: contents.join(''),
 						newline,
 					});

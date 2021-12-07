@@ -70,7 +70,7 @@
     "@formal-language/grammar": "^9.1.0",
     "@iterable-iterator/filter": "^1.0.1",
     "@iterable-iterator/select": "^1.0.0",
-    "date-fns": "^2.27.0"
+    "lodash.mergewith": "^4.6.2"
   },
   "devDependencies": {
     "@babel/cli": "7.16.0",
