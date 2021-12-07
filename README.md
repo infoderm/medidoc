@@ -10,7 +10,7 @@ See [docs](https://infoderm.github.io/medidoc/index.html).
 
 ```js
 import {parse, stringify} from 'medidoc' ;
-// parse(string, options) -> records
+// async parse(string, options) -> records
 // stringify(records, options) -> string
 ```
 
