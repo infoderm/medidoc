@@ -16,9 +16,8 @@ import {parse, stringify} from 'medidoc' ;
 
 [![License](https://img.shields.io/github/license/infoderm/medidoc.svg)](https://raw.githubusercontent.com/infoderm/medidoc/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/medidoc.svg)](https://www.npmjs.org/package/medidoc)
-[![Tests](https://img.shields.io/github/workflow/status/infoderm/medidoc/ci:test?event=push&label=tests)](https://github.com/infoderm/medidoc/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/infoderm/medidoc.svg)](https://david-dm.org/infoderm/medidoc)
-[![Dev dependencies](https://img.shields.io/david/dev/infoderm/medidoc.svg)](https://david-dm.org/infoderm/medidoc?type=dev)
+[![Tests](https://img.shields.io/github/workflow/status/infoderm/medidoc/ci?event=push&label=tests)](https://github.com/infoderm/medidoc/actions/workflows/ci.yml?query=branch:main)
+[![Dependencies](https://img.shields.io/librariesio/github/infoderm/medidoc)](https://github.com/infoderm/medidoc/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/infoderm/medidoc.svg)](https://github.com/infoderm/medidoc/issues)
 [![Downloads](https://img.shields.io/npm/dm/medidoc.svg)](https://www.npmjs.org/package/medidoc)
 
