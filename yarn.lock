@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@async-abstraction/tape@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@async-abstraction/tape/-/tape-8.0.0.tgz#a8eff5fe7857431f60a06c4d49e308d27e4182dd"
-  integrity sha512-XuU3AIngWl8BxkB+VANYZ1s03dejT+UUJONPhFUXsU4/vP/Pk88busSYXukpsr1CZpppl8kuVWU9R6Hs9r+6Sw==
+"@async-abstraction/tape@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@async-abstraction/tape/-/tape-9.0.0.tgz#d9467708be72fe66b5620e69ea6fb4649104f3b8"
+  integrity sha512-DeSB4JKI1G9F1rq8MGJKLkLlOMApRaBOm2wDfNT9aLWhbcI/ZcA7Jmn6cA4KGlFm499/h5V1TbhHO2UcNPaJig==
 
 "@babel/cli@7.16.0":
   version "7.16.0"

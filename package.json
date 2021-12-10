@@ -67,7 +67,7 @@
     "test": "TZ=Europe/Brussels ava"
   },
   "dependencies": {
-    "@async-abstraction/tape": "^8.0.0",
+    "@async-abstraction/tape": "^9.0.0",
     "@formal-language/grammar": "^9.1.0",
     "@iterable-iterator/chain": "^2.0.1",
     "@iterable-iterator/map": "^1.0.1",
