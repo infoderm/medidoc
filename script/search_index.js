@@ -84,9 +84,9 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
-    "medidoc/src/stringifybundle.js~stringify",
-    "function/index.html#static-function-stringify",
-    "<span>stringify</span> <span class=\"search-result-import-path\">medidoc/src/stringifyBundle.js</span>",
+    "medidoc/src/stringifybundle.js~stringifybundle",
+    "function/index.html#static-function-stringifyBundle",
+    "<span>stringifyBundle</span> <span class=\"search-result-import-path\">medidoc/src/stringifyBundle.js</span>",
     "function"
   ],
   [
