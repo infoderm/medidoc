@@ -1074,10 +1074,10 @@
   resolved "https://registry.yarnpkg.com/@failure-abstraction/error/-/error-6.0.1.tgz#ab6929395c7ed3ec74d86db2976e74e31f9569e2"
   integrity sha512-KvIHhvwfrgbUduQbk55WRDGL2XcXjDLwleId+pSnK7mUUIY7zMGMy3N+ouDcOFymme48tKDlarKsYj5mEEd3fg==
 
-"@formal-language/grammar@^9.1.0":
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/@formal-language/grammar/-/grammar-9.1.0.tgz#69cd4eba0386487898e030eb3d6615786305e659"
-  integrity sha512-cajFcYy2SLC1slGgRjhZ3ZyI+f+W0WNZnMIarHgmxiKwkO0J2zKLscZNrop9Us9QPLpxmm7LCiaR9b0ZHQsagg==
+"@formal-language/grammar@^9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@formal-language/grammar/-/grammar-9.1.1.tgz#b7a771e1b4527392b5231b202099ff8210cd6052"
+  integrity sha512-B4ERbDnLCQdd/jW7SXo3oH2J1G3IFP/qiyDV9Tu/Lvl/rWB0WfOINKV0IX2XQifT29qxJCZwxDofaLgq+ld65Q==
   dependencies:
     "@iterable-iterator/cardinality" "^4.0.0"
     "@iterable-iterator/chain" "^2.0.1"

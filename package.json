@@ -68,7 +68,7 @@
   },
   "dependencies": {
     "@async-abstraction/tape": "^9.0.0",
-    "@formal-language/grammar": "^9.1.0",
+    "@formal-language/grammar": "^9.1.1",
     "@iterable-iterator/chain": "^2.0.1",
     "@iterable-iterator/map": "^1.0.1",
     "@iterable-iterator/next": "^2.0.1",
