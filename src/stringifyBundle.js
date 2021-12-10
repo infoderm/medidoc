@@ -42,7 +42,7 @@ const lines = async function* (documents) {
 	}
 };
 
-const stringify = async (documents) => {
+const stringifyBundle = async (documents) => {
 	const buffers = await asyncIterableToArray(
 		asyncIterableMap(
 			({contents, newline}) => contents + newline,
@@ -52,4 +52,4 @@ const stringify = async (documents) => {
 	return buffers.join('');
 };
 
-export default stringify;
+export default stringifyBundle;
