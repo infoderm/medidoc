@@ -19,19 +19,19 @@
   ],
   "sideEffects": false,
   "source": "src/index.js",
-  "main": "dist/default/index.js",
-  "module": "dist/module/index.js",
-  "esmodule": "dist/module/index.js",
+  "main": "dist/default/index.cjs",
+  "module": "dist/module/index.mjs",
+  "esmodule": "dist/module/index.mjs",
   "exports": {
     ".": {
-      "browser": "./dist/browser/index.js",
-      "node": "./dist/node/index.js",
-      "default": "./dist/default/index.js"
+      "browser": "./dist/browser/index.cjs",
+      "node": "./dist/node/index.cjs",
+      "default": "./dist/default/index.cjs"
     },
     "./*": {
-      "browser": "./dist/browser/*.js",
-      "node": "./dist/node/*.js",
-      "default": "./dist/default/*.js"
+      "browser": "./dist/browser/*.cjs",
+      "node": "./dist/node/*.cjs",
+      "default": "./dist/default/*.cjs"
     }
   },
   "files": [
@@ -42,12 +42,10 @@
     "build-cmd": "babel --delete-dir-on-start --source-maps --minified src",
     "build-docs": "esdoc",
     "build-gh-pages": "npm run build-docs",
-    "build:browser": "npm run build-cmd -- --env-name browser --out-dir dist/browser",
-    "build:default": "npm run build-cmd -- --env-name production --out-dir dist/default",
-    "build:module": "npm run build-cmd -- --env-name module --out-dir dist/module",
-    "build:node": "npm run build-cmd -- --env-name node --out-dir dist/node",
-    "ci:build": "npm run build",
-    "ci:test": "npm run lint-config && npm run lint && npm run cover",
+    "build:browser": "npm run build-cmd -- --env-name browser --out-dir dist/browser --out-file-extension .cjs",
+    "build:default": "npm run build-cmd -- --env-name production --out-dir dist/default --out-file-extension .cjs",
+    "build:module": "npm run build-cmd -- --env-name module --out-dir dist/module --out-file-extension .mjs",
+    "build:node": "npm run build-cmd -- --env-name node --out-dir dist/node --out-file-extension .cjs",
     "commit-msg": "commitlint --edit",
     "cover": "NODE_ENV=cover c8 --all --src src --reporter lcov --reporter text-summary --reporter text npm test",
     "debug": "NODE_ENV=debug npm run test -- -st --fail-fast",
@@ -63,7 +61,13 @@
     "prepare": "npm run build",
     "prepublishOnly": "pinst --disable",
     "release": "np --message ':hatching_chick: release: Bumping to v%s.'",
-    "test": "TZ=Europe/Brussels ava"
+    "test": "npm run test:src",
+    "test-cmd": "NODE_LOADER_CONFIG=test/loader/config.js TZ=Europe/Brussels ava",
+    "test:browser": "IMPORT_MAP_PATH=test/import-maps/dist/browser/index.json npm run test-cmd",
+    "test:default": "IMPORT_MAP_PATH=test/import-maps/dist/default/index.json npm run test-cmd",
+    "test:module": "IMPORT_MAP_PATH=test/import-maps/dist/module/index.json npm run test-cmd",
+    "test:node": "IMPORT_MAP_PATH=test/import-maps/dist/node/index.json npm run test-cmd",
+    "test:src": "IMPORT_MAP_PATH=test/import-maps/src/index.json npm run test-cmd"
   },
   "dependencies": {
     "@async-abstraction/tape": "^9.0.0",
@@ -82,6 +86,7 @@
     "@commitlint/cli": "15.0.0",
     "@iterable-iterator/list": "^1.0.1",
     "@js-library/commitlint-config": "0.0.4",
+    "@node-loader/import-maps": "^1.0.3",
     "ava": "3.15.0",
     "babel-plugin-replace-import-extension": "^1.1.2",
     "babel-plugin-transform-remove-console": "6.9.4",
@@ -111,6 +116,9 @@
     "require": [
       "regenerator-runtime/runtime",
       "@babel/register"
+    ],
+    "nodeArguments": [
+      "--experimental-loader=@node-loader/import-maps"
     ],
     "timeout": "3m"
   },
@@ -271,6 +279,14 @@
           ]
         ],
         "plugins": [
+          [
+            "replace-import-extension",
+            {
+              "extMapping": {
+                ".js": ".mjs"
+              }
+            }
+          ],
           "babel-plugin-unassert",
           [
             "transform-remove-console",
