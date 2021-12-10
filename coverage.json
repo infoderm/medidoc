@@ -1,0 +1,174 @@
+{
+  "coverage": "0%",
+  "expectCount": 77,
+  "actualCount": 0,
+  "files": {
+    "src/Position.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    "src/buffer.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/buffers.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "src/grammar.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "src/leaves.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/merge.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        9
+      ]
+    },
+    "src/parse.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/parseBundle.js": {
+      "expectCount": 33,
+      "actualCount": 0,
+      "undocumentLines": [
+        11,
+        22,
+        27,
+        40,
+        53,
+        69,
+        97,
+        110,
+        150,
+        166,
+        180,
+        193,
+        206,
+        229,
+        257,
+        264,
+        301,
+        316,
+        334,
+        350,
+        364,
+        377,
+        378,
+        391,
+        404,
+        422,
+        442,
+        458,
+        475,
+        489,
+        496,
+        528,
+        534
+      ]
+    },
+    "src/split.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        50,
+        103,
+        114
+      ]
+    },
+    "src/stringify.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/stringifyBundle.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        45
+      ]
+    },
+    "src/tokens.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        5,
+        7,
+        8,
+        10,
+        86
+      ]
+    },
+    "src/transform/lib.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        13,
+        25
+      ]
+    },
+    "src/transform/simplify.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        54,
+        56,
+        73,
+        79,
+        82
+      ]
+    },
+    "src/transform/visitor.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        9,
+        10,
+        20,
+        23,
+        44,
+        55
+      ]
+    }
+  }
+}

@@ -1,0 +1,2960 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/Position.js",
+    "content": "export default class Position {\n\tconstructor(line, column) {\n\t\tthis.line = line;\n\t\tthis.column = column;\n\t}\n\n\ttoString() {\n\t\treturn `${this.line}:${this.column}`;\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/Position.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Position",
+    "memberof": "src/Position.js",
+    "static": true,
+    "longname": "src/Position.js~Position",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/Position.js",
+    "importStyle": "Position",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Position.js~Position",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Position.js~Position#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "line",
+    "memberof": "src/Position.js~Position",
+    "static": false,
+    "longname": "src/Position.js~Position#line",
+    "access": "public",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "column",
+    "memberof": "src/Position.js~Position",
+    "static": false,
+    "longname": "src/Position.js~Position#column",
+    "access": "public",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "method",
+    "name": "toString",
+    "memberof": "src/Position.js~Position",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Position.js~Position#toString",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/buffer.js",
+    "content": "import * as tape from '@async-abstraction/tape';\nimport buffers from './buffers.js';\n\nconst buffer = (transformed) =>\n\ttape.toString(tape.fromAsyncIterable(buffers(transformed)));\n\nexport default buffer;\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/buffer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "buffer",
+    "memberof": "src/buffer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/buffer.js~buffer",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/buffer.js",
+    "importStyle": "buffer",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "transformed",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "src/buffers.js",
+    "content": "import {ast} from '@formal-language/grammar';\n\nimport grammar from './grammar.js';\nimport leaves from './leaves.js';\n\nconst buffers = (tree) =>\n\tast.cmap(\n\t\t(leaf) => (leaf.terminal === grammar.eof ? '' : leaf.buffer),\n\t\tleaves(tree),\n\t);\n\nexport default buffers;\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/buffers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "buffers",
+    "memberof": "src/buffers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/buffers.js~buffers",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/buffers.js",
+    "importStyle": "buffers",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 58,
+    "kind": "file",
+    "name": "src/grammar.js",
+    "content": "import {grammar} from '@formal-language/grammar';\n\nconst root = 'root';\nconst start = '0';\nconst eof = '$';\nconst productions = {\n\troot: [['&documents', '=$']],\n\tdocuments: {\n\t\tadd: ['&document', '&documents'],\n\t\tend: [],\n\t},\n\tdocument: {\n\t\treport: ['&doctor', '&date', '&requestor', '&A*', '&footer'],\n\t\tlab: ['&lab', '&date', '&requestor', '&A*', '&footer'],\n\t},\n\tdoctor: [\n\t\t[\n\t\t\t'&doctor-nihdi',\n\t\t\t'&doctor-name',\n\t\t\t'&doctor-address',\n\t\t\t'&doctor-phone',\n\t\t\t'&doctor-extra',\n\t\t],\n\t],\n\t'doctor-nihdi': [['&nihdi', '&newline']],\n\t'doctor-name': [['&free-line']],\n\t'doctor-address': [['&free-line', '&free-line']],\n\t'doctor-phone': [['&free-line']],\n\t'doctor-extra': [['&free-line']],\n\tlab: [['&lab-identifier', '&lab-name', '&lab-address', '&lab-extra']],\n\t'lab-identifier': [['&medidoc-lab-id', '&newline']],\n\t'lab-name': [['&free-line']],\n\t'lab-address': [['&free-line', '&free-line']],\n\t'lab-extra': [['&free-line', '&free-line']],\n\tnihdi: [['&digits', '=/', '&digits', '=/', '&digits', '=/', '&digits']],\n\t'medidoc-lab-id': [['=text', '=digit', '=digit', '=digit']],\n\tdate: [['&free-line']],\n\trequestor: [['&requestor-nihdi', '&requestor-name']],\n\t'requestor-nihdi': [['&nihdi', '&newline']],\n\t'requestor-name': [['&free-line']],\n\t'A*': {\n\t\tadd: ['&A', '&A*'],\n\t\tend: [],\n\t},\n\tA: [\n\t\t[\n\t\t\t'&#A',\n\t\t\t'&A-name',\n\t\t\t'&A-birthdate',\n\t\t\t'&A-sex',\n\t\t\t'&A-date',\n\t\t\t'&A-reference',\n\t\t\t'&A-code',\n\t\t\t'&A-extra',\n\t\t\t'&R*',\n\t\t\t'&#A/',\n\t\t],\n\t],\n\t'#A': [['=#A', '&newline']],\n\t'A-name': [['&free-line']],\n\t'A-birthdate': [['&free-line']],\n\t'A-sex': [['&free-line']],\n\t'A-date': [['&free-line']],\n\t'A-reference': [['&free-line']],\n\t'A-code': [['&free-line']],\n\t'A-extra': [['&free-lines']],\n\t'#A/': [['=#A/', '&newline']],\n\t'free-line': [['&free-text-or-empty', '&newline']],\n\tfooter: [['=#/', '&newline']],\n\t'R*': {\n\t\tadd: ['&R', '&R*'],\n\t\tend: [],\n\t},\n\tR: [['&#R', '&R-title', '&R-body', '&#R/']],\n\t'#R': [['=#R', '&newline']],\n\t'#R/': [['=#R/', '&newline']],\n\t'R-title': {\n\t\tfree: ['=!', '&free-line'],\n\t\tcode: ['&not-a-bang', '&free-line'],\n\t},\n\t'R-body': [['&free-lines']],\n\t'free-text': {\n\t\t'start-any': ['&any', '&free-text-end'],\n\t},\n\t'free-text-end': {\n\t\t'add-any': ['&any', '&free-text-end'],\n\t\tend: [],\n\t},\n\t'free-text-or-empty': {\n\t\t'free-text': ['&free-text'],\n\t\tempty: [],\n\t},\n\t'not-a-bang': {\n\t\ttext: ['=text'],\n\t\t'/': ['=/'],\n\t\tdigit: ['=digit'],\n\t},\n\tany: {\n\t\ttext: ['=text'],\n\t\t'/': ['=/'],\n\t\t'!': ['=!'],\n\t\tdigit: ['=digit'],\n\t},\n\tnewline: {\n\t\tcrlf: ['=\\r', '=\\n'],\n\t\tlf: ['=\\n'],\n\t},\n\tdigits: {\n\t\tstart: ['=digit', '&digits-end'],\n\t},\n\t'digits-end': {\n\t\tadd: ['=digit', '&digits-end'],\n\t\tend: [],\n\t},\n\t'free-lines': {\n\t\tadd: ['&free-line', '&free-lines'],\n\t\tend: [],\n\t},\n};\n\nexport default grammar.from({root, start, eof, productions});\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/grammar.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 59,
+    "kind": "variable",
+    "name": "root",
+    "memberof": "src/grammar.js",
+    "static": true,
+    "longname": "src/grammar.js~root",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/grammar.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "variable",
+    "name": "start",
+    "memberof": "src/grammar.js",
+    "static": true,
+    "longname": "src/grammar.js~start",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/grammar.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "eof",
+    "memberof": "src/grammar.js",
+    "static": true,
+    "longname": "src/grammar.js~eof",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/grammar.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "productions",
+    "memberof": "src/grammar.js",
+    "static": true,
+    "longname": "src/grammar.js~productions",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/grammar.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"root\": *, \"documents\": *, \"document\": *, \"doctor\": *, \"doctor-nihdi\": *, \"doctor-name\": *, \"doctor-address\": *, \"doctor-phone\": *, \"doctor-extra\": *, \"lab\": *, \"lab-identifier\": *, \"lab-name\": *, \"lab-address\": *, \"lab-extra\": *, \"nihdi\": *, \"medidoc-lab-id\": *, \"date\": *, \"requestor\": *, \"requestor-nihdi\": *, \"requestor-name\": *, \"A*\": *, \"A\": *, \"#A\": *, \"A-name\": *, \"A-birthdate\": *, \"A-sex\": *, \"A-date\": *, \"A-reference\": *, \"A-code\": *, \"A-extra\": *, \"#A/\": *, \"free-line\": *, \"footer\": *, \"R*\": *, \"R\": *, \"#R\": *, \"#R/\": *, \"R-title\": *, \"R-body\": *, \"free-text\": *, \"free-text-end\": *, \"free-text-or-empty\": *, \"not-a-bang\": *, \"any\": *, \"newline\": *, \"digits\": *, \"digits-end\": *, \"free-lines\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "export {default as parse} from './parse.js';\nexport {default as parseBundle} from './parseBundle.js';\nexport {default as stringify} from './stringify.js';\nexport {default as stringifyBundle} from './stringifyBundle.js';\nexport {default as grammar} from './grammar.js';\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "src/leaves.js",
+    "content": "import {ast} from '@formal-language/grammar';\n\nconst leaves = async function* (tree) {\n\tif (tree.type === 'leaf') {\n\t\tyield tree;\n\t\treturn;\n\t}\n\n\tconst flattened = ast.flatten(tree);\n\n\tfor await (const leaf of flattened) {\n\t\tyield leaf;\n\t}\n};\n\nexport default leaves;\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/leaves.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "function",
+    "name": "leaves",
+    "memberof": "src/leaves.js",
+    "generator": true,
+    "async": true,
+    "static": true,
+    "longname": "src/leaves.js~leaves",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/leaves.js",
+    "importStyle": "leaves",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/merge.js",
+    "content": "import mergeWith from 'lodash.mergewith/index.js';\n\nconst customizer = (objectValue, srcValue) => {\n\tif (Array.isArray(objectValue)) {\n\t\treturn objectValue.concat(srcValue);\n\t}\n};\n\nconst merge = (parts) => mergeWith({}, ...Array.from(parts), customizer);\n\nexport default merge;\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/merge.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "customizer",
+    "memberof": "src/merge.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/merge.js~customizer",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/merge.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectValue",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "srcValue",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "merge",
+    "memberof": "src/merge.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/merge.js~merge",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/merge.js",
+    "importStyle": "merge",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "parts",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/parse.js",
+    "content": "import parseBundle from './parseBundle.js';\nimport split from './split.js';\n\nconst parse = async (string) => split(await parseBundle(string));\n\nexport default parse;\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/parse.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "function",
+    "name": "parse",
+    "memberof": "src/parse.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/parse.js~parse",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/parse.js",
+    "importStyle": "parse",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "string",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 71,
+    "kind": "file",
+    "name": "src/parseBundle.js",
+    "content": "import assert from 'node:assert';\nimport * as tape from '@async-abstraction/tape';\nimport {asyncIterableToArray} from '@async-abstraction/tape';\nimport {ll1, ast} from '@formal-language/grammar';\n\nimport tokens from './tokens.js';\nimport grammar from './grammar.js';\nimport simplify from './transform/simplify.js';\nimport {iter, next, map as asyncMap} from './transform/lib.js';\n\nconst parseTape = (inputTape) => {\n\tconst parser = ll1.from(grammar);\n\tconst inputTokens = tokens(inputTape);\n\tconst inputTokensTape = tape.fromAsyncIterable(inputTokens);\n\tconst tree = parser.parse(inputTokensTape);\n\n\tconst ctx = {};\n\n\treturn ast.transform(tree, simplify, ctx);\n};\n\nconst parseString = (string) => {\n\tconst inputCharacterTape = tape.fromString(string);\n\treturn parseTape(inputCharacterTape);\n};\n\nconst parseBlockBegin = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === '#R');\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\ttype: line.slice(2).trim(),\n\t\t},\n\t};\n};\n\nconst parseBlockTitle = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'R-title');\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\ttitle: line.trim(),\n\t\t},\n\t};\n};\n\nconst parseBlockType = (type) => {\n\tswitch (type) {\n\t\tcase 'd':\n\t\t\treturn {TimeIndication: 'Days'};\n\t\tcase 'h':\n\t\t\treturn {TimeIndication: 'Hours'};\n\t\tcase 'm':\n\t\t\treturn {TimeIndication: 'Minutes'};\n\t\tcase 's':\n\t\t\treturn {TimeIndication: 'Seconds'};\n\t\tdefault:\n\t\t\tassert(type === 'a');\n\t\t\treturn {};\n\t}\n};\n\nconst parseIntensity = (symbol) => {\n\tswitch (symbol) {\n\t\tcase '--':\n\t\tcase 'LL':\n\t\tcase '1':\n\t\t\treturn 'GreatlyReduced';\n\t\tcase '-':\n\t\tcase 'L':\n\t\tcase '2':\n\t\t\treturn 'Reduced';\n\t\tcase '=':\n\t\tcase 'N':\n\t\tcase '3':\n\t\tcase '':\n\t\t\treturn 'Normal';\n\t\tcase '+':\n\t\tcase 'H':\n\t\tcase '4':\n\t\t\treturn 'Increased';\n\t\tcase '++':\n\t\tcase 'HH':\n\t\tcase '5':\n\t\t\treturn 'GreatlyIncreased';\n\t\tdefault:\n\t\t\treturn 'Unknown';\n\t}\n};\n\nconst parseBlockComments = (comments) => {\n\tif (comments.length > 0 && comments[0].slice(0, 1) === '\\\\') {\n\t\treturn {\n\t\t\treferenceValue: comments[0].slice(1),\n\t\t\tcomments: comments.slice(1),\n\t\t};\n\t}\n\n\treturn {\n\t\tcomments,\n\t};\n};\n\nconst parseBlockBody = (type, tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'R-body');\n\tif (type === 'c') {\n\t\treturn {\n\t\t\t...tree,\n\t\t\tparsed: {\n\t\t\t\tcomments: tree.lines.map(({contents}) => contents),\n\t\t\t},\n\t\t};\n\t}\n\n\tif (type === 'b') {\n\t\treturn {\n\t\t\t...tree,\n\t\t\tparsed: {\n\t\t\t\ttext: tree.lines.map(({contents}) => contents),\n\t\t\t},\n\t\t};\n\t}\n\n\tassert(tree.lines.length >= 3);\n\tconst [line1, line2, line3, ...rest] = tree.lines.map(\n\t\t({contents}) => contents,\n\t);\n\tconst intensitySymbol = line3.trim();\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\t...parseBlockType(type),\n\t\t\trelation: line1.slice(0, 1),\n\t\t\tvalue: line1.slice(1).trim(),\n\t\t\tunit: line2.trim(),\n\t\t\tintensity: parseIntensity(intensitySymbol),\n\t\t\tintensitySymbol,\n\t\t\t...parseBlockComments(rest),\n\t\t},\n\t};\n};\n\nconst parseBlock = async (block) => {\n\tassert(block.type === 'node');\n\tassert(block.nonterminal === 'R');\n\tconst it = iter(block.children);\n\tconst begin = parseBlockBegin(await next(it));\n\tconst title = parseBlockTitle(await next(it));\n\tconst contents = parseBlockBody(begin.parsed.type, await next(it));\n\tconst end = await next(it);\n\treturn {\n\t\tbegin,\n\t\ttitle,\n\t\tcontents,\n\t\tend,\n\t};\n};\n\nconst parseSex = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'A-sex');\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\tconst sex = line === 'X' ? 'female' : line === 'Y' ? 'male' : 'other';\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\tsex,\n\t\t},\n\t};\n};\n\nconst parseReference = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'A-reference');\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\treference: line.trim(),\n\t\t},\n\t};\n};\n\nconst parseProtocolCode = (code) => {\n\tswitch (code) {\n\t\tcase 'P':\n\t\tcase 'S':\n\t\tcase 'L':\n\t\t\treturn 'partial';\n\t\tcase 'C':\n\t\t\treturn 'complete';\n\t\tdefault:\n\t\t\treturn '';\n\t}\n};\n\nconst parseCode = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'A-code');\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\tconst code = line.trim();\n\tconst status = parseProtocolCode(code);\n\treturn status === ''\n\t\t? {\n\t\t\t\t...tree,\n\t\t\t\tparsed: {\n\t\t\t\t\tcode,\n\t\t\t\t},\n\t\t  }\n\t\t: {\n\t\t\t\t...tree,\n\t\t\t\tparsed: {\n\t\t\t\t\tcode,\n\t\t\t\t\tstatus,\n\t\t\t\t},\n\t\t  };\n};\n\nconst parseReportIdentifier = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === '#A');\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\tconst identifier = line.slice(2);\n\treturn identifier.length === 11\n\t\t? {\n\t\t\t\t...tree,\n\t\t\t\tparsed: {\n\t\t\t\t\tnn: identifier,\n\t\t\t\t},\n\t\t  }\n\t\t: identifier.length === 13\n\t\t? {\n\t\t\t\t...tree,\n\t\t\t\tparsed: {\n\t\t\t\t\tdossier: identifier,\n\t\t\t\t},\n\t\t  }\n\t\t: {\n\t\t\t\t...tree,\n\t\t\t\tparsed: {\n\t\t\t\t\tidentifier,\n\t\t\t\t},\n\t\t  };\n};\n\nconst parseReportFooter = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === '#A/');\n\tassert(tree.lines.length === 1);\n\treturn tree;\n};\n\nconst parseReport = async (report) => {\n\tassert(report.type === 'node');\n\tassert(report.nonterminal === 'A');\n\tconst it = iter(report.children);\n\tconst identifier = parseReportIdentifier(await next(it));\n\tconst name = parseName(await next(it));\n\tconst birthdate = parseDate(await next(it));\n\tconst sex = parseSex(await next(it));\n\tconst requestDate = parseDate(await next(it));\n\tconst reference = parseReference(await next(it));\n\tconst code = parseCode(await next(it));\n\tconst extra = parseExtra(await next(it));\n\tconst header = {\n\t\tidentifier,\n\t\tname,\n\t\tbirthdate,\n\t\tsex,\n\t\trequestDate,\n\t\treference,\n\t\tcode,\n\t\textra,\n\t};\n\n\tconst blocks = await next(it);\n\n\tconst parsedBlocks = await asyncIterableToArray(\n\t\tasyncMap(parseBlock, blocks.children),\n\t);\n\n\tconst footer = parseReportFooter(await next(it));\n\treturn {\n\t\theader,\n\t\tblocks: parsedBlocks,\n\t\tfooter,\n\t};\n};\n\nconst parseNIHDI = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(\n\t\ttree.terminal === 'doctor-nihdi' || tree.terminal === 'requestor-nihdi',\n\t);\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\tnihdi: line.replaceAll('/', ''),\n\t\t},\n\t};\n};\n\nconst parseName = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(\n\t\ttree.terminal === 'doctor-name' ||\n\t\t\ttree.terminal === 'requestor-name' ||\n\t\t\ttree.terminal === 'A-name',\n\t);\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\tfirstname: line.slice(24).trim(),\n\t\t\tlastname: line.slice(0, 24).trim(),\n\t\t},\n\t};\n};\n\nconst parseDoctorAddress = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'doctor-address');\n\tassert(tree.lines.length === 2);\n\tconst [line1, line2] = tree.lines.map(({contents}) => contents);\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\tstreetName: line1.slice(0, 35).trim(),\n\t\t\tstreetNumber: line1.slice(35).trim(),\n\t\t\tpostalCode: line2.slice(0, 10).trim(),\n\t\t\ttownName: line2.slice(10).trim(),\n\t\t},\n\t};\n};\n\nconst parseLabAddress = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'lab-address');\n\tassert(tree.lines.length === 2);\n\tconst [address1, address2] = tree.lines.map(({contents}) => contents);\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\taddress1,\n\t\t\taddress2,\n\t\t},\n\t};\n};\n\nconst parsePhone = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'doctor-phone');\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\tphone: line.trim(),\n\t\t},\n\t};\n};\n\nconst parseExtra = (tree) => tree;\nconst parseLabIdentifier = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'lab-identifier');\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\tidentifier: line.trim(),\n\t\t},\n\t};\n};\n\nconst parseLabName = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'lab-name');\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\tname: line.trim(),\n\t\t},\n\t};\n};\n\nconst parseLab = async (tree) => {\n\tassert(tree.type === 'node');\n\tassert(tree.nonterminal === 'lab');\n\tconst it = iter(tree.children);\n\tconst identifier = parseLabIdentifier(await next(it));\n\tconst name = parseLabName(await next(it));\n\tconst address = parseLabAddress(await next(it));\n\tconst extra = parseExtra(await next(it));\n\treturn {\n\t\ttype: 'leaf',\n\t\tterminal: 'lab',\n\t\tidentifier,\n\t\tname,\n\t\taddress,\n\t\textra,\n\t};\n};\n\nconst parseDoctor = async (tree) => {\n\tassert(tree.type === 'node');\n\tassert(tree.nonterminal === 'doctor');\n\tconst it = iter(tree.children);\n\tconst nihdi = parseNIHDI(await next(it));\n\tconst name = parseName(await next(it));\n\tconst address = parseDoctorAddress(await next(it));\n\tconst phone = parsePhone(await next(it));\n\tconst extra = parseExtra(await next(it));\n\treturn {\n\t\ttype: 'leaf',\n\t\tterminal: 'doctor',\n\t\tnihdi,\n\t\tname,\n\t\taddress,\n\t\tphone,\n\t\textra,\n\t};\n};\n\nconst parseDatetime = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'date');\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\treturn line.length >= 9\n\t\t? {\n\t\t\t\t...tree,\n\t\t\t\tparsed: {\n\t\t\t\t\tdate: line.slice(0, 8),\n\t\t\t\t\ttime: line.slice(8),\n\t\t\t\t},\n\t\t  }\n\t\t: parseDate(tree);\n};\n\nconst parseDate = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(\n\t\ttree.terminal === 'date' ||\n\t\t\ttree.terminal === 'A-birthdate' ||\n\t\t\ttree.terminal === 'A-date',\n\t);\n\tassert(tree.lines.length === 1);\n\tconst line = tree.lines[0].contents;\n\treturn {\n\t\t...tree,\n\t\tparsed: {\n\t\t\tdate: line,\n\t\t},\n\t};\n};\n\nconst parseRequestor = async (tree) => {\n\tassert(tree.type === 'node');\n\tassert(tree.nonterminal === 'requestor');\n\tconst it = iter(tree.children);\n\tconst nihdi = parseNIHDI(await next(it));\n\tconst name = parseName(await next(it));\n\treturn {\n\t\ttype: 'leaf',\n\t\tterminal: 'requestor',\n\t\tnihdi,\n\t\tname,\n\t};\n};\n\nconst parseDocumentFooter = (tree) => {\n\tassert(tree.type === 'leaf');\n\tassert(tree.terminal === 'footer');\n\tassert(tree.lines.length === 1);\n\treturn tree;\n};\n\nconst parseDocument = async (document) => {\n\tassert(document.type === 'node');\n\tassert(document.nonterminal === 'document');\n\tconst kind = document.production;\n\tconst it = iter(document.children);\n\tconst requesteeKind = kind === 'lab' ? 'lab' : 'doctor';\n\tconst parseRequestee = kind === 'lab' ? parseLab : parseDoctor;\n\tconst requestee = await parseRequestee(await next(it));\n\tconst date = parseDatetime(await next(it));\n\tconst requestor = await parseRequestor(await next(it));\n\tconst header = {\n\t\tkind,\n\t\t[requesteeKind]: requestee,\n\t\tdate,\n\t\trequestor,\n\t};\n\n\tconst reports = await next(it);\n\n\tconst parsedReports = await asyncIterableToArray(\n\t\tasyncMap(parseReport, reports.children),\n\t);\n\n\tconst footer = parseDocumentFooter(await next(it));\n\n\treturn {\n\t\theader,\n\t\treports: parsedReports,\n\t\tfooter,\n\t};\n};\n\nconst parseTree = (tree) => {\n\tassert(tree.type === 'node');\n\tassert(tree.nonterminal === 'documents');\n\treturn asyncMap(parseDocument, tree.children);\n};\n\nconst parseBundle = async (string) => {\n\tconst root = await parseString(string);\n\tconst tree = await next(iter(root.children));\n\treturn parseTree(tree);\n};\n\nexport default parseBundle;\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/parseBundle.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "name": "parseTape",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseTape",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "inputTape",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "parseString",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseString",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "params": [
+      {
+        "name": "string",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "name": "parseBlockBegin",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseBlockBegin",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "function",
+    "name": "parseBlockTitle",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseBlockTitle",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 40,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 76,
+    "kind": "function",
+    "name": "parseBlockType",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseBlockType",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 53,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "parseIntensity",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseIntensity",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 69,
+    "undocument": true,
+    "params": [
+      {
+        "name": "symbol",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "function",
+    "name": "parseBlockComments",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseBlockComments",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 97,
+    "undocument": true,
+    "params": [
+      {
+        "name": "comments",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"comments\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "parseBlockBody",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseBlockBody",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 110,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 80,
+    "kind": "function",
+    "name": "parseBlock",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/parseBundle.js~parseBlock",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 150,
+    "undocument": true,
+    "params": [
+      {
+        "name": "block",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"begin\": *, \"title\": *, \"contents\": *, \"end\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 81,
+    "kind": "function",
+    "name": "parseSex",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseSex",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 166,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 82,
+    "kind": "function",
+    "name": "parseReference",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseReference",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 180,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "name": "parseProtocolCode",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseProtocolCode",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 193,
+    "undocument": true,
+    "params": [
+      {
+        "name": "code",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "function",
+    "name": "parseCode",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseCode",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 206,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "parseReportIdentifier",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseReportIdentifier",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 229,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "parseReportFooter",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseReportFooter",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 257,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "parseReport",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/parseBundle.js~parseReport",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 264,
+    "undocument": true,
+    "params": [
+      {
+        "name": "report",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"header\": *, \"blocks\": *, \"footer\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 88,
+    "kind": "function",
+    "name": "parseNIHDI",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseNIHDI",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 301,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "parseName",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseName",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 316,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "function",
+    "name": "parseDoctorAddress",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseDoctorAddress",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 334,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "parseLabAddress",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseLabAddress",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 350,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 92,
+    "kind": "function",
+    "name": "parsePhone",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parsePhone",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 364,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "parseExtra",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseExtra",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 377,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 94,
+    "kind": "function",
+    "name": "parseLabIdentifier",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseLabIdentifier",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 378,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "parseLabName",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseLabName",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 391,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 96,
+    "kind": "function",
+    "name": "parseLab",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/parseBundle.js~parseLab",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 404,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"type\": string, \"terminal\": string, \"identifier\": *, \"name\": *, \"address\": *, \"extra\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 97,
+    "kind": "function",
+    "name": "parseDoctor",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/parseBundle.js~parseDoctor",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 422,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"type\": string, \"terminal\": string, \"nihdi\": *, \"name\": *, \"address\": *, \"phone\": *, \"extra\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 98,
+    "kind": "function",
+    "name": "parseDatetime",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseDatetime",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 442,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 99,
+    "kind": "function",
+    "name": "parseDate",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseDate",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 458,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...tree: Object, \"parsed\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 100,
+    "kind": "function",
+    "name": "parseRequestor",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/parseBundle.js~parseRequestor",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 475,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"type\": string, \"terminal\": string, \"nihdi\": *, \"name\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 101,
+    "kind": "function",
+    "name": "parseDocumentFooter",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseDocumentFooter",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 489,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 102,
+    "kind": "function",
+    "name": "parseDocument",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/parseBundle.js~parseDocument",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 496,
+    "undocument": true,
+    "params": [
+      {
+        "name": "document",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"header\": *, \"reports\": *, \"footer\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 103,
+    "kind": "function",
+    "name": "parseTree",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseBundle.js~parseTree",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 528,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 104,
+    "kind": "function",
+    "name": "parseBundle",
+    "memberof": "src/parseBundle.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/parseBundle.js~parseBundle",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/parseBundle.js",
+    "importStyle": "parseBundle",
+    "description": null,
+    "lineNumber": 534,
+    "undocument": true,
+    "params": [
+      {
+        "name": "string",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 105,
+    "kind": "file",
+    "name": "src/split.js",
+    "content": "import {map} from '@iterable-iterator/map';\nimport {chain} from '@iterable-iterator/chain';\n\nimport merge from './merge.js';\n\nconst reportParts = function* ({header, blocks, footer}) {\n\tyield {\n\t\tmeta: {\n\t\t\t...header.reference.parsed,\n\t\t\t...header.code.parsed,\n\t\t\t...header.extra.parsed,\n\t\t},\n\t\tpatient: {\n\t\t\t...header.identifier.parsed,\n\t\t\t...header.name.parsed,\n\t\t\tbirthdate: header.birthdate.parsed.date,\n\t\t\t...header.sex.parsed,\n\t\t\trequestDate: header.requestDate.parsed.date,\n\t\t},\n\t\tlines: [\n\t\t\t...header.identifier.lines,\n\t\t\t...header.name.lines,\n\t\t\t...header.birthdate.lines,\n\t\t\t...header.sex.lines,\n\t\t\t...header.requestDate.lines,\n\t\t\t...header.reference.lines,\n\t\t\t...header.code.lines,\n\t\t\t...header.extra.lines,\n\t\t],\n\t};\n\n\tfor (const {begin, title, contents, end} of blocks) {\n\t\tyield {\n\t\t\tresults: [\n\t\t\t\t{\n\t\t\t\t\t...begin.parsed,\n\t\t\t\t\t...title.parsed,\n\t\t\t\t\t...contents.parsed,\n\t\t\t\t},\n\t\t\t],\n\t\t\tlines: [...begin.lines, ...title.lines, ...contents.lines, ...end.lines],\n\t\t};\n\t}\n\n\tyield {\n\t\tlines: [...footer.lines],\n\t};\n};\n\nconst documentHeaderParts = function* (header) {\n\tif (header.kind === 'lab') {\n\t\tyield {\n\t\t\ttype: 'lab',\n\t\t\tlab: {\n\t\t\t\t...header.lab.identifier.parsed,\n\t\t\t\t...header.lab.name.parsed,\n\t\t\t\t...header.lab.address.parsed,\n\t\t\t\t...header.lab.extra.parsed,\n\t\t\t},\n\t\t\tlines: [\n\t\t\t\t...header.lab.identifier.lines,\n\t\t\t\t...header.lab.name.lines,\n\t\t\t\t...header.lab.address.lines,\n\t\t\t\t...header.lab.extra.lines,\n\t\t\t],\n\t\t};\n\t} else {\n\t\tyield {\n\t\t\ttype: 'report',\n\t\t\tdoctor: {\n\t\t\t\t...header.doctor.nihdi.parsed,\n\t\t\t\t...header.doctor.name.parsed,\n\t\t\t\t...header.doctor.address.parsed,\n\t\t\t\t...header.doctor.phone.parsed,\n\t\t\t\t...header.doctor.extra.parsed,\n\t\t\t},\n\t\t\tlines: [\n\t\t\t\t...header.doctor.nihdi.lines,\n\t\t\t\t...header.doctor.name.lines,\n\t\t\t\t...header.doctor.address.lines,\n\t\t\t\t...header.doctor.phone.lines,\n\t\t\t\t...header.doctor.extra.lines,\n\t\t\t],\n\t\t};\n\t}\n\n\tyield {\n\t\tmeta: {\n\t\t\t...header.date.parsed,\n\t\t},\n\t\trequestor: {\n\t\t\t...header.requestor.nihdi.parsed,\n\t\t\t...header.requestor.name.parsed,\n\t\t},\n\t\tlines: [\n\t\t\t...header.date.lines,\n\t\t\t...header.requestor.nihdi.lines,\n\t\t\t...header.requestor.name.lines,\n\t\t],\n\t};\n};\n\nconst splitDocument = ({header, reports, footer}) => {\n\tconst commonBegin = merge(documentHeaderParts(header));\n\tconst commonEnd = {\n\t\tlines: [...footer.lines],\n\t};\n\treturn map(\n\t\t(report) => merge(chain([commonBegin], reportParts(report), [commonEnd])),\n\t\treports,\n\t);\n};\n\nconst split = async function* (documents) {\n\tfor await (const document of documents) yield* splitDocument(document);\n};\n\nexport default split;\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/split.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 106,
+    "kind": "function",
+    "name": "reportParts",
+    "memberof": "src/split.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/split.js~reportParts",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/split.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"header\": *, \"blocks\": *, \"footer\": *}"
+        ],
+        "defaultRaw": {
+          "header": null,
+          "blocks": null,
+          "footer": null
+        },
+        "defaultValue": "{\"header\":null,\"blocks\":null,\"footer\":null}"
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 107,
+    "kind": "function",
+    "name": "documentHeaderParts",
+    "memberof": "src/split.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/split.js~documentHeaderParts",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/split.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 50,
+    "undocument": true,
+    "params": [
+      {
+        "name": "header",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 108,
+    "kind": "function",
+    "name": "splitDocument",
+    "memberof": "src/split.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/split.js~splitDocument",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/split.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 103,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"header\": *, \"reports\": *, \"footer\": *}"
+        ],
+        "defaultRaw": {
+          "header": null,
+          "reports": null,
+          "footer": null
+        },
+        "defaultValue": "{\"header\":null,\"reports\":null,\"footer\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 109,
+    "kind": "function",
+    "name": "split",
+    "memberof": "src/split.js",
+    "generator": true,
+    "async": true,
+    "static": true,
+    "longname": "src/split.js~split",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/split.js",
+    "importStyle": "split",
+    "description": null,
+    "lineNumber": 114,
+    "undocument": true,
+    "params": [
+      {
+        "name": "documents",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 110,
+    "kind": "file",
+    "name": "src/stringify.js",
+    "content": "const stringify = (document) => {\n\treturn document.lines\n\t\t.map(({contents, newline}) => contents + newline)\n\t\t.join('');\n};\n\nexport default stringify;\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/stringify.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 111,
+    "kind": "function",
+    "name": "stringify",
+    "memberof": "src/stringify.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stringify.js~stringify",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/stringify.js",
+    "importStyle": "stringify",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "document",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 112,
+    "kind": "file",
+    "name": "src/stringifyBundle.js",
+    "content": "import {asyncIterableToArray, asyncIterableMap} from '@async-abstraction/tape';\n\nconst lines = async function* (documents) {\n\tfor await (const {header, reports, footer} of documents) {\n\t\tconsole.debug(JSON.stringify({header, reports, footer}, undefined, 2));\n\t\tif (header.kind === 'lab') {\n\t\t\tyield* header.lab.identifier.lines;\n\t\t\tyield* header.lab.name.lines;\n\t\t\tyield* header.lab.address.lines;\n\t\t\tyield* header.lab.extra.lines;\n\t\t} else {\n\t\t\tyield* header.doctor.nihdi.lines;\n\t\t\tyield* header.doctor.name.lines;\n\t\t\tyield* header.doctor.address.lines;\n\t\t\tyield* header.doctor.phone.lines;\n\t\t\tyield* header.doctor.extra.lines;\n\t\t}\n\n\t\tyield* header.date.lines;\n\t\tyield* header.requestor.nihdi.lines;\n\t\tyield* header.requestor.name.lines;\n\t\tfor (const {header, blocks, footer} of reports) {\n\t\t\tyield* header.identifier.lines;\n\t\t\tyield* header.name.lines;\n\t\t\tyield* header.birthdate.lines;\n\t\t\tyield* header.sex.lines;\n\t\t\tyield* header.requestDate.lines;\n\t\t\tyield* header.reference.lines;\n\t\t\tyield* header.code.lines;\n\t\t\tyield* header.extra.lines;\n\t\t\tfor (const {begin, title, contents, end} of blocks) {\n\t\t\t\tyield* begin.lines;\n\t\t\t\tyield* title.lines;\n\t\t\t\tyield* contents.lines;\n\t\t\t\tyield* end.lines;\n\t\t\t}\n\n\t\t\tyield* footer.lines;\n\t\t}\n\n\t\tyield* footer.lines;\n\t}\n};\n\nconst stringify = async (documents) => {\n\tconst buffers = await asyncIterableToArray(\n\t\tasyncIterableMap(\n\t\t\t({contents, newline}) => contents + newline,\n\t\t\tlines(documents),\n\t\t),\n\t);\n\treturn buffers.join('');\n};\n\nexport default stringify;\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/stringifyBundle.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 113,
+    "kind": "function",
+    "name": "lines",
+    "memberof": "src/stringifyBundle.js",
+    "generator": true,
+    "async": true,
+    "static": true,
+    "longname": "src/stringifyBundle.js~lines",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/stringifyBundle.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "documents",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 114,
+    "kind": "function",
+    "name": "stringify",
+    "memberof": "src/stringifyBundle.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/stringifyBundle.js~stringify",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/stringifyBundle.js",
+    "importStyle": "stringify",
+    "description": null,
+    "lineNumber": 45,
+    "undocument": true,
+    "params": [
+      {
+        "name": "documents",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 115,
+    "kind": "file",
+    "name": "src/tokens.js",
+    "content": "import assert from 'node:assert';\nimport Position from './Position.js';\n\nconst FIRST_LINE = 1;\nconst FIRST_POSITION = 1;\n\nconst CR = '\\r';\nconst LF = '\\n';\n\nasync function* _tokens(tape) {\n\tlet line = FIRST_LINE;\n\tlet position = FIRST_POSITION;\n\n\tlet buffer = '';\n\n\tconst flush = function* () {\n\t\tif (buffer !== '') {\n\t\t\tyield ['text', buffer, new Position(line, position)];\n\t\t\tposition += buffer.length;\n\t\t\tbuffer = '';\n\t\t}\n\t};\n\n\twhile (true) {\n\t\tconst c = await tape.read();\n\n\t\tif (c === tape.eof) break;\n\n\t\tif (c === '#' && position === FIRST_POSITION) {\n\t\t\tassert(buffer === '');\n\t\t\tlet l = c;\n\t\t\tlet token = '';\n\t\t\twhile (l !== tape.eof && l !== CR && l !== LF) {\n\t\t\t\ttoken += l;\n\t\t\t\t++position;\n\t\t\t\tl = await tape.read();\n\t\t\t}\n\n\t\t\ttape.unread(l);\n\t\t\tconst closing = token.length >= 3 && token[2] === '/';\n\t\t\tconst kind = token.slice(0, 2) + (closing ? '/' : '');\n\t\t\tyield [kind, token, new Position(line, FIRST_POSITION)];\n\t\t\tcontinue;\n\t\t}\n\n\t\tswitch (c) {\n\t\t\tcase '0':\n\t\t\tcase '1':\n\t\t\tcase '2':\n\t\t\tcase '3':\n\t\t\tcase '4':\n\t\t\tcase '5':\n\t\t\tcase '6':\n\t\t\tcase '7':\n\t\t\tcase '8':\n\t\t\tcase '9':\n\t\t\t\tyield* flush();\n\t\t\t\tyield ['digit', c, new Position(line, position)];\n\t\t\t\t++position;\n\t\t\t\tbreak;\n\n\t\t\tcase CR:\n\t\t\tcase '/':\n\t\t\tcase '!':\n\t\t\t\tyield* flush();\n\t\t\t\tyield [c, c, new Position(line, position)];\n\t\t\t\t++position;\n\t\t\t\tbreak;\n\n\t\t\tcase LF:\n\t\t\t\tyield* flush();\n\t\t\t\tyield [c, c, new Position(line, position)];\n\t\t\t\t++line;\n\t\t\t\tposition = FIRST_POSITION;\n\t\t\t\tbreak;\n\n\t\t\tdefault:\n\t\t\t\tbuffer += c;\n\t\t\t\tbreak;\n\t\t}\n\t}\n\n\tyield* flush();\n}\n\nexport default async function* tokens(tape) {\n\tfor await (const [terminal, buffer, position] of _tokens(tape)) {\n\t\tyield {\n\t\t\ttype: 'leaf',\n\t\t\tterminal,\n\t\t\tbuffer,\n\t\t\tposition,\n\t\t};\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/tokens.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 116,
+    "kind": "variable",
+    "name": "FIRST_LINE",
+    "memberof": "src/tokens.js",
+    "static": true,
+    "longname": "src/tokens.js~FIRST_LINE",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/tokens.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 117,
+    "kind": "variable",
+    "name": "FIRST_POSITION",
+    "memberof": "src/tokens.js",
+    "static": true,
+    "longname": "src/tokens.js~FIRST_POSITION",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/tokens.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 118,
+    "kind": "variable",
+    "name": "CR",
+    "memberof": "src/tokens.js",
+    "static": true,
+    "longname": "src/tokens.js~CR",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/tokens.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 119,
+    "kind": "variable",
+    "name": "LF",
+    "memberof": "src/tokens.js",
+    "static": true,
+    "longname": "src/tokens.js~LF",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/tokens.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 120,
+    "kind": "function",
+    "name": "_tokens",
+    "memberof": "src/tokens.js",
+    "generator": true,
+    "async": true,
+    "static": true,
+    "longname": "src/tokens.js~_tokens",
+    "access": "private",
+    "export": false,
+    "importPath": "medidoc/src/tokens.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tape",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 121,
+    "kind": "function",
+    "name": "tokens",
+    "memberof": "src/tokens.js",
+    "generator": true,
+    "async": true,
+    "static": true,
+    "longname": "src/tokens.js~tokens",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/tokens.js",
+    "importStyle": "tokens",
+    "description": null,
+    "lineNumber": 86,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tape",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 122,
+    "kind": "file",
+    "name": "src/transform/lib.js",
+    "content": "import {StopIteration} from '@iterable-iterator/next';\n\nexport {StopIteration} from '@iterable-iterator/next';\n\n// TODO create library with those\nexport function iter(object) {\n\t// Maybe we do not even need the second case\n\tif (object[Symbol.asyncIterator]) return object[Symbol.asyncIterator]();\n\treturn object[Symbol.iterator]();\n}\n\n// TODO create library with those\nexport async function next(iterator, dflt = undefined) {\n\tconst x = await iterator.next();\n\n\tif (x.done) {\n\t\tif (dflt === undefined) throw new StopIteration();\n\t\telse return dflt;\n\t}\n\n\treturn x.value;\n}\n\n// TODO create library with those\nexport async function* map(callable, iterable) {\n\tfor await (const item of iterable) {\n\t\tyield await callable(item);\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/transform/lib.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 123,
+    "kind": "function",
+    "name": "iter",
+    "memberof": "src/transform/lib.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/transform/lib.js~iter",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/transform/lib.js",
+    "importStyle": "{iter}",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "object",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 124,
+    "kind": "function",
+    "name": "next",
+    "memberof": "src/transform/lib.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/transform/lib.js~next",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/transform/lib.js",
+    "importStyle": "{next}",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "iterator",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "dflt",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "undefined",
+        "defaultValue": "undefined"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 125,
+    "kind": "function",
+    "name": "map",
+    "memberof": "src/transform/lib.js",
+    "generator": true,
+    "async": true,
+    "static": true,
+    "longname": "src/transform/lib.js~map",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/transform/lib.js",
+    "importStyle": "{map}",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "params": [
+      {
+        "name": "callable",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "iterable",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 126,
+    "kind": "file",
+    "name": "src/transform/simplify.js",
+    "content": "import assert from 'node:assert';\nimport {ast} from '@formal-language/grammar';\n\nimport leaves from '../leaves.js';\nimport {visitor, extend} from './visitor.js';\n\nimport {iter, next, StopIteration} from './lib.js';\n\nconst lines = async (tree) => {\n\t// TODO use depth first traversal or make newline a terminal\n\tconst result = [];\n\tconst it = iter(leaves(tree));\n\tlet position = null;\n\tlet contents = [];\n\tlet newline = '';\n\tfor (;;) {\n\t\ttry {\n\t\t\tconst leaf = await next(it);\n\t\t\tconst current = leaf.buffer;\n\t\t\tif (position === null) position = leaf.position;\n\t\t\tif (current === '\\r') {\n\t\t\t\tassert(newline === '');\n\t\t\t\tnewline += '\\r';\n\t\t\t} else if (current === '\\n') {\n\t\t\t\tassert(newline === '' || newline === '\\r');\n\t\t\t\tnewline += '\\n';\n\t\t\t\tresult.push({\n\t\t\t\t\tcontents: contents.join(''),\n\t\t\t\t\tnewline,\n\t\t\t\t});\n\t\t\t\tposition = null;\n\t\t\t\tcontents = [];\n\t\t\t\tnewline = '';\n\t\t\t} else {\n\t\t\t\tcontents.push(current);\n\t\t\t}\n\t\t} catch (error) {\n\t\t\tif (error instanceof StopIteration) {\n\t\t\t\tif (position !== null) {\n\t\t\t\t\tresult.push({\n\t\t\t\t\t\tcontents: contents.join(''),\n\t\t\t\t\t\tnewline,\n\t\t\t\t\t});\n\t\t\t\t}\n\n\t\t\t\treturn result;\n\t\t\t}\n\n\t\t\tthrow error;\n\t\t}\n\t}\n};\n\nconst t = ast.transform;\n\nconst tailRecurse = async function* (tree, match, ctx) {\n\twhile (tree.type === 'node') {\n\t\tlet n = tree.children.length;\n\t\tassert(Number.isInteger(n));\n\t\tif (n === 0) return;\n\t\tconst it = iter(tree.children);\n\t\twhile (--n !== 0) {\n\t\t\tconst child = await next(it);\n\t\t\tyield child.type === 'leaf' ? child : await t(child, match, ctx);\n\t\t}\n\n\t\ttree = await next(it);\n\t}\n\n\tyield tree;\n};\n\nconst prunefn = async (tree) => ({\n\ttype: 'leaf',\n\tterminal: tree.nonterminal,\n\tlines: await lines(tree),\n});\n\nconst prune = (...keys) =>\n\tObject.fromEntries(keys.map((key) => [key, prunefn]));\n\nconst simplify = extend(visitor, {\n\tdocuments: {\n\t\tadd: (tree, match, ctx) => ({\n\t\t\ttype: 'node',\n\t\t\tnonterminal: 'documents',\n\t\t\tproduction: 'main',\n\t\t\tchildren: tailRecurse(tree, match, ctx),\n\t\t}),\n\t},\n\t'A*': {\n\t\tadd: (tree, match, ctx) => ({\n\t\t\ttype: 'node',\n\t\t\tnonterminal: 'A*',\n\t\t\tproduction: 'main',\n\t\t\tchildren: tailRecurse(tree, match, ctx),\n\t\t}),\n\t},\n\t'R*': {\n\t\tadd: (tree, match, ctx) => ({\n\t\t\ttype: 'node',\n\t\t\tnonterminal: 'R*',\n\t\t\tproduction: 'main',\n\t\t\tchildren: tailRecurse(tree, match, ctx),\n\t\t}),\n\t},\n\t'doctor-nihdi': prune('0'),\n\t'doctor-name': prune('0'),\n\t'doctor-address': prune('0'),\n\t'doctor-phone': prune('0'),\n\t'doctor-extra': prune('0'),\n\t'lab-identifier': prune('0'),\n\t'lab-name': prune('0'),\n\t'lab-address': prune('0'),\n\t'lab-extra': prune('0'),\n\tdate: prune('0'),\n\t'requestor-nihdi': prune('0'),\n\t'requestor-name': prune('0'),\n\t'#A': prune('0'),\n\t'A-name': prune('0'),\n\t'A-birthdate': prune('0'),\n\t'A-sex': prune('0'),\n\t'A-date': prune('0'),\n\t'A-reference': prune('0'),\n\t'A-code': prune('0'),\n\t'A-extra': prune('0'),\n\t'#A/': prune('0'),\n\t'#R': prune('0'),\n\t'R-title': prune('free', 'code'),\n\t'R-body': prune('0'),\n\t'#R/': prune('0'),\n\tfooter: prune('0'),\n});\n\nexport default simplify;\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/transform/simplify.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 127,
+    "kind": "function",
+    "name": "lines",
+    "memberof": "src/transform/simplify.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/transform/simplify.js~lines",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/transform/simplify.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 128,
+    "kind": "variable",
+    "name": "t",
+    "memberof": "src/transform/simplify.js",
+    "static": true,
+    "longname": "src/transform/simplify.js~t",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/transform/simplify.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 54,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 129,
+    "kind": "function",
+    "name": "tailRecurse",
+    "memberof": "src/transform/simplify.js",
+    "generator": true,
+    "async": true,
+    "static": true,
+    "longname": "src/transform/simplify.js~tailRecurse",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/transform/simplify.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 56,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "match",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "ctx",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 130,
+    "kind": "function",
+    "name": "prunefn",
+    "memberof": "src/transform/simplify.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/transform/simplify.js~prunefn",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/transform/simplify.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 73,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 131,
+    "kind": "function",
+    "name": "prune",
+    "memberof": "src/transform/simplify.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/transform/simplify.js~prune",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/transform/simplify.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 79,
+    "undocument": true,
+    "params": [
+      {
+        "name": "keys",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 132,
+    "kind": "variable",
+    "name": "simplify",
+    "memberof": "src/transform/simplify.js",
+    "static": true,
+    "longname": "src/transform/simplify.js~simplify",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/transform/simplify.js",
+    "importStyle": "simplify",
+    "description": null,
+    "lineNumber": 82,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 133,
+    "kind": "file",
+    "name": "src/transform/visitor.js",
+    "content": "import {ast} from '@formal-language/grammar';\n\nimport {map} from '@iterable-iterator/map';\nimport {any} from '@iterable-iterator/reduce';\n\nimport grammar from '../grammar.js';\n\nconst t = ast.transform;\nconst cmap = ast.cmap;\nconst recurse = (nonterminal, production) => (tree, match, ctx) => ({\n\ttype: 'node',\n\tnonterminal,\n\tproduction,\n\tchildren: cmap(\n\t\tasync (x) => (x.type === 'leaf' ? x : t(x, match, ctx)),\n\t\ttree.children,\n\t),\n});\n\nconst skip = (tree) => tree;\n\n// Move to @formal-languague/grammar/ast.visitor\nfunction generateVisitor(grammar) {\n\tconst transform = {};\n\n\tfor (const [nonterminal, productions] of grammar.productions.entries()) {\n\t\tconst nonterminalTransform = {};\n\n\t\tfor (const [key, rules] of productions.entries()) {\n\t\t\tif (any(map((x) => x.type === 'node', rules))) {\n\t\t\t\tnonterminalTransform[key] = recurse(nonterminal, key);\n\t\t\t} else {\n\t\t\t\t// TODO test if this actually is faster\n\t\t\t\tnonterminalTransform[key] = skip;\n\t\t\t}\n\t\t}\n\n\t\ttransform[nonterminal] = nonterminalTransform;\n\t}\n\n\treturn transform;\n}\n\nexport const extend = (transform, extension) => {\n\tconst result = {};\n\tfor (const key in transform) {\n\t\tif (Object.prototype.hasOwnProperty.call(transform, key)) {\n\t\t\tresult[key] = Object.assign({}, transform[key], extension[key]);\n\t\t}\n\t}\n\n\treturn result;\n};\n\nexport const visitor = generateVisitor(grammar);\n",
+    "static": true,
+    "longname": "/home/runner/work/medidoc/medidoc/src/transform/visitor.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 134,
+    "kind": "variable",
+    "name": "t",
+    "memberof": "src/transform/visitor.js",
+    "static": true,
+    "longname": "src/transform/visitor.js~t",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/transform/visitor.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 135,
+    "kind": "variable",
+    "name": "cmap",
+    "memberof": "src/transform/visitor.js",
+    "static": true,
+    "longname": "src/transform/visitor.js~cmap",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/transform/visitor.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 136,
+    "kind": "function",
+    "name": "recurse",
+    "memberof": "src/transform/visitor.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/transform/visitor.js~recurse",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/transform/visitor.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "nonterminal",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "production",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 137,
+    "kind": "function",
+    "name": "skip",
+    "memberof": "src/transform/visitor.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/transform/visitor.js~skip",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/transform/visitor.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tree",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 138,
+    "kind": "function",
+    "name": "generateVisitor",
+    "memberof": "src/transform/visitor.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/transform/visitor.js~generateVisitor",
+    "access": "public",
+    "export": false,
+    "importPath": "medidoc/src/transform/visitor.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "grammar",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 139,
+    "kind": "function",
+    "name": "extend",
+    "memberof": "src/transform/visitor.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/transform/visitor.js~extend",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/transform/visitor.js",
+    "importStyle": "{extend}",
+    "description": null,
+    "lineNumber": 44,
+    "undocument": true,
+    "params": [
+      {
+        "name": "transform",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "extension",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 140,
+    "kind": "variable",
+    "name": "visitor",
+    "memberof": "src/transform/visitor.js",
+    "static": true,
+    "longname": "src/transform/visitor.js~visitor",
+    "access": "public",
+    "export": true,
+    "importPath": "medidoc/src/transform/visitor.js",
+    "importStyle": "{visitor}",
+    "description": null,
+    "lineNumber": 55,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": ":memo: [medidoc](https://infoderm.github.io/medidoc)\n==\n\nMedidoc format library for JavaScript.\nSee [docs](https://infoderm.github.io/medidoc/index.html).\n\n> :warning: Depending on your environment, the code may require\n> `regeneratorRuntime` to be defined, for instance by importing\n> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).\n\n```js\nimport {parse, stringify} from 'medidoc' ;\n// async parse(string, options) -> records\n// stringify(records, options) -> string\n```\n\n[![License](https://img.shields.io/github/license/infoderm/medidoc.svg)](https://raw.githubusercontent.com/infoderm/medidoc/main/LICENSE)\n[![Version](https://img.shields.io/npm/v/medidoc.svg)](https://www.npmjs.org/package/medidoc)\n[![Tests](https://img.shields.io/github/workflow/status/infoderm/medidoc/ci?event=push&label=tests)](https://github.com/infoderm/medidoc/actions/workflows/ci.yml?query=branch:main)\n[![Dependencies](https://img.shields.io/librariesio/github/infoderm/medidoc)](https://github.com/infoderm/medidoc/network/dependencies)\n[![GitHub issues](https://img.shields.io/github/issues/infoderm/medidoc.svg)](https://github.com/infoderm/medidoc/issues)\n[![Downloads](https://img.shields.io/npm/dm/medidoc.svg)](https://www.npmjs.org/package/medidoc)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/infoderm/medidoc.svg)](https://codeclimate.com/github/infoderm/medidoc/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/infoderm/medidoc.svg)](https://codeclimate.com/github/infoderm/medidoc/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/infoderm/medidoc/main.svg)](https://codecov.io/gh/infoderm/medidoc)\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/infoderm/medidoc.svg)](https://codeclimate.com/github/infoderm/medidoc/trends/technical_debt)\n[![Documentation](https://infoderm.github.io/medidoc/badge.svg)](https://infoderm.github.io/medidoc/source.html)\n[![Package size](https://img.shields.io/bundlephobia/minzip/medidoc)](https://bundlephobia.com/result?p=medidoc)\n",
+    "longname": "/home/runner/work/medidoc/medidoc/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"medidoc\",\n  \"description\": \"Medidoc format library for JavaScript\",\n  \"version\": \"0.0.1\",\n  \"license\": \"AGPL-3.0\",\n  \"author\": \"make-github-pseudonymous-again\",\n  \"homepage\": \"https://infoderm.github.io/medidoc\",\n  \"repository\": {\n    \"url\": \"https://github.com/infoderm/medidoc\",\n    \"type\": \"git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/infoderm/medidoc/issues\"\n  },\n  \"keywords\": [\n    \"Medidoc\",\n    \"format\",\n    \"parser\"\n  ],\n  \"sideEffects\": false,\n  \"source\": \"src/index.js\",\n  \"main\": \"dist/default/index.cjs\",\n  \"module\": \"dist/module/index.mjs\",\n  \"esmodule\": \"dist/module/index.mjs\",\n  \"exports\": {\n    \".\": {\n      \"browser\": \"./dist/browser/index.cjs\",\n      \"node\": \"./dist/node/index.cjs\",\n      \"default\": \"./dist/default/index.cjs\"\n    },\n    \"./*\": {\n      \"browser\": \"./dist/browser/*.cjs\",\n      \"node\": \"./dist/node/*.cjs\",\n      \"default\": \"./dist/default/*.cjs\"\n    }\n  },\n  \"files\": [\n    \"dist\"\n  ],\n  \"scripts\": {\n    \"build\": \"npm-run-all --parallel build:*\",\n    \"build-cmd\": \"babel --delete-dir-on-start --source-maps --minified src\",\n    \"build-docs\": \"esdoc\",\n    \"build-gh-pages\": \"npm run build-docs\",\n    \"build:browser\": \"npm run build-cmd -- --env-name browser --out-dir dist/browser --out-file-extension .cjs\",\n    \"build:default\": \"npm run build-cmd -- --env-name production --out-dir dist/default --out-file-extension .cjs\",\n    \"build:module\": \"npm run build-cmd -- --env-name module --out-dir dist/module --out-file-extension .mjs\",\n    \"build:node\": \"npm run build-cmd -- --env-name node --out-dir dist/node --out-file-extension .cjs\",\n    \"commit-msg\": \"commitlint --edit\",\n    \"cover\": \"NODE_ENV=cover c8 --all --src src --reporter lcov --reporter text-summary --reporter text npm test\",\n    \"debug\": \"NODE_ENV=debug npm run test -- -st --fail-fast\",\n    \"dev\": \"npm run lint-config-and-fix && npm run lint-and-fix && npm run cover -- -- -st --fail-fast\",\n    \"install-hooks\": \"husky install\",\n    \"lint\": \"xo\",\n    \"lint-and-fix\": \"npm run lint -- --fix\",\n    \"lint-config\": \"fixpack --dryRun\",\n    \"lint-config-and-fix\": \"fixpack || fixpack\",\n    \"postinstall\": \"npm run install-hooks\",\n    \"postpublish\": \"pinst --enable\",\n    \"precommit\": \"lint-staged\",\n    \"prepare\": \"npm run build\",\n    \"prepublishOnly\": \"pinst --disable\",\n    \"release\": \"np --message ':hatching_chick: release: Bumping to v%s.'\",\n    \"test\": \"npm run test:src\",\n    \"test-cmd\": \"NODE_LOADER_CONFIG=test/loader/config.js TZ=Europe/Brussels ava\",\n    \"test:browser\": \"IMPORT_MAP_PATH=test/import-maps/dist/browser/index.json npm run test-cmd\",\n    \"test:default\": \"IMPORT_MAP_PATH=test/import-maps/dist/default/index.json npm run test-cmd\",\n    \"test:module\": \"IMPORT_MAP_PATH=test/import-maps/dist/module/index.json npm run test-cmd\",\n    \"test:node\": \"IMPORT_MAP_PATH=test/import-maps/dist/node/index.json npm run test-cmd\",\n    \"test:src\": \"IMPORT_MAP_PATH=test/import-maps/src/index.json npm run test-cmd\"\n  },\n  \"dependencies\": {\n    \"@async-abstraction/tape\": \"^9.0.0\",\n    \"@formal-language/grammar\": \"^9.1.1\",\n    \"@iterable-iterator/chain\": \"^2.0.1\",\n    \"@iterable-iterator/map\": \"^1.0.1\",\n    \"@iterable-iterator/next\": \"^2.0.1\",\n    \"@iterable-iterator/reduce\": \"^1.0.1\",\n    \"lodash.mergewith\": \"^4.6.2\"\n  },\n  \"devDependencies\": {\n    \"@babel/cli\": \"7.16.0\",\n    \"@babel/core\": \"7.16.0\",\n    \"@babel/preset-env\": \"7.16.4\",\n    \"@babel/register\": \"7.16.0\",\n    \"@commitlint/cli\": \"15.0.0\",\n    \"@iterable-iterator/list\": \"^1.0.1\",\n    \"@js-library/commitlint-config\": \"0.0.4\",\n    \"@node-loader/import-maps\": \"^1.0.3\",\n    \"ava\": \"3.15.0\",\n    \"babel-plugin-replace-import-extension\": \"^1.1.2\",\n    \"babel-plugin-transform-remove-console\": \"6.9.4\",\n    \"babel-plugin-unassert\": \"3.2.0\",\n    \"babel-preset-minify\": \"0.5.1\",\n    \"babel-preset-power-assert\": \"3.0.0\",\n    \"c8\": \"7.10.0\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"1.0.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"fixpack\": \"4.0.0\",\n    \"husky\": \"7.0.4\",\n    \"lint-staged\": \"12.1.2\",\n    \"np\": \"7.6.0\",\n    \"npm-run-all\": \"4.1.5\",\n    \"pinst\": \"2.1.6\",\n    \"power-assert\": \"1.6.1\",\n    \"regenerator-runtime\": \"0.13.9\",\n    \"xo\": \"0.47.0\"\n  },\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"require\": [\n      \"regenerator-runtime/runtime\",\n      \"@babel/register\"\n    ],\n    \"nodeArguments\": [\n      \"--experimental-loader=@node-loader/import-maps\"\n    ],\n    \"timeout\": \"3m\"\n  },\n  \"babel\": {\n    \"sourceMaps\": true,\n    \"presets\": [\n      [\n        \"@babel/preset-env\",\n        {\n          \"targets\": \"current node\"\n        }\n      ]\n    ],\n    \"plugins\": [\n      [\n        \"transform-remove-console\",\n        {\n          \"exclude\": [\n            \"log\",\n            \"error\",\n            \"warn\"\n          ]\n        }\n      ]\n    ],\n    \"env\": {\n      \"debug\": {\n        \"sourceMaps\": \"both\",\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"debug\",\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      },\n      \"test\": {\n        \"sourceMaps\": \"both\",\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"cover\": {\n        \"sourceMaps\": \"both\",\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"development\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": [\n                \"defaults\",\n                \"maintained node versions\"\n              ]\n            }\n          ],\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"production\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": [\n                \"defaults\",\n                \"maintained node versions\"\n              ]\n            }\n          ],\n          [\n            \"minify\",\n            {\n              \"builtIns\": false\n            }\n          ]\n        ],\n        \"plugins\": [\n          [\n            \"replace-import-extension\",\n            {\n              \"extMapping\": {\n                \".js\": \".cjs\"\n              }\n            }\n          ],\n          \"babel-plugin-unassert\"\n        ]\n      },\n      \"browser\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": [\n                \"defaults\"\n              ]\n            }\n          ],\n          [\n            \"minify\",\n            {\n              \"builtIns\": false\n            }\n          ]\n        ],\n        \"plugins\": [\n          [\n            \"replace-import-extension\",\n            {\n              \"extMapping\": {\n                \".js\": \".cjs\"\n              }\n            }\n          ],\n          \"babel-plugin-unassert\",\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      },\n      \"module\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"bugfixes\": true,\n              \"modules\": false,\n              \"targets\": {\n                \"esmodules\": true\n              }\n            }\n          ],\n          [\n            \"minify\",\n            {\n              \"builtIns\": false\n            }\n          ]\n        ],\n        \"plugins\": [\n          [\n            \"replace-import-extension\",\n            {\n              \"extMapping\": {\n                \".js\": \".mjs\"\n              }\n            }\n          ],\n          \"babel-plugin-unassert\",\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      },\n      \"node\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": [\n                \"maintained node versions\"\n              ]\n            }\n          ],\n          [\n            \"minify\",\n            {\n              \"builtIns\": false\n            }\n          ]\n        ],\n        \"plugins\": [\n          [\n            \"replace-import-extension\",\n            {\n              \"extMapping\": {\n                \".js\": \".cjs\"\n              }\n            }\n          ],\n          \"babel-plugin-unassert\",\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      }\n    }\n  },\n  \"lint-staged\": {\n    \"*.js\": [\n      \"npm run lint-and-fix\"\n    ],\n    \"package.json\": [\n      \"npm run lint-config-and-fix\"\n    ]\n  },\n  \"prettier\": {\n    \"trailingComma\": \"all\"\n  },\n  \"xo\": {\n    \"prettier\": true,\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"unicorn/filename-case\": [\n        \"error\",\n        {\n          \"case\": \"camelCase\"\n        }\n      ],\n      \"no-await-in-loop\": \"off\"\n    },\n    \"overrides\": [\n      {\n        \"files\": \"src/Position.js\",\n        \"rules\": {\n          \"unicorn/filename-case\": [\n            \"error\",\n            {\n              \"case\": \"pascalCase\"\n            }\n          ]\n        }\n      },\n      {\n        \"files\": [\n          \"doc/**\"\n        ],\n        \"env\": \"browser\"\n      }\n    ]\n  }\n}\n",
+    "longname": "/home/runner/work/medidoc/medidoc/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/medidoc/medidoc/doc/manual/overview.md",
+    "name": "./doc/manual/overview.md",
+    "content": "# Overview\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/medidoc/medidoc/doc/manual/installation.md",
+    "name": "./doc/manual/installation.md",
+    "content": "# Installation\n\nCan be managed using\n[yarn](https://yarnpkg.com/en/docs),\n[npm](https://docs.npmjs.com),\nor [jspm](https://jspm.org/docs).\n\n\n### yarn\n```terminal\nyarn add medidoc\n```\n\n### npm\n```terminal\nnpm install medidoc --save\n```\n\n### jspm\n```terminal\njspm install npm:medidoc\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/medidoc/medidoc/doc/manual/usage.md",
+    "name": "./doc/manual/usage.md",
+    "content": "# Usage\n\n> :warning: Depending on your environment, the code may require\n> `regeneratorRuntime` to be defined, for instance by importing\n> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).\n\nFirst, require the polyfill at the entry point of your application\n```js\nawait import('regenerator-runtime/runtime.js');\n// or\nimport 'regenerator-runtime/runtime.js';\n```\n\nThen, import the library where needed\n```js\nconst {parse} = require( 'medidoc' ) ;\n// or\nimport {parse} from 'medidoc' ;\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/medidoc/medidoc/doc/manual/example.md",
+    "name": "./doc/manual/example.md",
+    "content": "# Examples\n\n> More examples in [the test files](https://github.com/infoderm/medidoc/tree/main/test/src).\n",
+    "static": true,
+    "access": "public"
+  }
+]

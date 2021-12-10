@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/parseBundle.js | medidoc</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Medidoc format library for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="medidoc"><meta property="twitter:description" content="Medidoc format library for JavaScript"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/infoderm/medidoc"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Position.js~Position.html">Position</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buffer">buffer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buffers">buffers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-leaves">leaves</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-merge">merge</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parse">parse</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseBundle">parseBundle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-split">split</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stringify">stringify</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stringify">stringify</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-tokens">tokens</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#transform">transform</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-iter">iter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-map">map</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-next">next</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-extend">extend</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-simplify">simplify</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-visitor">visitor</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/parseBundle.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import assert from &apos;node:assert&apos;;
+import * as tape from &apos;@async-abstraction/tape&apos;;
+import {asyncIterableToArray} from &apos;@async-abstraction/tape&apos;;
+import {ll1, ast} from &apos;@formal-language/grammar&apos;;
+
+import tokens from &apos;./tokens.js&apos;;
+import grammar from &apos;./grammar.js&apos;;
+import simplify from &apos;./transform/simplify.js&apos;;
+import {iter, next, map as asyncMap} from &apos;./transform/lib.js&apos;;
+
+const parseTape = (inputTape) =&gt; {
+	const parser = ll1.from(grammar);
+	const inputTokens = tokens(inputTape);
+	const inputTokensTape = tape.fromAsyncIterable(inputTokens);
+	const tree = parser.parse(inputTokensTape);
+
+	const ctx = {};
+
+	return ast.transform(tree, simplify, ctx);
+};
+
+const parseString = (string) =&gt; {
+	const inputCharacterTape = tape.fromString(string);
+	return parseTape(inputCharacterTape);
+};
+
+const parseBlockBegin = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;#R&apos;);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			type: line.slice(2).trim(),
+		},
+	};
+};
+
+const parseBlockTitle = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;R-title&apos;);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			title: line.trim(),
+		},
+	};
+};
+
+const parseBlockType = (type) =&gt; {
+	switch (type) {
+		case &apos;d&apos;:
+			return {TimeIndication: &apos;Days&apos;};
+		case &apos;h&apos;:
+			return {TimeIndication: &apos;Hours&apos;};
+		case &apos;m&apos;:
+			return {TimeIndication: &apos;Minutes&apos;};
+		case &apos;s&apos;:
+			return {TimeIndication: &apos;Seconds&apos;};
+		default:
+			assert(type === &apos;a&apos;);
+			return {};
+	}
+};
+
+const parseIntensity = (symbol) =&gt; {
+	switch (symbol) {
+		case &apos;--&apos;:
+		case &apos;LL&apos;:
+		case &apos;1&apos;:
+			return &apos;GreatlyReduced&apos;;
+		case &apos;-&apos;:
+		case &apos;L&apos;:
+		case &apos;2&apos;:
+			return &apos;Reduced&apos;;
+		case &apos;=&apos;:
+		case &apos;N&apos;:
+		case &apos;3&apos;:
+		case &apos;&apos;:
+			return &apos;Normal&apos;;
+		case &apos;+&apos;:
+		case &apos;H&apos;:
+		case &apos;4&apos;:
+			return &apos;Increased&apos;;
+		case &apos;++&apos;:
+		case &apos;HH&apos;:
+		case &apos;5&apos;:
+			return &apos;GreatlyIncreased&apos;;
+		default:
+			return &apos;Unknown&apos;;
+	}
+};
+
+const parseBlockComments = (comments) =&gt; {
+	if (comments.length &gt; 0 &amp;&amp; comments[0].slice(0, 1) === &apos;\\&apos;) {
+		return {
+			referenceValue: comments[0].slice(1),
+			comments: comments.slice(1),
+		};
+	}
+
+	return {
+		comments,
+	};
+};
+
+const parseBlockBody = (type, tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;R-body&apos;);
+	if (type === &apos;c&apos;) {
+		return {
+			...tree,
+			parsed: {
+				comments: tree.lines.map(({contents}) =&gt; contents),
+			},
+		};
+	}
+
+	if (type === &apos;b&apos;) {
+		return {
+			...tree,
+			parsed: {
+				text: tree.lines.map(({contents}) =&gt; contents),
+			},
+		};
+	}
+
+	assert(tree.lines.length &gt;= 3);
+	const [line1, line2, line3, ...rest] = tree.lines.map(
+		({contents}) =&gt; contents,
+	);
+	const intensitySymbol = line3.trim();
+	return {
+		...tree,
+		parsed: {
+			...parseBlockType(type),
+			relation: line1.slice(0, 1),
+			value: line1.slice(1).trim(),
+			unit: line2.trim(),
+			intensity: parseIntensity(intensitySymbol),
+			intensitySymbol,
+			...parseBlockComments(rest),
+		},
+	};
+};
+
+const parseBlock = async (block) =&gt; {
+	assert(block.type === &apos;node&apos;);
+	assert(block.nonterminal === &apos;R&apos;);
+	const it = iter(block.children);
+	const begin = parseBlockBegin(await next(it));
+	const title = parseBlockTitle(await next(it));
+	const contents = parseBlockBody(begin.parsed.type, await next(it));
+	const end = await next(it);
+	return {
+		begin,
+		title,
+		contents,
+		end,
+	};
+};
+
+const parseSex = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;A-sex&apos;);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	const sex = line === &apos;X&apos; ? &apos;female&apos; : line === &apos;Y&apos; ? &apos;male&apos; : &apos;other&apos;;
+	return {
+		...tree,
+		parsed: {
+			sex,
+		},
+	};
+};
+
+const parseReference = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;A-reference&apos;);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			reference: line.trim(),
+		},
+	};
+};
+
+const parseProtocolCode = (code) =&gt; {
+	switch (code) {
+		case &apos;P&apos;:
+		case &apos;S&apos;:
+		case &apos;L&apos;:
+			return &apos;partial&apos;;
+		case &apos;C&apos;:
+			return &apos;complete&apos;;
+		default:
+			return &apos;&apos;;
+	}
+};
+
+const parseCode = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;A-code&apos;);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	const code = line.trim();
+	const status = parseProtocolCode(code);
+	return status === &apos;&apos;
+		? {
+				...tree,
+				parsed: {
+					code,
+				},
+		  }
+		: {
+				...tree,
+				parsed: {
+					code,
+					status,
+				},
+		  };
+};
+
+const parseReportIdentifier = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;#A&apos;);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	const identifier = line.slice(2);
+	return identifier.length === 11
+		? {
+				...tree,
+				parsed: {
+					nn: identifier,
+				},
+		  }
+		: identifier.length === 13
+		? {
+				...tree,
+				parsed: {
+					dossier: identifier,
+				},
+		  }
+		: {
+				...tree,
+				parsed: {
+					identifier,
+				},
+		  };
+};
+
+const parseReportFooter = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;#A/&apos;);
+	assert(tree.lines.length === 1);
+	return tree;
+};
+
+const parseReport = async (report) =&gt; {
+	assert(report.type === &apos;node&apos;);
+	assert(report.nonterminal === &apos;A&apos;);
+	const it = iter(report.children);
+	const identifier = parseReportIdentifier(await next(it));
+	const name = parseName(await next(it));
+	const birthdate = parseDate(await next(it));
+	const sex = parseSex(await next(it));
+	const requestDate = parseDate(await next(it));
+	const reference = parseReference(await next(it));
+	const code = parseCode(await next(it));
+	const extra = parseExtra(await next(it));
+	const header = {
+		identifier,
+		name,
+		birthdate,
+		sex,
+		requestDate,
+		reference,
+		code,
+		extra,
+	};
+
+	const blocks = await next(it);
+
+	const parsedBlocks = await asyncIterableToArray(
+		asyncMap(parseBlock, blocks.children),
+	);
+
+	const footer = parseReportFooter(await next(it));
+	return {
+		header,
+		blocks: parsedBlocks,
+		footer,
+	};
+};
+
+const parseNIHDI = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(
+		tree.terminal === &apos;doctor-nihdi&apos; || tree.terminal === &apos;requestor-nihdi&apos;,
+	);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			nihdi: line.replaceAll(&apos;/&apos;, &apos;&apos;),
+		},
+	};
+};
+
+const parseName = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(
+		tree.terminal === &apos;doctor-name&apos; ||
+			tree.terminal === &apos;requestor-name&apos; ||
+			tree.terminal === &apos;A-name&apos;,
+	);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			firstname: line.slice(24).trim(),
+			lastname: line.slice(0, 24).trim(),
+		},
+	};
+};
+
+const parseDoctorAddress = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;doctor-address&apos;);
+	assert(tree.lines.length === 2);
+	const [line1, line2] = tree.lines.map(({contents}) =&gt; contents);
+	return {
+		...tree,
+		parsed: {
+			streetName: line1.slice(0, 35).trim(),
+			streetNumber: line1.slice(35).trim(),
+			postalCode: line2.slice(0, 10).trim(),
+			townName: line2.slice(10).trim(),
+		},
+	};
+};
+
+const parseLabAddress = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;lab-address&apos;);
+	assert(tree.lines.length === 2);
+	const [address1, address2] = tree.lines.map(({contents}) =&gt; contents);
+	return {
+		...tree,
+		parsed: {
+			address1,
+			address2,
+		},
+	};
+};
+
+const parsePhone = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;doctor-phone&apos;);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			phone: line.trim(),
+		},
+	};
+};
+
+const parseExtra = (tree) =&gt; tree;
+const parseLabIdentifier = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;lab-identifier&apos;);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			identifier: line.trim(),
+		},
+	};
+};
+
+const parseLabName = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;lab-name&apos;);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			name: line.trim(),
+		},
+	};
+};
+
+const parseLab = async (tree) =&gt; {
+	assert(tree.type === &apos;node&apos;);
+	assert(tree.nonterminal === &apos;lab&apos;);
+	const it = iter(tree.children);
+	const identifier = parseLabIdentifier(await next(it));
+	const name = parseLabName(await next(it));
+	const address = parseLabAddress(await next(it));
+	const extra = parseExtra(await next(it));
+	return {
+		type: &apos;leaf&apos;,
+		terminal: &apos;lab&apos;,
+		identifier,
+		name,
+		address,
+		extra,
+	};
+};
+
+const parseDoctor = async (tree) =&gt; {
+	assert(tree.type === &apos;node&apos;);
+	assert(tree.nonterminal === &apos;doctor&apos;);
+	const it = iter(tree.children);
+	const nihdi = parseNIHDI(await next(it));
+	const name = parseName(await next(it));
+	const address = parseDoctorAddress(await next(it));
+	const phone = parsePhone(await next(it));
+	const extra = parseExtra(await next(it));
+	return {
+		type: &apos;leaf&apos;,
+		terminal: &apos;doctor&apos;,
+		nihdi,
+		name,
+		address,
+		phone,
+		extra,
+	};
+};
+
+const parseDatetime = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;date&apos;);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return line.length &gt;= 9
+		? {
+				...tree,
+				parsed: {
+					date: line.slice(0, 8),
+					time: line.slice(8),
+				},
+		  }
+		: parseDate(tree);
+};
+
+const parseDate = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(
+		tree.terminal === &apos;date&apos; ||
+			tree.terminal === &apos;A-birthdate&apos; ||
+			tree.terminal === &apos;A-date&apos;,
+	);
+	assert(tree.lines.length === 1);
+	const line = tree.lines[0].contents;
+	return {
+		...tree,
+		parsed: {
+			date: line,
+		},
+	};
+};
+
+const parseRequestor = async (tree) =&gt; {
+	assert(tree.type === &apos;node&apos;);
+	assert(tree.nonterminal === &apos;requestor&apos;);
+	const it = iter(tree.children);
+	const nihdi = parseNIHDI(await next(it));
+	const name = parseName(await next(it));
+	return {
+		type: &apos;leaf&apos;,
+		terminal: &apos;requestor&apos;,
+		nihdi,
+		name,
+	};
+};
+
+const parseDocumentFooter = (tree) =&gt; {
+	assert(tree.type === &apos;leaf&apos;);
+	assert(tree.terminal === &apos;footer&apos;);
+	assert(tree.lines.length === 1);
+	return tree;
+};
+
+const parseDocument = async (document) =&gt; {
+	assert(document.type === &apos;node&apos;);
+	assert(document.nonterminal === &apos;document&apos;);
+	const kind = document.production;
+	const it = iter(document.children);
+	const requesteeKind = kind === &apos;lab&apos; ? &apos;lab&apos; : &apos;doctor&apos;;
+	const parseRequestee = kind === &apos;lab&apos; ? parseLab : parseDoctor;
+	const requestee = await parseRequestee(await next(it));
+	const date = parseDatetime(await next(it));
+	const requestor = await parseRequestor(await next(it));
+	const header = {
+		kind,
+		[requesteeKind]: requestee,
+		date,
+		requestor,
+	};
+
+	const reports = await next(it);
+
+	const parsedReports = await asyncIterableToArray(
+		asyncMap(parseReport, reports.children),
+	);
+
+	const footer = parseDocumentFooter(await next(it));
+
+	return {
+		header,
+		reports: parsedReports,
+		footer,
+	};
+};
+
+const parseTree = (tree) =&gt; {
+	assert(tree.type === &apos;node&apos;);
+	assert(tree.nonterminal === &apos;documents&apos;);
+	return asyncMap(parseDocument, tree.children);
+};
+
+const parseBundle = async (string) =&gt; {
+	const root = await parseString(string);
+	const tree = await next(iter(root.children));
+	return parseTree(tree);
+};
+
+export default parseBundle;
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | medidoc</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Medidoc format library for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="medidoc"><meta property="twitter:description" content="Medidoc format library for JavaScript"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/infoderm/medidoc"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Position.js~Position.html">Position</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buffer">buffer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buffers">buffers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-leaves">leaves</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-merge">merge</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parse">parse</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseBundle">parseBundle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-split">split</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stringify">stringify</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stringify">stringify</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-tokens">tokens</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#transform">transform</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-iter">iter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-map">map</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-next">next</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-extend">extend</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-simplify">simplify</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-visitor">visitor</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-memo---a-href--https---infoderm-github-io-medidoc--medidoc--a-">:memo: <a href="https://infoderm.github.io/medidoc">medidoc</a></h1><p>Medidoc format library for JavaScript.
+See <a href="https://infoderm.github.io/medidoc/index.html">docs</a>.</p>
+<blockquote>
+<p>:warning: Depending on your environment, the code may require
+<code>regeneratorRuntime</code> to be defined, for instance by importing
+<a href="https://www.npmjs.com/package/regenerator-runtime">regenerator-runtime/runtime</a>.</p>
+</blockquote>
+<pre><code class="lang-js"><code class="source-code prettyprint">import {parse, stringify} from &apos;medidoc&apos; ;
+// async parse(string, options) -&gt; records
+// stringify(records, options) -&gt; string</code>
+</code></pre>
+<p><a href="https://raw.githubusercontent.com/infoderm/medidoc/main/LICENSE"><img src="https://img.shields.io/github/license/infoderm/medidoc.svg" alt="License"></a>
+<a href="https://www.npmjs.org/package/medidoc"><img src="https://img.shields.io/npm/v/medidoc.svg" alt="Version"></a>
+<a href="https://github.com/infoderm/medidoc/actions/workflows/ci.yml?query=branch:main"><img src="https://img.shields.io/github/workflow/status/infoderm/medidoc/ci?event=push&amp;label=tests" alt="Tests"></a>
+<a href="https://github.com/infoderm/medidoc/network/dependencies"><img src="https://img.shields.io/librariesio/github/infoderm/medidoc" alt="Dependencies"></a>
+<a href="https://github.com/infoderm/medidoc/issues"><img src="https://img.shields.io/github/issues/infoderm/medidoc.svg" alt="GitHub issues"></a>
+<a href="https://www.npmjs.org/package/medidoc"><img src="https://img.shields.io/npm/dm/medidoc.svg" alt="Downloads"></a></p>
+<p><a href="https://codeclimate.com/github/infoderm/medidoc/issues"><img src="https://img.shields.io/codeclimate/issues/infoderm/medidoc.svg" alt="Code issues"></a>
+<a href="https://codeclimate.com/github/infoderm/medidoc/trends/churn"><img src="https://img.shields.io/codeclimate/maintainability/infoderm/medidoc.svg" alt="Code maintainability"></a>
+<a href="https://codecov.io/gh/infoderm/medidoc"><img src="https://img.shields.io/codecov/c/gh/infoderm/medidoc/main.svg" alt="Code coverage (cov)"></a>
+<a href="https://codeclimate.com/github/infoderm/medidoc/trends/technical_debt"><img src="https://img.shields.io/codeclimate/tech-debt/infoderm/medidoc.svg" alt="Code technical debt"></a>
+<a href="https://infoderm.github.io/medidoc/source.html"><img src="https://infoderm.github.io/medidoc/badge.svg" alt="Documentation"></a>
+<a href="https://bundlephobia.com/result?p=medidoc"><img src="https://img.shields.io/bundlephobia/minzip/medidoc" alt="Package size"></a></p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
