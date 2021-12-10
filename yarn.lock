@@ -1154,7 +1154,7 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/iter/-/iter-1.0.1.tgz#11149acef0d28b689e0b998dc478113eda81871d"
   integrity sha512-/C/Ciq69we9C0wvqx0rOdnpXAoSW+UnyIV/ZQrUYDzmtguvUQ4HjiIPcU2Csdh705VS6TMkUhoaBHIGh44V3OA==
 
-"@iterable-iterator/list@^1.0.1":
+"@iterable-iterator/list@1.0.1", "@iterable-iterator/list@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/list/-/list-1.0.1.tgz#e84fd841d7d58c2ad6d0c026f0612c8228dc97f5"
   integrity sha512-234a2cf0a0YhD1Ofb3F0xSjXDkqDK1xCiLnXoMUt/DWAt/odAvJToaxEFMemiKlAUvqF6E8MSi2v2UvlIOpBUA==
@@ -1210,7 +1210,7 @@
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz#323d72dd25103d0c4fbdce89dadf574a787b1f9b"
   integrity sha512-s88O1aVtXftvp5bCPB7WnmXc5IwOZZ7YPuwNPt+GtOOXpPvad1LfbmjYv+qII7zP6RU2QGnqve27dnLycEnyEQ==
 
-"@node-loader/import-maps@^1.0.3":
+"@node-loader/import-maps@1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@node-loader/import-maps/-/import-maps-1.0.3.tgz#4dff536d5dd4d9ff3510e1d2e0ddaf86630d4299"
   integrity sha512-Wjw7atGrC/s9m26k853N93xUi9fxo8wcL8asFXqpkITRltuUmbSVyzblW7K742SCC/Ev9FM0zcS72CPreBu8Kg==
@@ -1979,7 +1979,7 @@ babel-plugin-polyfill-regenerator@^0.3.0:
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.0"
 
-babel-plugin-replace-import-extension@^1.1.2:
+babel-plugin-replace-import-extension@1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/babel-plugin-replace-import-extension/-/babel-plugin-replace-import-extension-1.1.2.tgz#7a6847280622d624d0966283d377f4956a4c4c11"
   integrity sha512-ZUR48wUUwCx8t1ets8DvQyPDlraHIDMtGXypkZ6B02y0ACwu5d4eWNxzSQX7ihkf/weBdHPl2DB5g1rquDNvZw==
