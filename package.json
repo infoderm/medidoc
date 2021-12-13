@@ -19,19 +19,19 @@
   ],
   "sideEffects": false,
   "source": "src/index.js",
-  "main": "dist/default/index.cjs",
+  "main": "dist/default/index.js",
   "module": "dist/module/index.mjs",
   "esmodule": "dist/module/index.mjs",
   "exports": {
     ".": {
-      "browser": "./dist/browser/index.cjs",
-      "node": "./dist/node/index.cjs",
-      "default": "./dist/default/index.cjs"
+      "browser": "./dist/browser/index.js",
+      "node": "./dist/node/index.js",
+      "default": "./dist/default/index.js"
     },
     "./*": {
-      "browser": "./dist/browser/*.cjs",
-      "node": "./dist/node/*.cjs",
-      "default": "./dist/default/*.cjs"
+      "browser": "./dist/browser/*.js",
+      "node": "./dist/node/*.js",
+      "default": "./dist/default/*.js"
     }
   },
   "files": [
@@ -42,10 +42,10 @@
     "build-cmd": "babel --delete-dir-on-start --source-maps --minified src",
     "build-docs": "esdoc",
     "build-gh-pages": "npm run build-docs",
-    "build:browser": "npm run build-cmd -- --env-name browser --out-dir dist/browser --out-file-extension .cjs",
-    "build:default": "npm run build-cmd -- --env-name production --out-dir dist/default --out-file-extension .cjs",
+    "build:browser": "npm run build-cmd -- --env-name browser --out-dir dist/browser --out-file-extension .js",
+    "build:default": "npm run build-cmd -- --env-name production --out-dir dist/default --out-file-extension .js",
     "build:module": "npm run build-cmd -- --env-name module --out-dir dist/module --out-file-extension .mjs",
-    "build:node": "npm run build-cmd -- --env-name node --out-dir dist/node --out-file-extension .cjs",
+    "build:node": "npm run build-cmd -- --env-name node --out-dir dist/node --out-file-extension .js",
     "commit-msg": "commitlint --edit",
     "cover": "NODE_ENV=cover c8 --all --src src --reporter lcov --reporter text-summary --reporter text npm test",
     "debug": "NODE_ENV=debug npm run test -- -st --fail-fast",
@@ -213,7 +213,7 @@
             "replace-import-extension",
             {
               "extMapping": {
-                ".js": ".cjs"
+                ".js": ".js"
               }
             }
           ],
@@ -242,7 +242,7 @@
             "replace-import-extension",
             {
               "extMapping": {
-                ".js": ".cjs"
+                ".js": ".js"
               }
             }
           ],
@@ -322,7 +322,7 @@
             "replace-import-extension",
             {
               "extMapping": {
-                ".js": ".cjs"
+                ".js": ".js"
               }
             }
           ],

@@ -1,5 +1,5 @@
 {
   "imports": {
-    "#module": "./dist/node/index.cjs"
+    "#module": "./dist/node/index.js"
   }
 }
