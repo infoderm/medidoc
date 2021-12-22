@@ -70,7 +70,7 @@
     "test:src": "IMPORT_MAP_PATH=test/import-maps/src/index.json npm run test-cmd"
   },
   "dependencies": {
-    "@async-abstraction/tape": "^9.0.0",
+    "@async-abstraction/tape": "^10.0.0",
     "@formal-language/grammar": "^9.1.1",
     "@iterable-iterator/chain": "^2.0.1",
     "@iterable-iterator/map": "^1.0.1",
