@@ -51,7 +51,8 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/stringifyBundle.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {asyncIterableToArray, asyncIterableMap} from &apos;@async-abstraction/tape&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {asyncIterableMap} from &apos;@async-abstraction/tape&apos;;
+import {asyncIterableToArray} from &apos;@async-iterable-iterator/async-iterable-to-array&apos;;
 
 const lines = async function* (documents) {
 	for await (const {header, reports, footer} of documents) {
