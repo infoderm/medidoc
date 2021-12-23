@@ -1,4 +1,5 @@
-import {asyncIterableToArray, asyncIterableMap} from '@async-abstraction/tape';
+import {asyncIterableMap} from '@async-abstraction/tape';
+import {asyncIterableToArray} from '@async-iterable-iterator/async-iterable-to-array';
 
 const lines = async function* (documents) {
 	for await (const {header, reports, footer} of documents) {

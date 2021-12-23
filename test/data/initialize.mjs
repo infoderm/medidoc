@@ -4,7 +4,7 @@ import 'regenerator-runtime/runtime.js';
 import process from 'node:process';
 import {readFile, writeFile} from 'node:fs/promises';
 import path from 'node:path';
-import {asyncIterableToArray} from '@async-abstraction/tape';
+import {asyncIterableToArray} from '@async-iterable-iterator/async-iterable-to-array';
 import {list} from '@iterable-iterator/list';
 import {map} from '@iterable-iterator/map';
 

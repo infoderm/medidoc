@@ -2,10 +2,24 @@
 # yarn lockfile v1
 
 
-"@async-abstraction/tape@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@async-abstraction/tape/-/tape-9.0.0.tgz#d9467708be72fe66b5620e69ea6fb4649104f3b8"
-  integrity sha512-DeSB4JKI1G9F1rq8MGJKLkLlOMApRaBOm2wDfNT9aLWhbcI/ZcA7Jmn6cA4KGlFm499/h5V1TbhHO2UcNPaJig==
+"@async-abstraction/tape@^10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@async-abstraction/tape/-/tape-10.0.0.tgz#317b2d9ea396c4e556cfc20540fdc58bef04e22a"
+  integrity sha512-XOOVTL6j7uqoKxP4a3JDhKAhbYYupdCF99C9e+Oa3RbI4eShb8eEZueBIFP2tSrOzB+lZcLGQzyHotV1r6QJDg==
+  dependencies:
+    "@async-iterable-iterator/async-iterable-to-array" "^0.0.1"
+
+"@async-iterable-iterator/async-iterable-to-array@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@async-iterable-iterator/async-iterable-to-array/-/async-iterable-to-array-0.0.1.tgz#919786e9394d3530dbfa47325d2eb405c29b2413"
+  integrity sha512-KkKdBzXTi5saccAsxEXWTCi4ZvehZX0PKRF2crCa4URFMp4VG5pAgmauB3CuLvF3wPrp8AwsGV1QAfJy/zgTEA==
+  dependencies:
+    "@async-iterable-iterator/async-iterator-to-array" "^0.0.1"
+
+"@async-iterable-iterator/async-iterator-to-array@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@async-iterable-iterator/async-iterator-to-array/-/async-iterator-to-array-0.0.1.tgz#4bbd362eb42586812f79e07fea8f8c58feeaeacd"
+  integrity sha512-VaFBhYBdTJ4DdVblOmZRjDMzPFzf46lm/hA7rMqWYguArQHho0wGe8gADpraXqD2REwGL0q/FvO8cnZ9+rMoUQ==
 
 "@babel/cli@7.16.0":
   version "7.16.0"

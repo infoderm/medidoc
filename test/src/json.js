@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {asyncIterableToArray} from '@async-abstraction/tape';
+import {asyncIterableToArray} from '@async-iterable-iterator/async-iterable-to-array';
 
 import {parse} from '../../src/index.js';
 

@@ -1,6 +1,6 @@
 import assert from 'node:assert';
 import * as tape from '@async-abstraction/tape';
-import {asyncIterableToArray} from '@async-abstraction/tape';
+import {asyncIterableToArray} from '@async-iterable-iterator/async-iterable-to-array';
 import {ll1, ast} from '@formal-language/grammar';
 
 import tokens from './tokens.js';
