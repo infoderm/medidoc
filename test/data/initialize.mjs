@@ -22,6 +22,11 @@ const init = async (filepath) => {
 
 const testFiles = process.argv.slice(2);
 
-Promise.allSettled(list(map(init, testFiles))).then(() => {
+Promise.allSettled(list(map(init, testFiles))).then((outcomes) => {
+	for (const outcome of outcomes) {
+		if (outcome.status !== 'fulfilled') {
+			console.debug(outcome);
+		}
+	}
 	console.info('DONE');
 });
