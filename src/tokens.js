@@ -53,30 +53,34 @@ async function* _tokens(tape) {
 			case '6':
 			case '7':
 			case '8':
-			case '9':
+			case '9': {
 				yield* flush();
 				yield ['digit', c, new Position(line, position)];
 				++position;
 				break;
+			}
 
 			case CR:
 			case '/':
-			case '!':
+			case '!': {
 				yield* flush();
 				yield [c, c, new Position(line, position)];
 				++position;
 				break;
+			}
 
-			case LF:
+			case LF: {
 				yield* flush();
 				yield [c, c, new Position(line, position)];
 				++line;
 				position = FIRST_POSITION;
 				break;
+			}
 
-			default:
+			default: {
 				buffer += c;
 				break;
+			}
 		}
 	}
 

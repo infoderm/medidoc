@@ -52,17 +52,26 @@ const parseBlockTitle = (tree) => {
 
 const parseBlockType = (type) => {
 	switch (type) {
-		case 'd':
+		case 'd': {
 			return {TimeIndication: 'Days'};
-		case 'h':
+		}
+
+		case 'h': {
 			return {TimeIndication: 'Hours'};
-		case 'm':
+		}
+
+		case 'm': {
 			return {TimeIndication: 'Minutes'};
-		case 's':
+		}
+
+		case 's': {
 			return {TimeIndication: 'Seconds'};
-		default:
+		}
+
+		default: {
 			assert(type === 'a');
 			return {};
+		}
 	}
 };
 
@@ -70,27 +79,38 @@ const parseIntensity = (symbol) => {
 	switch (symbol) {
 		case '--':
 		case 'LL':
-		case '1':
+		case '1': {
 			return 'GreatlyReduced';
+		}
+
 		case '-':
 		case 'L':
-		case '2':
+		case '2': {
 			return 'Reduced';
+		}
+
 		case '=':
 		case 'N':
 		case '3':
-		case '':
+		case '': {
 			return 'Normal';
+		}
+
 		case '+':
 		case 'H':
-		case '4':
+		case '4': {
 			return 'Increased';
+		}
+
 		case '++':
 		case 'HH':
-		case '5':
+		case '5': {
 			return 'GreatlyIncreased';
-		default:
+		}
+
+		default: {
 			return 'Unknown';
+		}
 	}
 };
 
@@ -194,12 +214,17 @@ const parseProtocolCode = (code) => {
 	switch (code) {
 		case 'P':
 		case 'S':
-		case 'L':
+		case 'L': {
 			return 'partial';
-		case 'C':
+		}
+
+		case 'C': {
 			return 'complete';
-		default:
+		}
+
+		default: {
 			return '';
+		}
 	}
 };
 
