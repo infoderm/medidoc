@@ -1,0 +1,2606 @@
+{
+  "documents": [
+    {
+      "type": "lab",
+      "lab": {
+        "identifier": "A12B",
+        "name": "JKLJFSKLFSJL A.B. ST JAKUB",
+        "address1": "KAVENOUKEPLEIN 678",
+        "address2": "1234    ROLAY"
+      },
+      "lines": [
+        {
+          "contents": "A12B",
+          "newline": "\n"
+        },
+        {
+          "contents": "JKLJFSKLFSJL A.B. ST JAKUB",
+          "newline": "\n"
+        },
+        {
+          "contents": "KAVENOUKEPLEIN 678",
+          "newline": "\n"
+        },
+        {
+          "contents": "1234    ROLAY",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "19470827",
+          "newline": "\n"
+        },
+        {
+          "contents": "12345678901",
+          "newline": "\n"
+        },
+        {
+          "contents": "KAROLINEY                VALERIOU",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A04030212345",
+          "newline": "\n"
+        },
+        {
+          "contents": "ZAIFHA                   ZAYNEB",
+          "newline": "\n"
+        },
+        {
+          "contents": "20040302",
+          "newline": "\n"
+        },
+        {
+          "contents": "X",
+          "newline": "\n"
+        },
+        {
+          "contents": "19470726",
+          "newline": "\n"
+        },
+        {
+          "contents": "987-654321",
+          "newline": "\n"
+        },
+        {
+          "contents": "C",
+          "newline": "\n"
+        },
+        {
+          "contents": "JK JKFDLJIE Q'JIFEJLDIKJLEE(IJE)",
+          "newline": "\n"
+        },
+        {
+          "contents": "8888",
+          "newline": "\n"
+        },
+        {
+          "contents": "GOOGLEINC",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0100....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13705A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=12.2",
+          "newline": "\n"
+        },
+        {
+          "contents": "11",
+          "newline": "\n"
+        },
+        {
+          "contents": "--",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\13.5 - 17.5",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707F.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=39.9",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "--",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\41.0 - 53.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=6.47",
+          "newline": "\n"
+        },
+        {
+          "contents": "82",
+          "newline": "\n"
+        },
+        {
+          "contents": "++",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\4.50 - 5.90",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707B.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=61.7",
+          "newline": "\n"
+        },
+        {
+          "contents": "27",
+          "newline": "\n"
+        },
+        {
+          "contents": "--",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\80.0 - 99.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707D.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=18.9",
+          "newline": "\n"
+        },
+        {
+          "contents": "34",
+          "newline": "\n"
+        },
+        {
+          "contents": "--",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\28.0 - 35.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707E.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=30.6",
+          "newline": "\n"
+        },
+        {
+          "contents": "12",
+          "newline": "\n"
+        },
+        {
+          "contents": "--",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\31.0 - 37.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "63012D.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=22.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "86",
+          "newline": "\n"
+        },
+        {
+          "contents": "++",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\2.0 - 18.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13709A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=7880",
+          "newline": "\n"
+        },
+        {
+          "contents": "77",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\4000 - 10000",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13717A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=270000",
+          "newline": "\n"
+        },
+        {
+          "contents": "77",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\150000 - 400000",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714..B1",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714B.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=57.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\45.0 - 72.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714C.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=1.9",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.0 - 5.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714D.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.4",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.0 - 2.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714E.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=29.1",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\23.0 - 48.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714F.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=10.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\3.0 - 13.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707X_B1",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "63011V.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "++",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "63012A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "+",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "63200E.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "+",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0105....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57163A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=105",
+          "newline": "\n"
+        },
+        {
+          "contents": "18",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\33 - 193",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "44311A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=256",
+          "newline": "\n"
+        },
+        {
+          "contents": "20",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\30 - 400",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "44313A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=325",
+          "newline": "\n"
+        },
+        {
+          "contents": "44",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\197 - 771",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "44303A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=4.97",
+          "newline": "\n"
+        },
+        {
+          "contents": "20",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\3.89 - 26.80",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0120....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0111....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "135110.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=97",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\75 - 110",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0130....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57131A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=89",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 190",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57133A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=41",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "--",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\>55",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57133B.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=45",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 100",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57227A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=61",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 150",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57133D.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=2.2",
+          "newline": "\n"
+        },
+        {
+          "contents": "9V",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 2.7",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "!Lipiden referentie waarden",
+          "newline": "\n"
+        },
+        {
+          "contents": ".           LDL-Cholesterol:  130 - 159  borderline verhoogd risico",
+          "newline": "\n"
+        },
+        {
+          "contents": "                              160 - 189  verhoogd risico ",
+          "newline": "\n"
+        },
+        {
+          "contents": "                               >= 190    sterk verhoogd risico",
+          "newline": "\n"
+        },
+        {
+          "contents": "            HDL-Cholesterol:  35 - 55    verhoogd risico",
+          "newline": "\n"
+        },
+        {
+          "contents": "                                < 35     sterk verhoogd risico  ",
+          "newline": "\n"
+        },
+        {
+          "contents": "            Risicofactor :    4.0 - 6.7  verhoogd risico",
+          "newline": "\n"
+        },
+        {
+          "contents": "                                > 6.7    sterk verhoogd risico",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0123....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57139A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.78",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.70 - 1.20",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57710A.D",
+          "newline": "\n"
+        },
+        {
+          "contents": ">90",
+          "newline": "\n"
+        },
+        {
+          "contents": "28",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\>60",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13513A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=36.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\16.6 - 48.5",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13501A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=4.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\3.4 - 7.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0122....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57269A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=127",
+          "newline": "\n"
+        },
+        {
+          "contents": "37",
+          "newline": "\n"
+        },
+        {
+          "contents": "--",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\135 - 225",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0121....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13551A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=12.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "37",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\5.0 - 40.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13553A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=9.3",
+          "newline": "\n"
+        },
+        {
+          "contents": "37",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 41.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57277A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=15",
+          "newline": "\n"
+        },
+        {
+          "contents": "37",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\8 - 61",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57283A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=67",
+          "newline": "\n"
+        },
+        {
+          "contents": "37",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\40 - 129",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0127....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57273A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=36",
+          "newline": "\n"
+        },
+        {
+          "contents": "37",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\13 - 60",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0140....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57225A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=139",
+          "newline": "\n"
+        },
+        {
+          "contents": "30",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\136 - 145",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57213A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=4.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "30",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\3.3 - 5.1",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57129A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=103",
+          "newline": "\n"
+        },
+        {
+          "contents": "30",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\97 - 109",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57121A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=2.26",
+          "newline": "\n"
+        },
+        {
+          "contents": "30",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\2.15 - 2.50",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0125....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0126....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57217I.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.5",
+          "newline": "\n"
+        },
+        {
+          "contents": "24",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.0 - 5.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0175....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0184....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "447130.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=1.43",
+          "newline": "\n"
+        },
+        {
+          "contents": "1I",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.27 - 4.20",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "44809A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=16.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "1Y",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\12.0 - 22.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0197....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "44511A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=322",
+          "newline": "\n"
+        },
+        {
+          "contents": "2K",
+          "newline": "\n"
+        },
+        {
+          "contents": "++",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\1.53 - 114",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0750....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "Mengsels",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "19570A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.14",
+          "newline": "\n"
+        },
+        {
+          "contents": "2K",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": ".                          Interpretatie : afwezig of niet-detecteerbaar",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "19360A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "<0.1",
+          "newline": "\n"
+        },
+        {
+          "contents": "2K",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": ".                          Interpretatie : afwezig of niet-detecteerbaar",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "19630A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "<0.10",
+          "newline": "\n"
+        },
+        {
+          "contents": "2K",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": ".                          Interpretatie : afwezig of niet-detecteerbaar",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0752....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "19660A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.88",
+          "newline": "\n"
+        },
+        {
+          "contents": "2K",
+          "newline": "\n"
+        },
+        {
+          "contents": "++",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 0.1",
+          "newline": "\n"
+        },
+        {
+          "contents": ".                                 Interpretatie : aanwezig",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0753....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "18020A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "<0.10",
+          "newline": "\n"
+        },
+        {
+          "contents": "2K",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 0.1",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0170....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0160....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "58343A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "POSITIEF",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "63001V.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=1/160",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "++",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 40",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "63210H.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "POSITIEF",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "63215A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "negatief",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "63001X.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "Positief op Mi-2 met titer 34",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#/465",
+          "newline": "\n"
+        }
+      ],
+      "meta": {
+        "date": "19470827",
+        "reference": "987-654321",
+        "code": "C",
+        "status": "complete"
+      },
+      "requestor": {
+        "nihdi": "12345678901",
+        "firstname": "VALERIOU",
+        "lastname": "KAROLINEY"
+      },
+      "patient": {
+        "nn": "04030212345",
+        "firstname": "ZAYNEB",
+        "lastname": "ZAIFHA",
+        "birthdate": "20040302",
+        "sex": "female",
+        "requestDate": "19470726"
+      },
+      "results": [
+        {
+          "type": "c",
+          "title": "0100....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13705A.B",
+          "relation": "=",
+          "value": "12.2",
+          "unit": "11",
+          "intensity": "GreatlyReduced",
+          "intensitySymbol": "--",
+          "referenceValue": "13.5 - 17.5",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707F.B",
+          "relation": "=",
+          "value": "39.9",
+          "unit": "01",
+          "intensity": "GreatlyReduced",
+          "intensitySymbol": "--",
+          "referenceValue": "41.0 - 53.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707A.B",
+          "relation": "=",
+          "value": "6.47",
+          "unit": "82",
+          "intensity": "GreatlyIncreased",
+          "intensitySymbol": "++",
+          "referenceValue": "4.50 - 5.90",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707B.B",
+          "relation": "=",
+          "value": "61.7",
+          "unit": "27",
+          "intensity": "GreatlyReduced",
+          "intensitySymbol": "--",
+          "referenceValue": "80.0 - 99.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707D.B",
+          "relation": "=",
+          "value": "18.9",
+          "unit": "34",
+          "intensity": "GreatlyReduced",
+          "intensitySymbol": "--",
+          "referenceValue": "28.0 - 35.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707E.B",
+          "relation": "=",
+          "value": "30.6",
+          "unit": "12",
+          "intensity": "GreatlyReduced",
+          "intensitySymbol": "--",
+          "referenceValue": "31.0 - 37.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "63012D.B",
+          "relation": "=",
+          "value": "22.8",
+          "unit": "86",
+          "intensity": "GreatlyIncreased",
+          "intensitySymbol": "++",
+          "referenceValue": "2.0 - 18.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13709A.B",
+          "relation": "=",
+          "value": "7880",
+          "unit": "77",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "4000 - 10000",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13717A.B",
+          "relation": "=",
+          "value": "270000",
+          "unit": "77",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "150000 - 400000",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "13714..B1",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13714B.B",
+          "relation": "=",
+          "value": "57.8",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "45.0 - 72.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13714C.B",
+          "relation": "=",
+          "value": "1.9",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "0.0 - 5.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13714D.B",
+          "relation": "=",
+          "value": "0.4",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "0.0 - 2.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13714E.B",
+          "relation": "=",
+          "value": "29.1",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "23.0 - 48.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13714F.B",
+          "relation": "=",
+          "value": "10.8",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "3.0 - 13.0",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "13707X_B1",
+          "comments": []
+        },
+        {
+          "type": "b",
+          "title": "63011V.B",
+          "text": [
+            "++"
+          ]
+        },
+        {
+          "type": "b",
+          "title": "63012A.B",
+          "text": [
+            "+"
+          ]
+        },
+        {
+          "type": "b",
+          "title": "63200E.B",
+          "text": [
+            "+"
+          ]
+        },
+        {
+          "type": "c",
+          "title": "0105....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57163A.B",
+          "relation": "=",
+          "value": "105",
+          "unit": "18",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "33 - 193",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "44311A.B",
+          "relation": "=",
+          "value": "256",
+          "unit": "20",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "30 - 400",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "44313A.B",
+          "relation": "=",
+          "value": "325",
+          "unit": "44",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "197 - 771",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "44303A.B",
+          "relation": "=",
+          "value": "4.97",
+          "unit": "20",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "3.89 - 26.80",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0120....",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0111....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "135110.B",
+          "relation": "=",
+          "value": "97",
+          "unit": "22",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "75 - 110",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0130....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57131A.B",
+          "relation": "=",
+          "value": "89",
+          "unit": "22",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "< 190",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57133A.B",
+          "relation": "=",
+          "value": "41",
+          "unit": "22",
+          "intensity": "GreatlyReduced",
+          "intensitySymbol": "--",
+          "referenceValue": ">55",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57133B.B",
+          "relation": "=",
+          "value": "45",
+          "unit": "22",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "< 100",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57227A.B",
+          "relation": "=",
+          "value": "61",
+          "unit": "22",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "< 150",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57133D.B",
+          "relation": "=",
+          "value": "2.2",
+          "unit": "9V",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "< 2.7",
+          "comments": []
+        },
+        {
+          "type": "b",
+          "title": "!Lipiden referentie waarden",
+          "text": [
+            ".           LDL-Cholesterol:  130 - 159  borderline verhoogd risico",
+            "                              160 - 189  verhoogd risico ",
+            "                               >= 190    sterk verhoogd risico",
+            "            HDL-Cholesterol:  35 - 55    verhoogd risico",
+            "                                < 35     sterk verhoogd risico  ",
+            "            Risicofactor :    4.0 - 6.7  verhoogd risico",
+            "                                > 6.7    sterk verhoogd risico"
+          ]
+        },
+        {
+          "type": "c",
+          "title": "0123....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57139A.B",
+          "relation": "=",
+          "value": "0.78",
+          "unit": "22",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "0.70 - 1.20",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57710A.D",
+          "relation": ">",
+          "value": "90",
+          "unit": "28",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": ">60",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13513A.B",
+          "relation": "=",
+          "value": "36.0",
+          "unit": "22",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "16.6 - 48.5",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13501A.B",
+          "relation": "=",
+          "value": "4.8",
+          "unit": "22",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "3.4 - 7.0",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0122....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57269A.B",
+          "relation": "=",
+          "value": "127",
+          "unit": "37",
+          "intensity": "GreatlyReduced",
+          "intensitySymbol": "--",
+          "referenceValue": "135 - 225",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0121....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13551A.B",
+          "relation": "=",
+          "value": "12.0",
+          "unit": "37",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "5.0 - 40.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13553A.B",
+          "relation": "=",
+          "value": "9.3",
+          "unit": "37",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "< 41.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57277A.B",
+          "relation": "=",
+          "value": "15",
+          "unit": "37",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "8 - 61",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57283A.B",
+          "relation": "=",
+          "value": "67",
+          "unit": "37",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "40 - 129",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0127....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57273A.B",
+          "relation": "=",
+          "value": "36",
+          "unit": "37",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "13 - 60",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0140....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57225A.B",
+          "relation": "=",
+          "value": "139",
+          "unit": "30",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "136 - 145",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57213A.B",
+          "relation": "=",
+          "value": "4.0",
+          "unit": "30",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "3.3 - 5.1",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57129A.B",
+          "relation": "=",
+          "value": "103",
+          "unit": "30",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "97 - 109",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57121A.B",
+          "relation": "=",
+          "value": "2.26",
+          "unit": "30",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "2.15 - 2.50",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0125....",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0126....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57217I.B",
+          "relation": "=",
+          "value": "0.5",
+          "unit": "24",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "0.0 - 5.0",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0175....",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0184....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "447130.B",
+          "relation": "=",
+          "value": "1.43",
+          "unit": "1I",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "0.27 - 4.20",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "44809A.B",
+          "relation": "=",
+          "value": "16.0",
+          "unit": "1Y",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "12.0 - 22.0",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0197....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "44511A.B",
+          "relation": "=",
+          "value": "322",
+          "unit": "2K",
+          "intensity": "GreatlyIncreased",
+          "intensitySymbol": "++",
+          "referenceValue": "1.53 - 114",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0750....",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "Mengsels",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "19570A.B",
+          "relation": "=",
+          "value": "0.14",
+          "unit": "2K",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "comments": [
+            ".                          Interpretatie : afwezig of niet-detecteerbaar"
+          ]
+        },
+        {
+          "type": "a",
+          "title": "19360A.B",
+          "relation": "<",
+          "value": "0.1",
+          "unit": "2K",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "comments": [
+            ".                          Interpretatie : afwezig of niet-detecteerbaar"
+          ]
+        },
+        {
+          "type": "a",
+          "title": "19630A.B",
+          "relation": "<",
+          "value": "0.10",
+          "unit": "2K",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "comments": [
+            ".                          Interpretatie : afwezig of niet-detecteerbaar"
+          ]
+        },
+        {
+          "type": "c",
+          "title": "0752....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "19660A.B",
+          "relation": "=",
+          "value": "0.88",
+          "unit": "2K",
+          "intensity": "GreatlyIncreased",
+          "intensitySymbol": "++",
+          "referenceValue": "< 0.1",
+          "comments": [
+            ".                                 Interpretatie : aanwezig"
+          ]
+        },
+        {
+          "type": "c",
+          "title": "0753....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "18020A.B",
+          "relation": "<",
+          "value": "0.10",
+          "unit": "2K",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "< 0.1",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0170....",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0160....",
+          "comments": []
+        },
+        {
+          "type": "b",
+          "title": "58343A.B",
+          "text": [
+            "POSITIEF"
+          ]
+        },
+        {
+          "type": "a",
+          "title": "63001V.B",
+          "relation": "=",
+          "value": "1/160",
+          "unit": "",
+          "intensity": "GreatlyIncreased",
+          "intensitySymbol": "++",
+          "referenceValue": "< 40",
+          "comments": []
+        },
+        {
+          "type": "b",
+          "title": "63210H.B",
+          "text": [
+            "POSITIEF"
+          ]
+        },
+        {
+          "type": "b",
+          "title": "63215A.B",
+          "text": [
+            "negatief"
+          ]
+        },
+        {
+          "type": "b",
+          "title": "63001X.B",
+          "text": [
+            "Positief op Mi-2 met titer 34"
+          ]
+        }
+      ]
+    }
+  ]
+}

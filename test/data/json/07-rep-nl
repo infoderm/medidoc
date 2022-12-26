@@ -1,0 +1,371 @@
+{
+  "documents": [
+    {
+      "type": "report",
+      "doctor": {
+        "nihdi": "12345678912",
+        "firstname": "ARI",
+        "lastname": "VANDAMMEN",
+        "streetName": "KERPEDOUILLAAN 123",
+        "streetNumber": "",
+        "postalCode": "1234",
+        "townName": "VANOL",
+        "phone": "Tel.: Fax:"
+      },
+      "lines": [
+        {
+          "contents": "12345678912",
+          "newline": "\n"
+        },
+        {
+          "contents": "VANDAMMEN               ARI",
+          "newline": "\n"
+        },
+        {
+          "contents": "KERPEDOUILLAAN 123                 ",
+          "newline": "\n"
+        },
+        {
+          "contents": "1234      VANOL",
+          "newline": "\n"
+        },
+        {
+          "contents": "Tel.: Fax:",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "22220228",
+          "newline": "\n"
+        },
+        {
+          "contents": "78912345678",
+          "newline": "\n"
+        },
+        {
+          "contents": "CHARMANEL               ACROLALI        ",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A48234729328",
+          "newline": "\n"
+        },
+        {
+          "contents": "VANKAMP                 ARCHIBALDO CANAH",
+          "newline": "\n"
+        },
+        {
+          "contents": "19911212",
+          "newline": "\n"
+        },
+        {
+          "contents": "Y",
+          "newline": "\n"
+        },
+        {
+          "contents": "22220228",
+          "newline": "\n"
+        },
+        {
+          "contents": "IKaYoI123",
+          "newline": "\n"
+        },
+        {
+          "contents": "9999999999",
+          "newline": "\n"
+        },
+        {
+          "contents": "KDJFLJEKKS 238          ",
+          "newline": "\n"
+        },
+        {
+          "contents": "4321",
+          "newline": "\n"
+        },
+        {
+          "contents": "LIEGEKE",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "!Consultatiebrief/ Advies dermatologie",
+          "newline": "\n"
+        },
+        {
+          "contents": "Uw patiënt, VANKAMP ARCHIBALDO CANAH (° 12/12/1991), kwam op 28/02/2222 ",
+          "newline": "\n"
+        },
+        {
+          "contents": "op de consultatie dermatologie.",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Diagnose(n): ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Nevus dd superficieel spreiding melanoom scapulair re.",
+          "newline": "\n"
+        },
+        {
+          "contents": "S.c. kyste DD filia re. scapula",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Vandaag voorstelling in wondkliniek voor ulcus re. voet mediaal(zie ",
+          "newline": "\n"
+        },
+        {
+          "contents": "wondzorgbrief)",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Klinisch onderzoek: ",
+          "newline": "\n"
+        },
+        {
+          "contents": "2cm bruine macula , 3 kleuren, niet symmetrisch.",
+          "newline": "\n"
+        },
+        {
+          "contents": "S.c. kyste DD filia re. scapula, 2cm, licht livide en warm",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Nevus (collusion van merdere letsels) dd superficieel spreiding melanoom ",
+          "newline": "\n"
+        },
+        {
+          "contents": "scapulair re.",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Technische onderzoeken: ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Labo: zie bijlage",
+          "newline": "\n"
+        },
+        {
+          "contents": "Fotodocumentatie",
+          "newline": "\n"
+        },
+        {
+          "contents": "Sonographie kyste re. scapula",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Bespreking, Besluit en Therapie: ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Excisie dringend aanbevolen. Pat. wordt doot de Acrolli Charmnel ",
+          "newline": "\n"
+        },
+        {
+          "contents": "opgevolgd, waar volgens pat. in 2221 een fotodocumentatie gedaan werdt. ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Wil hiervoor bij ons geen operatie ondergaan.",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Clindamycine 300: 2-2-2 voor 10 dagen",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "TTZ over 2 weken voor controle ulcus re. voet",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Met collegiale hoogachting,",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Prof.Dr. VANDAMMEN ARI",
+          "newline": "\n"
+        },
+        {
+          "contents": "   12345678912",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Bijlage: ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Naam uitgevoerde test\t\tEenheid\tLaatste",
+          "newline": "\n"
+        },
+        {
+          "contents": "\t\t\tRef. waarden",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Niet gevalideerde resultaten worden cursief weergegeven.",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#/69",
+          "newline": "\n"
+        }
+      ],
+      "meta": {
+        "date": "22220228",
+        "reference": "IKaYoI123",
+        "code": "9999999999"
+      },
+      "requestor": {
+        "nihdi": "78912345678",
+        "firstname": "ACROLALI",
+        "lastname": "CHARMANEL"
+      },
+      "patient": {
+        "nn": "48234729328",
+        "firstname": "ARCHIBALDO CANAH",
+        "lastname": "VANKAMP",
+        "birthdate": "19911212",
+        "sex": "male",
+        "requestDate": "22220228"
+      },
+      "results": [
+        {
+          "type": "b",
+          "title": "!Consultatiebrief/ Advies dermatologie",
+          "text": [
+            "Uw patiënt, VANKAMP ARCHIBALDO CANAH (° 12/12/1991), kwam op 28/02/2222 ",
+            "op de consultatie dermatologie.",
+            "",
+            "",
+            "Diagnose(n): ",
+            "Nevus dd superficieel spreiding melanoom scapulair re.",
+            "S.c. kyste DD filia re. scapula",
+            "",
+            "Vandaag voorstelling in wondkliniek voor ulcus re. voet mediaal(zie ",
+            "wondzorgbrief)",
+            "",
+            "Klinisch onderzoek: ",
+            "2cm bruine macula , 3 kleuren, niet symmetrisch.",
+            "S.c. kyste DD filia re. scapula, 2cm, licht livide en warm",
+            "",
+            "Nevus (collusion van merdere letsels) dd superficieel spreiding melanoom ",
+            "scapulair re.",
+            "",
+            "Technische onderzoeken: ",
+            "Labo: zie bijlage",
+            "Fotodocumentatie",
+            "Sonographie kyste re. scapula",
+            "",
+            "Bespreking, Besluit en Therapie: ",
+            "Excisie dringend aanbevolen. Pat. wordt doot de Acrolli Charmnel ",
+            "opgevolgd, waar volgens pat. in 2221 een fotodocumentatie gedaan werdt. ",
+            "Wil hiervoor bij ons geen operatie ondergaan.",
+            "",
+            "Clindamycine 300: 2-2-2 voor 10 dagen",
+            "",
+            "TTZ over 2 weken voor controle ulcus re. voet",
+            "",
+            "",
+            "Met collegiale hoogachting,",
+            "",
+            "",
+            "Prof.Dr. VANDAMMEN ARI",
+            "   12345678912",
+            "",
+            "",
+            "Bijlage: ",
+            "Naam uitgevoerde test\t\tEenheid\tLaatste",
+            "\t\t\tRef. waarden",
+            "",
+            "",
+            "Niet gevalideerde resultaten worden cursief weergegeven."
+          ]
+        }
+      ]
+    }
+  ]
+}

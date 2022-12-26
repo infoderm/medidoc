@@ -1,0 +1,1548 @@
+{
+  "documents": [
+    {
+      "type": "lab",
+      "lab": {
+        "identifier": "A12B",
+        "name": "JKLJFSKLFSJL A.B. ST JAKUB",
+        "address1": "KAVENOUKEPLEIN 678",
+        "address2": "1234    ROLAY"
+      },
+      "lines": [
+        {
+          "contents": "A12B",
+          "newline": "\n"
+        },
+        {
+          "contents": "JKLJFSKLFSJL A.B. ST JAKUB",
+          "newline": "\n"
+        },
+        {
+          "contents": "KAVENOUKEPLEIN 678",
+          "newline": "\n"
+        },
+        {
+          "contents": "1234    ROLAY",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "19340304",
+          "newline": "\n"
+        },
+        {
+          "contents": "12345678901",
+          "newline": "\n"
+        },
+        {
+          "contents": "KAROLINEY                VALERIOU",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A77070743210",
+          "newline": "\n"
+        },
+        {
+          "contents": "GOUPILLONS               MICHEL-JOSEPHIE",
+          "newline": "\n"
+        },
+        {
+          "contents": "19770707",
+          "newline": "\n"
+        },
+        {
+          "contents": "Y",
+          "newline": "\n"
+        },
+        {
+          "contents": "19340204",
+          "newline": "\n"
+        },
+        {
+          "contents": "123-456789",
+          "newline": "\n"
+        },
+        {
+          "contents": "C",
+          "newline": "\n"
+        },
+        {
+          "contents": "KONSTIGTSTEENWEG 474",
+          "newline": "\n"
+        },
+        {
+          "contents": "5563",
+          "newline": "\n"
+        },
+        {
+          "contents": "MOULINO",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0100....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13705A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=13.3",
+          "newline": "\n"
+        },
+        {
+          "contents": "11",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\12.0 - 15.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707F.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=40.2",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\36.0 - 46.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=4.50",
+          "newline": "\n"
+        },
+        {
+          "contents": "82",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\4.20 - 5.10",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707B.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=89.3",
+          "newline": "\n"
+        },
+        {
+          "contents": "27",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\78.0 - 98.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707D.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=29.6",
+          "newline": "\n"
+        },
+        {
+          "contents": "34",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\28.0 - 35.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707E.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=33.1",
+          "newline": "\n"
+        },
+        {
+          "contents": "12",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\31.0 - 37.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "63012D.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=21.5",
+          "newline": "\n"
+        },
+        {
+          "contents": "86",
+          "newline": "\n"
+        },
+        {
+          "contents": "++",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\2.0 - 18.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13709A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=7810",
+          "newline": "\n"
+        },
+        {
+          "contents": "77",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\4500 - 11000",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13717A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=286000",
+          "newline": "\n"
+        },
+        {
+          "contents": "77",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\150000 - 400000",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714..B1",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714B.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=56.4",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\45.0 - 72.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714C.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=2.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.0 - 5.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714D.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.6",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.0 - 2.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714E.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=32.3",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\23.0 - 48.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13714F.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=7.9",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\3.0 - 13.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0120....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0111....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "135110.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=90",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\60 - 110",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0130....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57131A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=182",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 190",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57133A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=59",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "--",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\>65",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57133B.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=105",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "++",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 100",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57227A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=117",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 150",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57133D.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=3.1",
+          "newline": "\n"
+        },
+        {
+          "contents": "9V",
+          "newline": "\n"
+        },
+        {
+          "contents": "++",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 2.5",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "!Lipiden referentie waarden",
+          "newline": "\n"
+        },
+        {
+          "contents": ".           LDL-Cholesterol: 130 - 159  borderline verhoogd risico",
+          "newline": "\n"
+        },
+        {
+          "contents": "                             160 - 189  verhoogd risico ",
+          "newline": "\n"
+        },
+        {
+          "contents": "                               >= 190   sterk verhoogd risico",
+          "newline": "\n"
+        },
+        {
+          "contents": "            HDL-Cholesterol: 45 - 65    verhoogd risico",
+          "newline": "\n"
+        },
+        {
+          "contents": "                               < 45     sterk verhoogd risico  ",
+          "newline": "\n"
+        },
+        {
+          "contents": "            Risicofactor :   3.7 - 5.6  verhoogd risico",
+          "newline": "\n"
+        },
+        {
+          "contents": "                               > 5.6    sterk verhoogd risico",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0123....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57139A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.47",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "--",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.57 - 0.87",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0121....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13503A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.41",
+          "newline": "\n"
+        },
+        {
+          "contents": "22",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.20 - 1.30",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13551A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=16.7",
+          "newline": "\n"
+        },
+        {
+          "contents": "37",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\5.0 - 34.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13553A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=13.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "37",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\< 25.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57277A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=17",
+          "newline": "\n"
+        },
+        {
+          "contents": "37",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\5 - 36",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57283A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=94",
+          "newline": "\n"
+        },
+        {
+          "contents": "37",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\57 - 254",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0125....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0126....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57217I.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=1.4",
+          "newline": "\n"
+        },
+        {
+          "contents": "24",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.0 - 5.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0175....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0182....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "44861A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=234",
+          "newline": "\n"
+        },
+        {
+          "contents": "44",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "Interferentie mogelijk met fulvestrant met schijnbaar verhoogde oestradiol",
+          "newline": "\n"
+        },
+        {
+          "contents": "resultaten als gevolg.",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "44867A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=6.89",
+          "newline": "\n"
+        },
+        {
+          "contents": "20",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rc",
+          "newline": "\n"
+        },
+        {
+          "contents": "0183....",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "44375A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.1",
+          "newline": "\n"
+        },
+        {
+          "contents": "6S",
+          "newline": "\n"
+        },
+        {
+          "contents": "=",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0 - 3",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#/277",
+          "newline": "\n"
+        }
+      ],
+      "meta": {
+        "date": "19340304",
+        "reference": "123-456789",
+        "code": "C",
+        "status": "complete"
+      },
+      "requestor": {
+        "nihdi": "12345678901",
+        "firstname": "VALERIOU",
+        "lastname": "KAROLINEY"
+      },
+      "patient": {
+        "nn": "77070743210",
+        "firstname": "MICHEL-JOSEPHIE",
+        "lastname": "GOUPILLONS",
+        "birthdate": "19770707",
+        "sex": "male",
+        "requestDate": "19340204"
+      },
+      "results": [
+        {
+          "type": "c",
+          "title": "0100....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13705A.B",
+          "relation": "=",
+          "value": "13.3",
+          "unit": "11",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "12.0 - 15.8",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707F.B",
+          "relation": "=",
+          "value": "40.2",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "36.0 - 46.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707A.B",
+          "relation": "=",
+          "value": "4.50",
+          "unit": "82",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "4.20 - 5.10",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707B.B",
+          "relation": "=",
+          "value": "89.3",
+          "unit": "27",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "78.0 - 98.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707D.B",
+          "relation": "=",
+          "value": "29.6",
+          "unit": "34",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "28.0 - 35.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707E.B",
+          "relation": "=",
+          "value": "33.1",
+          "unit": "12",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "31.0 - 37.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "63012D.B",
+          "relation": "=",
+          "value": "21.5",
+          "unit": "86",
+          "intensity": "GreatlyIncreased",
+          "intensitySymbol": "++",
+          "referenceValue": "2.0 - 18.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13709A.B",
+          "relation": "=",
+          "value": "7810",
+          "unit": "77",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "4500 - 11000",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13717A.B",
+          "relation": "=",
+          "value": "286000",
+          "unit": "77",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "150000 - 400000",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "13714..B1",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13714B.B",
+          "relation": "=",
+          "value": "56.4",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "45.0 - 72.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13714C.B",
+          "relation": "=",
+          "value": "2.8",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "0.0 - 5.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13714D.B",
+          "relation": "=",
+          "value": "0.6",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "0.0 - 2.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13714E.B",
+          "relation": "=",
+          "value": "32.3",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "23.0 - 48.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13714F.B",
+          "relation": "=",
+          "value": "7.9",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "3.0 - 13.0",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0120....",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0111....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "135110.B",
+          "relation": "=",
+          "value": "90",
+          "unit": "22",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "60 - 110",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0130....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57131A.B",
+          "relation": "=",
+          "value": "182",
+          "unit": "22",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "< 190",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57133A.B",
+          "relation": "=",
+          "value": "59",
+          "unit": "22",
+          "intensity": "GreatlyReduced",
+          "intensitySymbol": "--",
+          "referenceValue": ">65",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57133B.B",
+          "relation": "=",
+          "value": "105",
+          "unit": "22",
+          "intensity": "GreatlyIncreased",
+          "intensitySymbol": "++",
+          "referenceValue": "< 100",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57227A.B",
+          "relation": "=",
+          "value": "117",
+          "unit": "22",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "< 150",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57133D.B",
+          "relation": "=",
+          "value": "3.1",
+          "unit": "9V",
+          "intensity": "GreatlyIncreased",
+          "intensitySymbol": "++",
+          "referenceValue": "< 2.5",
+          "comments": []
+        },
+        {
+          "type": "b",
+          "title": "!Lipiden referentie waarden",
+          "text": [
+            ".           LDL-Cholesterol: 130 - 159  borderline verhoogd risico",
+            "                             160 - 189  verhoogd risico ",
+            "                               >= 190   sterk verhoogd risico",
+            "            HDL-Cholesterol: 45 - 65    verhoogd risico",
+            "                               < 45     sterk verhoogd risico  ",
+            "            Risicofactor :   3.7 - 5.6  verhoogd risico",
+            "                               > 5.6    sterk verhoogd risico"
+          ]
+        },
+        {
+          "type": "c",
+          "title": "0123....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57139A.B",
+          "relation": "=",
+          "value": "0.47",
+          "unit": "22",
+          "intensity": "GreatlyReduced",
+          "intensitySymbol": "--",
+          "referenceValue": "0.57 - 0.87",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0121....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13503A.B",
+          "relation": "=",
+          "value": "0.41",
+          "unit": "22",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "0.20 - 1.30",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13551A.B",
+          "relation": "=",
+          "value": "16.7",
+          "unit": "37",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "5.0 - 34.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13553A.B",
+          "relation": "=",
+          "value": "13.8",
+          "unit": "37",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "< 25.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57277A.B",
+          "relation": "=",
+          "value": "17",
+          "unit": "37",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "5 - 36",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57283A.B",
+          "relation": "=",
+          "value": "94",
+          "unit": "37",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "57 - 254",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0125....",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0126....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57217I.B",
+          "relation": "=",
+          "value": "1.4",
+          "unit": "24",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "0.0 - 5.0",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0175....",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0182....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "44861A.B",
+          "relation": "=",
+          "value": "234",
+          "unit": "44",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "comments": [
+            "Interferentie mogelijk met fulvestrant met schijnbaar verhoogde oestradiol",
+            "resultaten als gevolg."
+          ]
+        },
+        {
+          "type": "a",
+          "title": "44867A.B",
+          "relation": "=",
+          "value": "6.89",
+          "unit": "20",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "comments": []
+        },
+        {
+          "type": "c",
+          "title": "0183....",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "44375A.B",
+          "relation": "=",
+          "value": "0.1",
+          "unit": "6S",
+          "intensity": "Normal",
+          "intensitySymbol": "=",
+          "referenceValue": "0 - 3",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}
