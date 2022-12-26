@@ -28,5 +28,6 @@ Promise.allSettled(list(map(init, testFiles))).then((outcomes) => {
 			console.debug(outcome);
 		}
 	}
+
 	console.info('DONE');
 });
