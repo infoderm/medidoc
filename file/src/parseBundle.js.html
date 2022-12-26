@@ -105,17 +105,26 @@ const parseBlockTitle = (tree) =&gt; {
 
 const parseBlockType = (type) =&gt; {
 	switch (type) {
-		case &apos;d&apos;:
+		case &apos;d&apos;: {
 			return {TimeIndication: &apos;Days&apos;};
-		case &apos;h&apos;:
+		}
+
+		case &apos;h&apos;: {
 			return {TimeIndication: &apos;Hours&apos;};
-		case &apos;m&apos;:
+		}
+
+		case &apos;m&apos;: {
 			return {TimeIndication: &apos;Minutes&apos;};
-		case &apos;s&apos;:
+		}
+
+		case &apos;s&apos;: {
 			return {TimeIndication: &apos;Seconds&apos;};
-		default:
+		}
+
+		default: {
 			assert(type === &apos;a&apos;);
 			return {};
+		}
 	}
 };
 
@@ -123,27 +132,38 @@ const parseIntensity = (symbol) =&gt; {
 	switch (symbol) {
 		case &apos;--&apos;:
 		case &apos;LL&apos;:
-		case &apos;1&apos;:
+		case &apos;1&apos;: {
 			return &apos;GreatlyReduced&apos;;
+		}
+
 		case &apos;-&apos;:
 		case &apos;L&apos;:
-		case &apos;2&apos;:
+		case &apos;2&apos;: {
 			return &apos;Reduced&apos;;
+		}
+
 		case &apos;=&apos;:
 		case &apos;N&apos;:
 		case &apos;3&apos;:
-		case &apos;&apos;:
+		case &apos;&apos;: {
 			return &apos;Normal&apos;;
+		}
+
 		case &apos;+&apos;:
 		case &apos;H&apos;:
-		case &apos;4&apos;:
+		case &apos;4&apos;: {
 			return &apos;Increased&apos;;
+		}
+
 		case &apos;++&apos;:
 		case &apos;HH&apos;:
-		case &apos;5&apos;:
+		case &apos;5&apos;: {
 			return &apos;GreatlyIncreased&apos;;
-		default:
+		}
+
+		default: {
 			return &apos;Unknown&apos;;
+		}
 	}
 };
 
@@ -247,12 +267,17 @@ const parseProtocolCode = (code) =&gt; {
 	switch (code) {
 		case &apos;P&apos;:
 		case &apos;S&apos;:
-		case &apos;L&apos;:
+		case &apos;L&apos;: {
 			return &apos;partial&apos;;
-		case &apos;C&apos;:
+		}
+
+		case &apos;C&apos;: {
 			return &apos;complete&apos;;
-		default:
+		}
+
+		default: {
 			return &apos;&apos;;
+		}
 	}
 };
 
