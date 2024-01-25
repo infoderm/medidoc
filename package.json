@@ -80,9 +80,9 @@
     "lodash.mergewith": "^4.6.2"
   },
   "devDependencies": {
-    "@babel/cli": "7.23.4",
-    "@babel/core": "7.23.7",
-    "@babel/preset-env": "7.23.8",
+    "@babel/cli": "7.23.9",
+    "@babel/core": "7.23.9",
+    "@babel/preset-env": "7.23.9",
     "@babel/register": "7.23.7",
     "@commitlint/cli": "18.5.0",
     "@iterable-iterator/list": "1.0.1",
