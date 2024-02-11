@@ -1,5 +1,5 @@
-import {map} from '@iterable-iterator/map';
 import {chain} from '@iterable-iterator/chain';
+import {map} from '@iterable-iterator/map';
 
 import merge from './merge.js';
 

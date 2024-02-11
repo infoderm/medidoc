@@ -1,4 +1,5 @@
 import assert from 'node:assert';
+
 import Position from './Position.js';
 
 const FIRST_LINE = 1;

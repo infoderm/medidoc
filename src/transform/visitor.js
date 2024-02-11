@@ -1,5 +1,4 @@
 import {ast} from '@formal-language/grammar';
-
 import {map} from '@iterable-iterator/map';
 import {any} from '@iterable-iterator/reduce';
 
@@ -27,12 +26,10 @@ function generateVisitor(grammar) {
 		const nonterminalTransform = {};
 
 		for (const [key, rules] of productions.entries()) {
-			if (any(map((x) => x.type === 'node', rules))) {
-				nonterminalTransform[key] = recurse(nonterminal, key);
-			} else {
-				// TODO test if this actually is faster
-				nonterminalTransform[key] = skip;
-			}
+			nonterminalTransform[key] = any(map((x) => x.type === 'node', rules))
+				? recurse(nonterminal, key)
+				: // TODO test if this actually is faster
+					skip;
 		}
 
 		transform[nonterminal] = nonterminalTransform;
@@ -44,7 +41,7 @@ function generateVisitor(grammar) {
 export const extend = (transform, extension) => {
 	const result = {};
 	for (const key in transform) {
-		if (Object.prototype.hasOwnProperty.call(transform, key)) {
+		if (Object.hasOwn(transform, key)) {
 			result[key] = Object.assign({}, transform[key], extension[key]);
 		}
 	}

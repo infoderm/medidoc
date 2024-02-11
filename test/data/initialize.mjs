@@ -1,9 +1,10 @@
+import {readFile, writeFile} from 'node:fs/promises';
+import path from 'node:path';
+import process from 'node:process';
+
 // eslint-disable-next-line import/no-unassigned-import
 import 'regenerator-runtime/runtime.js';
 
-import process from 'node:process';
-import {readFile, writeFile} from 'node:fs/promises';
-import path from 'node:path';
 import {asyncIterableToArray} from '@async-iterable-iterator/async-iterable-to-array';
 import {list} from '@iterable-iterator/list';
 import {map} from '@iterable-iterator/map';

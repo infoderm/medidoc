@@ -1,10 +1,11 @@
 import assert from 'node:assert';
+
 import {ast} from '@formal-language/grammar';
 
 import leaves from '../leaves.js';
-import {visitor, extend} from './visitor.js';
 
 import {iter, next, StopIteration} from './lib.js';
+import {visitor, extend} from './visitor.js';
 
 const lines = async (tree) => {
 	// TODO use depth first traversal or make newline a terminal

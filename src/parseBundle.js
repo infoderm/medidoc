@@ -1,12 +1,13 @@
 import assert from 'node:assert';
+
 import * as tape from '@async-abstraction/tape';
 import {asyncIterableToArray} from '@async-iterable-iterator/async-iterable-to-array';
 import {ll1, ast} from '@formal-language/grammar';
 
-import tokens from './tokens.js';
 import grammar from './grammar.js';
-import simplify from './transform/simplify.js';
+import tokens from './tokens.js';
 import {iter, next, map as asyncMap} from './transform/lib.js';
+import simplify from './transform/simplify.js';
 
 const parseTape = (inputTape) => {
 	const parser = ll1.from(grammar);
@@ -241,14 +242,14 @@ const parseCode = (tree) => {
 				parsed: {
 					code,
 				},
-		  }
+			}
 		: {
 				...tree,
 				parsed: {
 					code,
 					status,
 				},
-		  };
+			};
 };
 
 const parseReportIdentifier = (tree) => {
@@ -263,20 +264,20 @@ const parseReportIdentifier = (tree) => {
 				parsed: {
 					nn: identifier,
 				},
-		  }
+			}
 		: identifier.length === 13
-		? {
-				...tree,
-				parsed: {
-					dossier: identifier,
-				},
-		  }
-		: {
-				...tree,
-				parsed: {
-					identifier,
-				},
-		  };
+			? {
+					...tree,
+					parsed: {
+						dossier: identifier,
+					},
+				}
+			: {
+					...tree,
+					parsed: {
+						identifier,
+					},
+				};
 };
 
 const parseReportFooter = (tree) => {
@@ -476,7 +477,7 @@ const parseDatetime = (tree) => {
 					date: line.slice(0, 8),
 					time: line.slice(8),
 				},
-		  }
+			}
 		: parseDate(tree);
 };
 
