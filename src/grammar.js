@@ -35,22 +35,22 @@ const productions = {
 	nihdi: [
 		[
 			'=digit',
-			'&/',
+			'&nihdi-sep',
 			'=digit',
 			'=digit',
 			'=digit',
 			'=digit',
 			'=digit',
-			'&/',
+			'&nihdi-sep',
 			'=digit',
 			'=digit',
-			'&/',
+			'&nihdi-sep',
 			'=digit',
 			'=digit',
 			'=digit',
 		],
 	],
-	'/': [[], ['=/']], // NOTE Should not be optional.
+	'nihdi-sep': [[], ['=/'], ['=.']], // NOTE Should not be optional.
 	'medidoc-lab-id': [['=text', '=digit', '=digit', '&serieno']],
 	serieno: [['=digit'], ['=text']], // NOTE Should be only digit.
 	date: [['&free-line']],
@@ -112,11 +112,13 @@ const productions = {
 	'not-a-bang': {
 		text: ['=text'],
 		'/': ['=/'],
+		'.': ['=.'],
 		digit: ['=digit'],
 	},
 	any: {
 		text: ['=text'],
 		'/': ['=/'],
+		'.': ['=.'],
 		'!': ['=!'],
 		digit: ['=digit'],
 	},

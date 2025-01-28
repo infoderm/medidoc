@@ -1,0 +1,1463 @@
+{
+  "documents": [
+    {
+      "type": "lab",
+      "lab": {
+        "identifier": "B987",
+        "name": "A.B.C.D.E. (ABC - Packard)",
+        "address1": "RUE RONFLEUR 12345",
+        "address2": "1234 JEAN-D'ALLIGOT"
+      },
+      "lines": [
+        {
+          "contents": "B987",
+          "newline": "\n"
+        },
+        {
+          "contents": "A.B.C.D.E. (ABC - Packard)",
+          "newline": "\n"
+        },
+        {
+          "contents": "RUE RONFLEUR 12345",
+          "newline": "\n"
+        },
+        {
+          "contents": "1234 JEAN-D'ALLIGOT",
+          "newline": "\n"
+        },
+        {
+          "contents": "01/234.56.78",
+          "newline": "\n"
+        },
+        {
+          "contents": "1.23456.78.901",
+          "newline": "\n"
+        },
+        {
+          "contents": "20000102",
+          "newline": "\n"
+        },
+        {
+          "contents": "1.23456.78.902",
+          "newline": "\n"
+        },
+        {
+          "contents": "GABIN                   JEAN",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A12345678901",
+          "newline": "\n"
+        },
+        {
+          "contents": "SASOEUR                 MONFRERE",
+          "newline": "\n"
+        },
+        {
+          "contents": "19990103",
+          "newline": "\n"
+        },
+        {
+          "contents": "Y",
+          "newline": "\n"
+        },
+        {
+          "contents": "19990712",
+          "newline": "\n"
+        },
+        {
+          "contents": "123456789",
+          "newline": "\n"
+        },
+        {
+          "contents": "P",
+          "newline": "\n"
+        },
+        {
+          "contents": "Rue Renaudaut Josephat 71  123",
+          "newline": "\n"
+        },
+        {
+          "contents": "4321",
+          "newline": "\n"
+        },
+        {
+          "contents": "KADAB",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=4.500",
+          "newline": "\n"
+        },
+        {
+          "contents": "5C",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\4.300   5.700",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13705A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=14.7",
+          "newline": "\n"
+        },
+        {
+          "contents": "79",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\13.2    17.3",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707F.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=42.2",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\39      49",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707B.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=94",
+          "newline": "\n"
+        },
+        {
+          "contents": "27",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\80      99",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707D.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=32.6",
+          "newline": "\n"
+        },
+        {
+          "contents": "91",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\27      34",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707E.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=34.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "79",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\32      37",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13707C.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=12.3",
+          "newline": "\n"
+        },
+        {
+          "contents": "%%",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\11.5    14.5",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13721A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=1.7",
+          "newline": "\n"
+        },
+        {
+          "contents": "01",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.2     2.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13721A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=77",
+          "newline": "\n"
+        },
+        {
+          "contents": "2I",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\11      110",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13717A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=226",
+          "newline": "\n"
+        },
+        {
+          "contents": "X6",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\150     400",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13709A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=6.3",
+          "newline": "\n"
+        },
+        {
+          "contents": "X6",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\4.5     11.0",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13713H.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=2.53",
+          "newline": "\n"
+        },
+        {
+          "contents": "2I",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\1.8     7.7",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13713E.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=2.96",
+          "newline": "\n"
+        },
+        {
+          "contents": "2I",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\1.0     4.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13713F.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.67",
+          "newline": "\n"
+        },
+        {
+          "contents": "2I",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0       0.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13701A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.11",
+          "newline": "\n"
+        },
+        {
+          "contents": "2I",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0       0.45",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13713D.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.03",
+          "newline": "\n"
+        },
+        {
+          "contents": "2I",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0       0.2",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "135110.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=92",
+          "newline": "\n"
+        },
+        {
+          "contents": "2G",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\74      109",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57139A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=1.1",
+          "newline": "\n"
+        },
+        {
+          "contents": "2G",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <1.2",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13503A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "2G",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <1.1",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13503B.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.3",
+          "newline": "\n"
+        },
+        {
+          "contents": "2G",
+          "newline": "\n"
+        },
+        {
+          "contents": "H",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <0.3",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "13553A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=136",
+          "newline": "\n"
+        },
+        {
+          "contents": "78",
+          "newline": "\n"
+        },
+        {
+          "contents": "H",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <41",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57277A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=106",
+          "newline": "\n"
+        },
+        {
+          "contents": "2P",
+          "newline": "\n"
+        },
+        {
+          "contents": "H",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <61",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57273A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=30",
+          "newline": "\n"
+        },
+        {
+          "contents": "2P",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <60",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57217I.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=0.8",
+          "newline": "\n"
+        },
+        {
+          "contents": "24",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <5",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "58343A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=%%",
+          "newline": "\n"
+        },
+        {
+          "contents": "%%",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        Neg",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "58418A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "Negatif",
+          "newline": "\n"
+        },
+        {
+          "contents": "En cas de screening positif ou douteux  le TPHA et le RPR seront",
+          "newline": "\n"
+        },
+        {
+          "contents": "realises.",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "58503M.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "Negatif",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "447130.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=1.22",
+          "newline": "\n"
+        },
+        {
+          "contents": "6H",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\0.27    4.20",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "57185I.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=%%",
+          "newline": "\n"
+        },
+        {
+          "contents": "2K",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <120",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "63047T.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=%%",
+          "newline": "\n"
+        },
+        {
+          "contents": "49",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <0.35",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "19570B.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=%%",
+          "newline": "\n"
+        },
+        {
+          "contents": "49",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <0.35",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "19630A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=%%",
+          "newline": "\n"
+        },
+        {
+          "contents": "49",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <0.35",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "20006A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=%%",
+          "newline": "\n"
+        },
+        {
+          "contents": "49",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <0.35",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "19660A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=%%",
+          "newline": "\n"
+        },
+        {
+          "contents": "49",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <0.35",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Ra",
+          "newline": "\n"
+        },
+        {
+          "contents": "18060A.B",
+          "newline": "\n"
+        },
+        {
+          "contents": "=%%",
+          "newline": "\n"
+        },
+        {
+          "contents": "49",
+          "newline": "\n"
+        },
+        {
+          "contents": "N",
+          "newline": "\n"
+        },
+        {
+          "contents": "\\        <0.35",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#/123",
+          "newline": "\n"
+        }
+      ],
+      "meta": {
+        "date": "20000102",
+        "reference": "123456789",
+        "code": "P",
+        "status": "partial"
+      },
+      "requestor": {
+        "nihdi": "1.23456.78.902",
+        "firstname": "JEAN",
+        "lastname": "GABIN"
+      },
+      "patient": {
+        "nn": "12345678901",
+        "firstname": "MONFRERE",
+        "lastname": "SASOEUR",
+        "birthdate": "19990103",
+        "sex": "male",
+        "requestDate": "19990712"
+      },
+      "results": [
+        {
+          "type": "a",
+          "title": "13707A.B",
+          "relation": "=",
+          "value": "4.500",
+          "unit": "5C",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "4.300   5.700",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13705A.B",
+          "relation": "=",
+          "value": "14.7",
+          "unit": "79",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "13.2    17.3",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707F.B",
+          "relation": "=",
+          "value": "42.2",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "39      49",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707B.B",
+          "relation": "=",
+          "value": "94",
+          "unit": "27",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "80      99",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707D.B",
+          "relation": "=",
+          "value": "32.6",
+          "unit": "91",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "27      34",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707E.B",
+          "relation": "=",
+          "value": "34.8",
+          "unit": "79",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "32      37",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13707C.B",
+          "relation": "=",
+          "value": "12.3",
+          "unit": "%%",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "11.5    14.5",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13721A.B",
+          "relation": "=",
+          "value": "1.7",
+          "unit": "01",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "0.2     2.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13721A.B",
+          "relation": "=",
+          "value": "77",
+          "unit": "2I",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "11      110",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13717A.B",
+          "relation": "=",
+          "value": "226",
+          "unit": "X6",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "150     400",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13709A.B",
+          "relation": "=",
+          "value": "6.3",
+          "unit": "X6",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "4.5     11.0",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13713H.B",
+          "relation": "=",
+          "value": "2.53",
+          "unit": "2I",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "1.8     7.7",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13713E.B",
+          "relation": "=",
+          "value": "2.96",
+          "unit": "2I",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "1.0     4.8",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13713F.B",
+          "relation": "=",
+          "value": "0.67",
+          "unit": "2I",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "0       0.8",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13701A.B",
+          "relation": "=",
+          "value": "0.11",
+          "unit": "2I",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "0       0.45",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13713D.B",
+          "relation": "=",
+          "value": "0.03",
+          "unit": "2I",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "0       0.2",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "135110.B",
+          "relation": "=",
+          "value": "92",
+          "unit": "2G",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "74      109",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57139A.B",
+          "relation": "=",
+          "value": "1.1",
+          "unit": "2G",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        <1.2",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13503A.B",
+          "relation": "=",
+          "value": "0.8",
+          "unit": "2G",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        <1.1",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13503B.B",
+          "relation": "=",
+          "value": "0.3",
+          "unit": "2G",
+          "intensity": "Increased",
+          "intensitySymbol": "H",
+          "referenceValue": "        <0.3",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "13553A.B",
+          "relation": "=",
+          "value": "136",
+          "unit": "78",
+          "intensity": "Increased",
+          "intensitySymbol": "H",
+          "referenceValue": "        <41",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57277A.B",
+          "relation": "=",
+          "value": "106",
+          "unit": "2P",
+          "intensity": "Increased",
+          "intensitySymbol": "H",
+          "referenceValue": "        <61",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57273A.B",
+          "relation": "=",
+          "value": "30",
+          "unit": "2P",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        <60",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57217I.B",
+          "relation": "=",
+          "value": "0.8",
+          "unit": "24",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        <5",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "58343A.B",
+          "relation": "=",
+          "value": "%%",
+          "unit": "%%",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        Neg",
+          "comments": []
+        },
+        {
+          "type": "b",
+          "title": "58418A.B",
+          "text": [
+            "Negatif",
+            "En cas de screening positif ou douteux  le TPHA et le RPR seront",
+            "realises."
+          ]
+        },
+        {
+          "type": "b",
+          "title": "58503M.B",
+          "text": [
+            "Negatif"
+          ]
+        },
+        {
+          "type": "a",
+          "title": "447130.B",
+          "relation": "=",
+          "value": "1.22",
+          "unit": "6H",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "0.27    4.20",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "57185I.B",
+          "relation": "=",
+          "value": "%%",
+          "unit": "2K",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        <120",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "63047T.B",
+          "relation": "=",
+          "value": "%%",
+          "unit": "49",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        <0.35",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "19570B.B",
+          "relation": "=",
+          "value": "%%",
+          "unit": "49",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        <0.35",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "19630A.B",
+          "relation": "=",
+          "value": "%%",
+          "unit": "49",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        <0.35",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "20006A.B",
+          "relation": "=",
+          "value": "%%",
+          "unit": "49",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        <0.35",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "19660A.B",
+          "relation": "=",
+          "value": "%%",
+          "unit": "49",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        <0.35",
+          "comments": []
+        },
+        {
+          "type": "a",
+          "title": "18060A.B",
+          "relation": "=",
+          "value": "%%",
+          "unit": "49",
+          "intensity": "Normal",
+          "intensitySymbol": "N",
+          "referenceValue": "        <0.35",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}

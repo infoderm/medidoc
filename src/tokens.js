@@ -63,6 +63,7 @@ async function* _tokens(tape) {
 
 			case CR:
 			case '/':
+			case '.':
 			case '!': {
 				yield* flush();
 				yield [c, c, new Position(line, position)];
