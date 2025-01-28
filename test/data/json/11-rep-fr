@@ -1,0 +1,331 @@
+{
+  "documents": [
+    {
+      "type": "report",
+      "doctor": {
+        "nihdi": "12345678912",
+        "firstname": "Sama‰l",
+        "lastname": "ABDU",
+        "streetName": "Rue Jose Emilia 11",
+        "streetNumber": "",
+        "postalCode": "1234",
+        "townName": "CARABILOS",
+        "phone": "01/123.45.67"
+      },
+      "lines": [
+        {
+          "contents": "12345678912",
+          "newline": "\n"
+        },
+        {
+          "contents": "ABDU                    Sama‰l          ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Rue Jose Emilia 11",
+          "newline": "\n"
+        },
+        {
+          "contents": "1234       CARABILOS",
+          "newline": "\n"
+        },
+        {
+          "contents": "01/123.45.67",
+          "newline": "\n"
+        },
+        {
+          "contents": "INSTITUT ADIL BAK   ",
+          "newline": "\n"
+        },
+        {
+          "contents": "20051102",
+          "newline": "\n"
+        },
+        {
+          "contents": "12345678901",
+          "newline": "\n"
+        },
+        {
+          "contents": "DJFLSKJSL               KJFLJLSD        ",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A12345678901",
+          "newline": "\n"
+        },
+        {
+          "contents": "ADELE                   MAROILLES       ",
+          "newline": "\n"
+        },
+        {
+          "contents": "CHAUSSEE DE SANTOLOT 17        ",
+          "newline": "\n"
+        },
+        {
+          "contents": "1234 Badwall",
+          "newline": "\n"
+        },
+        {
+          "contents": "              ",
+          "newline": "\n"
+        },
+        {
+          "contents": "12345678",
+          "newline": "\n"
+        },
+        {
+          "contents": "X",
+          "newline": "\n"
+        },
+        {
+          "contents": "20051020",
+          "newline": "\n"
+        },
+        {
+          "contents": "12345678      ",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Mon cher confrere,",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Veuillez trouver ci-dessous le protocole de l'examen radiographique",
+          "newline": "\n"
+        },
+        {
+          "contents": "ADELE MAROILLES n‚(e) le 10/10/1910",
+          "newline": "\n"
+        },
+        {
+          "contents": "Numero de Reference: AB12DEF3GHI",
+          "newline": "\n"
+        },
+        {
+          "contents": "Radiographie des genoux :                                            ",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Renseignements cliniques : gonalgie a la montee des escaliers.       ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Gonarthrose?                                                         ",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Resultat :                                                           ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pincement articulaire femorotibial medial bilateral avec             ",
+          "newline": "\n"
+        },
+        {
+          "contents": "osteophytose associee.                                               ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Osteophytose femorotibiale laterale bilaterale sans pincement        ",
+          "newline": "\n"
+        },
+        {
+          "contents": "articulaire.                                                         ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pincement articulaire femoropatellaire d'avantage marquees du cote   ",
+          "newline": "\n"
+        },
+        {
+          "contents": "droit avec osteophytose associee.                                    ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Discret epanchement intra-articulaire du cote droit.                 ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pas de fracture.                                                     ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pas d'autres lesions osseuses.                                       ",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Conclusion :                                                         ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Gonarthrose femoropatellaire moderee bilaterale davantage marquee a  ",
+          "newline": "\n"
+        },
+        {
+          "contents": "droite.                                                              ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Gonarthrose mediale moderee bilaterale.                              ",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Recevez, mon cher Confrere, avec mes remerciements, mes salutations",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "confraternelles.",
+          "newline": "\n"
+        },
+        {
+          "contents": "Dr. Abdu",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pour l'acces aux images:",
+          "newline": "\n"
+        },
+        {
+          "contents": "Site Web http://images.nom-de-domaine.be",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pour generer ce protocole, nous utilisons la dictee par reconnaissance",
+          "newline": "\n"
+        },
+        {
+          "contents": "vocale. Malgre notre relecture, il peut arriver que certaines erreurs de",
+          "newline": "\n"
+        },
+        {
+          "contents": "reconnaissance nous aient echappe: veuillez nous en excuser.",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#/12",
+          "newline": "\n"
+        }
+      ],
+      "meta": {
+        "date": "20051102",
+        "reference": "12345678",
+        "code": "X"
+      },
+      "requestor": {
+        "nihdi": "12345678901",
+        "firstname": "KJFLJLSD",
+        "lastname": "DJFLSKJSL"
+      },
+      "patient": {
+        "nn": "12345678901",
+        "firstname": "MAROILLES",
+        "lastname": "ADELE",
+        "birthdate": "CHAUSSEE DE SANTOLOT 17        ",
+        "sex": "other",
+        "requestDate": "              "
+      },
+      "results": [
+        {
+          "type": "b",
+          "title": "",
+          "text": [
+            "Mon cher confrere,",
+            "",
+            "Veuillez trouver ci-dessous le protocole de l'examen radiographique",
+            "ADELE MAROILLES n‚(e) le 10/10/1910",
+            "Numero de Reference: AB12DEF3GHI",
+            "Radiographie des genoux :                                            ",
+            "",
+            "Renseignements cliniques : gonalgie a la montee des escaliers.       ",
+            "Gonarthrose?                                                         ",
+            "",
+            "Resultat :                                                           ",
+            "Pincement articulaire femorotibial medial bilateral avec             ",
+            "osteophytose associee.                                               ",
+            "Osteophytose femorotibiale laterale bilaterale sans pincement        ",
+            "articulaire.                                                         ",
+            "Pincement articulaire femoropatellaire d'avantage marquees du cote   ",
+            "droit avec osteophytose associee.                                    ",
+            "Discret epanchement intra-articulaire du cote droit.                 ",
+            "Pas de fracture.                                                     ",
+            "Pas d'autres lesions osseuses.                                       ",
+            "",
+            "Conclusion :                                                         ",
+            "Gonarthrose femoropatellaire moderee bilaterale davantage marquee a  ",
+            "droite.                                                              ",
+            "Gonarthrose mediale moderee bilaterale.                              ",
+            "",
+            "",
+            "",
+            "",
+            "Recevez, mon cher Confrere, avec mes remerciements, mes salutations",
+            "",
+            "confraternelles.",
+            "Dr. Abdu",
+            "Pour l'acces aux images:",
+            "Site Web http://images.nom-de-domaine.be",
+            "Pour generer ce protocole, nous utilisons la dictee par reconnaissance",
+            "vocale. Malgre notre relecture, il peut arriver que certaines erreurs de",
+            "reconnaissance nous aient echappe: veuillez nous en excuser."
+          ]
+        }
+      ]
+    }
+  ]
+}

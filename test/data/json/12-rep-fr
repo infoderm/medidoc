@@ -1,0 +1,291 @@
+{
+  "documents": [
+    {
+      "type": "report",
+      "doctor": {
+        "nihdi": "12345678912",
+        "firstname": "Bastu",
+        "lastname": "KARIM",
+        "streetName": "Rue Jose Emilia 11",
+        "streetNumber": "",
+        "postalCode": "1234",
+        "townName": "CARABILOS",
+        "phone": "01/123.45.67"
+      },
+      "lines": [
+        {
+          "contents": "12345678912",
+          "newline": "\n"
+        },
+        {
+          "contents": "KARIM                   Bastu           ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Rue Jose Emilia 11",
+          "newline": "\n"
+        },
+        {
+          "contents": "1234       CARABILOS",
+          "newline": "\n"
+        },
+        {
+          "contents": "01/123.45.67",
+          "newline": "\n"
+        },
+        {
+          "contents": "INSTITUT ADIL BAK   ",
+          "newline": "\n"
+        },
+        {
+          "contents": "20051102",
+          "newline": "\n"
+        },
+        {
+          "contents": "12345678901",
+          "newline": "\n"
+        },
+        {
+          "contents": "DJFLSKJSL               KJFLJLSD        ",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A12345678901",
+          "newline": "\n"
+        },
+        {
+          "contents": "ADELE                   MAROILLES       ",
+          "newline": "\n"
+        },
+        {
+          "contents": "CHAUSSEE DE SANTOLOT 17        ",
+          "newline": "\n"
+        },
+        {
+          "contents": "1234 Badwall",
+          "newline": "\n"
+        },
+        {
+          "contents": "              ",
+          "newline": "\n"
+        },
+        {
+          "contents": "12345678",
+          "newline": "\n"
+        },
+        {
+          "contents": "X",
+          "newline": "\n"
+        },
+        {
+          "contents": "20051020",
+          "newline": "\n"
+        },
+        {
+          "contents": "12345678      ",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "#Rb",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Mon cher confrere,",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Veuillez trouver ci-dessous le protocole de l'examen radiographique",
+          "newline": "\n"
+        },
+        {
+          "contents": "ADELE MAROILLES n‚(e) le 10/10/1910",
+          "newline": "\n"
+        },
+        {
+          "contents": "Numero de Reference: AB12DEF3GHI",
+          "newline": "\n"
+        },
+        {
+          "contents": "Echographie abdominale :                                             ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Indication :                                                         ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Augmentation gamma-GT.                                               ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Compte-rendu :                                                       ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pas de signe d'hepatosplenomegalie.                                  ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pas de signe de steatose hepatique.                                  ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pas de lesion focale suspect visible.                                ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Voies biliaires ne sont pas dilatees.                                ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Vesicule biliaire remplie de macrocalcul non compliques              ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Aspect permeable des reseaux portes sus-hepatiques.                  ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pancreas masque par les meteorisme abdominal.                        ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pas d'ascite.                                                        ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Conclusion :                                                         ",
+          "newline": "\n"
+        },
+        {
+          "contents": "Calculs vesiculaires non compliquees                                 ",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "Recevez, mon cher Confrere, avec mes remerciements, mes salutations",
+          "newline": "\n"
+        },
+        {
+          "contents": "",
+          "newline": "\n"
+        },
+        {
+          "contents": "confraternelles.",
+          "newline": "\n"
+        },
+        {
+          "contents": "Dr. Karim",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pour l'acces aux images:",
+          "newline": "\n"
+        },
+        {
+          "contents": "Site Web http://images.nom-de-domaine.be",
+          "newline": "\n"
+        },
+        {
+          "contents": "Pour generer ce protocole, nous utilisons la dictee par reconnaissance",
+          "newline": "\n"
+        },
+        {
+          "contents": "vocale. Malgre notre relecture, il peut arriver que certaines erreurs de",
+          "newline": "\n"
+        },
+        {
+          "contents": "reconnaissance nous aient echappe: veuillez nous en excuser.",
+          "newline": "\n"
+        },
+        {
+          "contents": "#R/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#A/",
+          "newline": "\n"
+        },
+        {
+          "contents": "#/12",
+          "newline": "\n"
+        }
+      ],
+      "meta": {
+        "date": "20051102",
+        "reference": "12345678",
+        "code": "X"
+      },
+      "requestor": {
+        "nihdi": "12345678901",
+        "firstname": "KJFLJLSD",
+        "lastname": "DJFLSKJSL"
+      },
+      "patient": {
+        "nn": "12345678901",
+        "firstname": "MAROILLES",
+        "lastname": "ADELE",
+        "birthdate": "CHAUSSEE DE SANTOLOT 17        ",
+        "sex": "other",
+        "requestDate": "              "
+      },
+      "results": [
+        {
+          "type": "b",
+          "title": "",
+          "text": [
+            "Mon cher confrere,",
+            "",
+            "Veuillez trouver ci-dessous le protocole de l'examen radiographique",
+            "ADELE MAROILLES n‚(e) le 10/10/1910",
+            "Numero de Reference: AB12DEF3GHI",
+            "Echographie abdominale :                                             ",
+            "Indication :                                                         ",
+            "Augmentation gamma-GT.                                               ",
+            "Compte-rendu :                                                       ",
+            "Pas de signe d'hepatosplenomegalie.                                  ",
+            "Pas de signe de steatose hepatique.                                  ",
+            "Pas de lesion focale suspect visible.                                ",
+            "Voies biliaires ne sont pas dilatees.                                ",
+            "Vesicule biliaire remplie de macrocalcul non compliques              ",
+            "Aspect permeable des reseaux portes sus-hepatiques.                  ",
+            "Pancreas masque par les meteorisme abdominal.                        ",
+            "Pas d'ascite.                                                        ",
+            "Conclusion :                                                         ",
+            "Calculs vesiculaires non compliquees                                 ",
+            "",
+            "",
+            "Recevez, mon cher Confrere, avec mes remerciements, mes salutations",
+            "",
+            "confraternelles.",
+            "Dr. Karim",
+            "Pour l'acces aux images:",
+            "Site Web http://images.nom-de-domaine.be",
+            "Pour generer ce protocole, nous utilisons la dictee par reconnaissance",
+            "vocale. Malgre notre relecture, il peut arriver que certaines erreurs de",
+            "reconnaissance nous aient echappe: veuillez nous en excuser."
+          ]
+        }
+      ]
+    }
+  ]
+}

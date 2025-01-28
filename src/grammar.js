@@ -96,6 +96,7 @@ const productions = {
 	'R-title': {
 		free: ['=!', '&free-line'],
 		code: ['&not-a-bang', '&free-line'],
+		empty: ['&newline'],
 	},
 	'R-body': [['&free-lines']],
 	'free-text': {

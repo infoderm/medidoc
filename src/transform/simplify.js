@@ -127,7 +127,7 @@ const simplify = extend(visitor, {
 	'A-extra': prune('0'),
 	'#A/': prune('0'),
 	'#R': prune('0'),
-	'R-title': prune('free', 'code'),
+	'R-title': prune('free', 'code', 'empty'),
 	'R-body': prune('0'),
 	'#R/': prune('0'),
 	footer: prune('0'),
