@@ -31,7 +31,7 @@ jobs:
     name: Continuous integration (code coverage upload)
 
     needs:
-      - test
+      - cover
 
     runs-on: ubuntu-latest
 
