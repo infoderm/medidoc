@@ -52,7 +52,6 @@
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/transform/visitor.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {ast} from &apos;@formal-language/grammar&apos;;
-
 import {map} from &apos;@iterable-iterator/map&apos;;
 import {any} from &apos;@iterable-iterator/reduce&apos;;
 
@@ -80,12 +79,10 @@ function generateVisitor(grammar) {
 		const nonterminalTransform = {};
 
 		for (const [key, rules] of productions.entries()) {
-			if (any(map((x) =&gt; x.type === &apos;node&apos;, rules))) {
-				nonterminalTransform[key] = recurse(nonterminal, key);
-			} else {
-				// TODO test if this actually is faster
-				nonterminalTransform[key] = skip;
-			}
+			nonterminalTransform[key] = any(map((x) =&gt; x.type === &apos;node&apos;, rules))
+				? recurse(nonterminal, key)
+				: // TODO test if this actually is faster
+					skip;
 		}
 
 		transform[nonterminal] = nonterminalTransform;
@@ -97,7 +94,7 @@ function generateVisitor(grammar) {
 export const extend = (transform, extension) =&gt; {
 	const result = {};
 	for (const key in transform) {
-		if (Object.prototype.hasOwnProperty.call(transform, key)) {
+		if (Object.hasOwn(transform, key)) {
 			result[key] = Object.assign({}, transform[key], extension[key]);
 		}
 	}

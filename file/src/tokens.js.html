@@ -52,6 +52,7 @@
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/tokens.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import assert from &apos;node:assert&apos;;
+
 import Position from &apos;./Position.js&apos;;
 
 const FIRST_LINE = 1;
@@ -115,6 +116,7 @@ async function* _tokens(tape) {
 
 			case CR:
 			case &apos;/&apos;:
+			case &apos;.&apos;:
 			case &apos;!&apos;: {
 				yield* flush();
 				yield [c, c, new Position(line, position)];

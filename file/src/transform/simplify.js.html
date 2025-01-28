@@ -52,12 +52,13 @@
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/transform/simplify.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import assert from &apos;node:assert&apos;;
+
 import {ast} from &apos;@formal-language/grammar&apos;;
 
 import leaves from &apos;../leaves.js&apos;;
-import {visitor, extend} from &apos;./visitor.js&apos;;
 
 import {iter, next, StopIteration} from &apos;./lib.js&apos;;
+import {visitor, extend} from &apos;./visitor.js&apos;;
 
 const lines = async (tree) =&gt; {
 	// TODO use depth first traversal or make newline a terminal
@@ -179,7 +180,7 @@ const simplify = extend(visitor, {
 	&apos;A-extra&apos;: prune(&apos;0&apos;),
 	&apos;#A/&apos;: prune(&apos;0&apos;),
 	&apos;#R&apos;: prune(&apos;0&apos;),
-	&apos;R-title&apos;: prune(&apos;free&apos;, &apos;code&apos;),
+	&apos;R-title&apos;: prune(&apos;free&apos;, &apos;code&apos;, &apos;empty&apos;),
 	&apos;R-body&apos;: prune(&apos;0&apos;),
 	&apos;#R/&apos;: prune(&apos;0&apos;),
 	footer: prune(&apos;0&apos;),

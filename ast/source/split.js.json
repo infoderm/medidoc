@@ -31,7 +31,7 @@
       {
         "type": "ImportDeclaration",
         "start": 0,
-        "end": 43,
+        "end": 47,
         "loc": {
           "start": {
             "line": 1,
@@ -39,121 +39,35 @@
           },
           "end": {
             "line": 1,
-            "column": 43
-          }
-        },
-        "specifiers": [
-          {
-            "type": "ImportSpecifier",
-            "start": 8,
-            "end": 11,
-            "loc": {
-              "start": {
-                "line": 1,
-                "column": 8
-              },
-              "end": {
-                "line": 1,
-                "column": 11
-              }
-            },
-            "imported": {
-              "type": "Identifier",
-              "start": 8,
-              "end": 11,
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 8
-                },
-                "end": {
-                  "line": 1,
-                  "column": 11
-                },
-                "identifierName": "map"
-              },
-              "name": "map"
-            },
-            "local": {
-              "type": "Identifier",
-              "start": 8,
-              "end": 11,
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 8
-                },
-                "end": {
-                  "line": 1,
-                  "column": 11
-                },
-                "identifierName": "map"
-              },
-              "name": "map"
-            }
-          }
-        ],
-        "source": {
-          "type": "StringLiteral",
-          "start": 18,
-          "end": 42,
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 18
-            },
-            "end": {
-              "line": 1,
-              "column": 42
-            }
-          },
-          "extra": {
-            "rawValue": "@iterable-iterator/map",
-            "raw": "'@iterable-iterator/map'"
-          },
-          "value": "@iterable-iterator/map"
-        }
-      },
-      {
-        "type": "ImportDeclaration",
-        "start": 44,
-        "end": 91,
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 0
-          },
-          "end": {
-            "line": 2,
             "column": 47
           }
         },
         "specifiers": [
           {
             "type": "ImportSpecifier",
-            "start": 52,
-            "end": 57,
+            "start": 8,
+            "end": 13,
             "loc": {
               "start": {
-                "line": 2,
+                "line": 1,
                 "column": 8
               },
               "end": {
-                "line": 2,
+                "line": 1,
                 "column": 13
               }
             },
             "imported": {
               "type": "Identifier",
-              "start": 52,
-              "end": 57,
+              "start": 8,
+              "end": 13,
               "loc": {
                 "start": {
-                  "line": 2,
+                  "line": 1,
                   "column": 8
                 },
                 "end": {
-                  "line": 2,
+                  "line": 1,
                   "column": 13
                 },
                 "identifierName": "chain"
@@ -162,15 +76,15 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 52,
-              "end": 57,
+              "start": 8,
+              "end": 13,
               "loc": {
                 "start": {
-                  "line": 2,
+                  "line": 1,
                   "column": 8
                 },
                 "end": {
-                  "line": 2,
+                  "line": 1,
                   "column": 13
                 },
                 "identifierName": "chain"
@@ -181,15 +95,15 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 64,
-          "end": 90,
+          "start": 20,
+          "end": 46,
           "loc": {
             "start": {
-              "line": 2,
+              "line": 1,
               "column": 20
             },
             "end": {
-              "line": 2,
+              "line": 1,
               "column": 46
             }
           },
@@ -198,6 +112,92 @@
             "raw": "'@iterable-iterator/chain'"
           },
           "value": "@iterable-iterator/chain"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 48,
+        "end": 91,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 43
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 56,
+            "end": 59,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 8
+              },
+              "end": {
+                "line": 2,
+                "column": 11
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 56,
+              "end": 59,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 8
+                },
+                "end": {
+                  "line": 2,
+                  "column": 11
+                },
+                "identifierName": "map"
+              },
+              "name": "map"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 56,
+              "end": 59,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 8
+                },
+                "end": {
+                  "line": 2,
+                  "column": 11
+                },
+                "identifierName": "map"
+              },
+              "name": "map"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 66,
+          "end": 90,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 18
+            },
+            "end": {
+              "line": 2,
+              "column": 42
+            }
+          },
+          "extra": {
+            "rawValue": "@iterable-iterator/map",
+            "raw": "'@iterable-iterator/map'"
+          },
+          "value": "@iterable-iterator/map"
         }
       },
       {
@@ -9079,9 +9079,9 @@
         "postfix": false,
         "binop": null
       },
-      "value": "map",
+      "value": "chain",
       "start": 8,
-      "end": 11,
+      "end": 13,
       "loc": {
         "start": {
           "line": 1,
@@ -9089,7 +9089,7 @@
         },
         "end": {
           "line": 1,
-          "column": 11
+          "column": 13
         }
       }
     },
@@ -9105,16 +9105,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 11,
-      "end": 12,
+      "start": 13,
+      "end": 14,
       "loc": {
         "start": {
           "line": 1,
-          "column": 11
+          "column": 13
         },
         "end": {
           "line": 1,
-          "column": 12
+          "column": 14
         }
       }
     },
@@ -9131,16 +9131,16 @@
         "binop": null
       },
       "value": "from",
-      "start": 13,
-      "end": 17,
+      "start": 15,
+      "end": 19,
       "loc": {
         "start": {
           "line": 1,
-          "column": 13
+          "column": 15
         },
         "end": {
           "line": 1,
-          "column": 17
+          "column": 19
         }
       }
     },
@@ -9157,17 +9157,17 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "@iterable-iterator/map",
-      "start": 18,
-      "end": 42,
+      "value": "@iterable-iterator/chain",
+      "start": 20,
+      "end": 46,
       "loc": {
         "start": {
           "line": 1,
-          "column": 18
+          "column": 20
         },
         "end": {
           "line": 1,
-          "column": 42
+          "column": 46
         }
       }
     },
@@ -9184,16 +9184,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 42,
-      "end": 43,
+      "start": 46,
+      "end": 47,
       "loc": {
         "start": {
           "line": 1,
-          "column": 42
+          "column": 46
         },
         "end": {
           "line": 1,
-          "column": 43
+          "column": 47
         }
       }
     },
@@ -9212,8 +9212,8 @@
         "updateContext": null
       },
       "value": "import",
-      "start": 44,
-      "end": 50,
+      "start": 48,
+      "end": 54,
       "loc": {
         "start": {
           "line": 2,
@@ -9237,8 +9237,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 51,
-      "end": 52,
+      "start": 55,
+      "end": 56,
       "loc": {
         "start": {
           "line": 2,
@@ -9262,9 +9262,9 @@
         "postfix": false,
         "binop": null
       },
-      "value": "chain",
-      "start": 52,
-      "end": 57,
+      "value": "map",
+      "start": 56,
+      "end": 59,
       "loc": {
         "start": {
           "line": 2,
@@ -9272,7 +9272,7 @@
         },
         "end": {
           "line": 2,
-          "column": 13
+          "column": 11
         }
       }
     },
@@ -9288,16 +9288,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 57,
-      "end": 58,
+      "start": 59,
+      "end": 60,
       "loc": {
         "start": {
           "line": 2,
-          "column": 13
+          "column": 11
         },
         "end": {
           "line": 2,
-          "column": 14
+          "column": 12
         }
       }
     },
@@ -9314,16 +9314,16 @@
         "binop": null
       },
       "value": "from",
-      "start": 59,
-      "end": 63,
+      "start": 61,
+      "end": 65,
       "loc": {
         "start": {
           "line": 2,
-          "column": 15
+          "column": 13
         },
         "end": {
           "line": 2,
-          "column": 19
+          "column": 17
         }
       }
     },
@@ -9340,17 +9340,17 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "@iterable-iterator/chain",
-      "start": 64,
+      "value": "@iterable-iterator/map",
+      "start": 66,
       "end": 90,
       "loc": {
         "start": {
           "line": 2,
-          "column": 20
+          "column": 18
         },
         "end": {
           "line": 2,
-          "column": 46
+          "column": 42
         }
       }
     },
@@ -9372,11 +9372,11 @@
       "loc": {
         "start": {
           "line": 2,
-          "column": 46
+          "column": 42
         },
         "end": {
           "line": 2,
-          "column": 47
+          "column": 43
         }
       }
     },

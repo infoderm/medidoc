@@ -88,22 +88,22 @@ const productions = {
 	nihdi: [
 		[
 			&apos;=digit&apos;,
-			&apos;&amp;/&apos;,
+			&apos;&amp;nihdi-sep&apos;,
 			&apos;=digit&apos;,
 			&apos;=digit&apos;,
 			&apos;=digit&apos;,
 			&apos;=digit&apos;,
 			&apos;=digit&apos;,
-			&apos;&amp;/&apos;,
+			&apos;&amp;nihdi-sep&apos;,
 			&apos;=digit&apos;,
 			&apos;=digit&apos;,
-			&apos;&amp;/&apos;,
+			&apos;&amp;nihdi-sep&apos;,
 			&apos;=digit&apos;,
 			&apos;=digit&apos;,
 			&apos;=digit&apos;,
 		],
 	],
-	&apos;/&apos;: [[], [&apos;=/&apos;]], // NOTE Should not be optional.
+	&apos;nihdi-sep&apos;: [[], [&apos;=/&apos;], [&apos;=.&apos;]], // NOTE Should not be optional.
 	&apos;medidoc-lab-id&apos;: [[&apos;=text&apos;, &apos;=digit&apos;, &apos;=digit&apos;, &apos;&amp;serieno&apos;]],
 	serieno: [[&apos;=digit&apos;], [&apos;=text&apos;]], // NOTE Should be only digit.
 	date: [[&apos;&amp;free-line&apos;]],
@@ -149,6 +149,7 @@ const productions = {
 	&apos;R-title&apos;: {
 		free: [&apos;=!&apos;, &apos;&amp;free-line&apos;],
 		code: [&apos;&amp;not-a-bang&apos;, &apos;&amp;free-line&apos;],
+		empty: [&apos;&amp;newline&apos;],
 	},
 	&apos;R-body&apos;: [[&apos;&amp;free-lines&apos;]],
 	&apos;free-text&apos;: {
@@ -165,11 +166,13 @@ const productions = {
 	&apos;not-a-bang&apos;: {
 		text: [&apos;=text&apos;],
 		&apos;/&apos;: [&apos;=/&apos;],
+		&apos;.&apos;: [&apos;=.&apos;],
 		digit: [&apos;=digit&apos;],
 	},
 	any: {
 		text: [&apos;=text&apos;],
 		&apos;/&apos;: [&apos;=/&apos;],
+		&apos;.&apos;: [&apos;=.&apos;],
 		&apos;!&apos;: [&apos;=!&apos;],
 		digit: [&apos;=digit&apos;],
 	},
