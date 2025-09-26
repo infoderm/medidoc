@@ -85,7 +85,7 @@
     "@babel/core": "7.28.4",
     "@babel/preset-env": "7.28.3",
     "@babel/register": "7.28.3",
-    "@commitlint/cli": "19.8.1",
+    "@commitlint/cli": "20.0.0",
     "@iterable-iterator/list": "1.0.1",
     "@js-library/commitlint-config": "0.0.4",
     "@node-loader/import-maps": "1.1.0",
