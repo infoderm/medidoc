@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install 📦
         uses: bahmutov/npm-install@v1
@@ -38,7 +38,7 @@ jobs:
         bundle: ["module", "node", "browser", "default"]
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install 📦
         uses: bahmutov/npm-install@v1
